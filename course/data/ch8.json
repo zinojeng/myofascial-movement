@@ -1,0 +1,89 @@
+{
+  "chapter": "CH8",
+  "title": "日常與運動課表整合",
+  "units": [
+    {
+      "id": "ch8-u1",
+      "name": "四種入口：久坐 10 分鐘、運動前 8 分鐘、運動後 10 分鐘、每週兩次 30 分鐘",
+      "type": "program",
+      "assessment": "這一章的重點不是再學新動作，而是判斷這套課表對你有沒有用。固定三個客觀指標，每兩週在同一時間、同樣熱身條件下量一次，並且寫下來：一、牆邊踝背屈——腳尖離牆，膝蓋往前碰牆而腳跟不離地，記錄腳尖到牆的最大距離（公分），左右分開記；二、站姿體前彎，膝蓋伸直，記錄指尖到地面的距離（公分，碰到地就記負值）；三、仰躺屈肩，腰貼地不拱起，手臂舉過頭，記錄手背能不能貼地、貼不到差幾公分。再加兩個主觀欄位：本週訓練後隔天的痠痛 0–10，以及這週實際做滿幾次（不是計畫幾次）。判讀方式：四週後，三個客觀指標中至少一個改善 2 公分以上，或主觀痠痛與執行率明顯變好，就繼續；三個都沒動而且你確實做滿了八成的次數，代表劑量或內容要換，而不是再撐一個月——最常見的原因是只做了低強度輸入，沒有把打開的範圍拿去主動使用或加負荷。",
+      "tight": ["胸椎僵硬", "髖前側緊繃", "頸肩緊繃", "小腿後側緊繃"],
+      "weak": ["每日執行率", "訓練前的動作準備", "負重活動度"],
+      "lesson": {
+        "title": "Static vs Dynamic Stretching: Which is Better? (Evidence-Based)",
+        "channel": "E3 Rehab",
+        "url": "https://www.youtube.com/watch?v=r-pxOslY-q4",
+        "duration": "9:48",
+        "why": "整章課表的核心決策就是「什麼時候做什麼」，這支把靜態與動態伸展的時機問題整理得最清楚：在合理劑量下（單一肌群 60 秒以內、後面接專項暖身），靜態伸展對後續表現的負面影響小到沒有實務意義；訓練前想動得順，動態暖身與逐步升溫仍然是比較合理的選擇。要補一句它沒有強調的：這是表現面的結論，不代表伸展能預防受傷——伸展對受傷率的證據很薄弱，暖身整體（升溫加專項動作）的效果比伸展本身明確得多。這一章的課表也照這個原則排：運動前以動態為主，靜態放到運動後與非訓練時段。"
+      },
+      "drills": [
+        {
+          "name": "久坐族 10 分鐘：胸廓、脊椎與髖前側",
+          "en": "Daily 10-Minute Mobility for Desk Workers",
+          "kind": "move",
+          "target": "胸椎、胸廓、肩帶、髖屈肌",
+          "dose": "總長約 12 分鐘、約 10 個動作、每個動作 40–60 秒，一天一次或分兩次做；強度全程控制在 0–3/10 的伸展感，能正常說話；什麼情況下跳過：當天有急性腰痛、或出現新發生的下肢麻木、刺痛、無力就整套跳過並就醫，不要「拉開看看」",
+          "title": "10 Minute Morning Mobility Routine! (FOLLOW ALONG)",
+          "channel": "Tom Merrick",
+          "url": "https://www.youtube.com/watch?v=0VrLgzwTmTg",
+          "duration": "12:23"
+        },
+        {
+          "name": "運動前 8 分鐘：全身動態暖身",
+          "en": "8-Minute Dynamic Warm-Up",
+          "kind": "move",
+          "target": "髖部、胸椎、肩帶、踝關節",
+          "dose": "總長約 8 分半、約 12 個動作、每個動作 30–40 秒不重複；強度做到微微出汗、心跳上來即可，不做到活動度極限；什麼情況下跳過：今天主課表是最大肌力或衝刺，就把最後兩個地板動作換成 2 組輕重量的專項動作；任何單一肌群的靜態伸展超過 60 秒都留到訓練後再做",
+          "title": "8 Min. Full Body Warm Up | Dynamic Gym Warm Up & Mobility | Follow Along | No Equipment | No Repeats",
+          "channel": "mobility by julia reppel",
+          "url": "https://www.youtube.com/watch?v=rKpcpsvclw0",
+          "duration": "8:38"
+        },
+        {
+          "name": "運動後 10 分鐘：收操與靜態伸展",
+          "en": "10-Minute Post-Workout Cool Down",
+          "kind": "release",
+          "target": "腿後肌、髖部、胸椎、肩頸",
+          "dose": "總長約 11 分鐘、約 12 個伸展、每個 45–60 秒；強度 3–4/10 的拉扯感、全程能用鼻子順暢呼吸；什麼情況下跳過：24 小時內有比賽或測驗就縮到 5 分鐘、避免長時間靜態伸展；剛發生的拉傷、腫脹或壓下去痛感明顯的部位直接略過，不要伸展",
+          "title": "10 Min. Full Body Stretch | Cool Down & Recover | Do this after every Workout",
+          "channel": "Mady Morrison",
+          "url": "https://www.youtube.com/watch?v=IlHgLYdt3kc",
+          "duration": "11:17"
+        },
+        {
+          "name": "每週兩次 30 分鐘：完整活動度課表",
+          "en": "Twice-Weekly 30-Minute Mobility Session",
+          "kind": "load",
+          "target": "全身、胸椎、髖部、踝關節",
+          "dose": "30 分鐘的組法是：前 5 分鐘滾筒或按摩球（每區 30–60 秒）＋ 這支影片完整跑一輪約 13 分半（約 12 個動作、每個 45–60 秒）＋ 最後 10 分鐘把打開的範圍拿去負重使用（如負重深蹲活動度、單腳硬舉、農夫走路，每個動作 3 組），一週兩次、與大重量訓練日隔開；什麼情況下跳過：本週訓練量已經很高或睡眠不足，就只做前面 18 分鐘、省略最後的負荷段；關節腫脹發熱、發燒或不明原因體重下降時整套暫停並就醫",
+          "title": "10 Minute Mobility & Stretching Routine Follow Along - Morning, Daily, Warm up, or Cool Down",
+          "channel": "Citizen Athletics",
+          "url": "https://www.youtube.com/watch?v=yDXBRssBpVo",
+          "duration": "13:33"
+        },
+        {
+          "name": "睡前 10 分鐘：低強度全身放鬆版",
+          "en": "10-Minute Bedtime Wind-Down Stretch",
+          "kind": "release",
+          "target": "腰背、髖部、腿後肌、肩頸",
+          "dose": "總長約 10 分鐘、約 8–10 個動作、每個 30–60 秒；強度壓在 2–3/10，配合慢吐氣，目的是降低喚醒程度而不是增加活動度；什麼情況下跳過：做完反而更清醒、或某個動作會誘發夜間痛就改到傍晚做；有夜間痛醒或休息時仍持續惡化的疼痛，先就醫再談伸展",
+          "title": "睡前10分鐘全身伸展放鬆，物理治療師推薦睡前拉筋｜啾c物理治療師",
+          "channel": "啾c物理治療師",
+          "url": "https://www.youtube.com/watch?v=vdIugUHKGWg",
+          "duration": "9:53"
+        },
+        {
+          "name": "旅行出差 10 分鐘：站姿、零器材版",
+          "en": "10-Minute Standing Travel Mobility",
+          "kind": "move",
+          "target": "胸椎、髖部、小腿、肩帶",
+          "dose": "總長約 10 分半、約 10 個站姿動作、每個 45 秒，不需要墊子與器材，機場、旅館房間都能做；強度 2–4/10；什麼情況下跳過：長途飛行後若出現單側小腿腫脹、發熱、壓痛（深層靜脈栓塞的典型表現），絕對不要按壓或做強力伸展，立即就醫",
+          "title": "10 Min. Daily Mobility - All Standing | Travel/Airport Mobility Practice",
+          "channel": "mobility by julia reppel",
+          "url": "https://www.youtube.com/watch?v=q6DeEtkgAH8",
+          "duration": "10:46"
+        }
+      ]
+    }
+  ]
+}

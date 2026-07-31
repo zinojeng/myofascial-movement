@@ -1,0 +1,156 @@
+{
+  "categories": [
+    {
+      "id": "static-stretch",
+      "name": "靜態伸展",
+      "evidence_grade": "moderate",
+      "summary": "靜態伸展能增加活動度，證據相當一致：189 篇研究、6654 人的統合分析顯示單次伸展 Hedges' g=0.63，數週訓練後 g=0.96；但每次累積超過 4 分鐘、每週超過 10 分鐘就沒有額外好處。真正需要修正的是「伸展把肌肉拉長」這個說法。65 篇研究、1542 人的機轉統合分析發現，不論單次或長期伸展，肌束長度都沒有顯著改變；長期伸展改變的是被動勁度小幅下降（g=0.37）與可忍受的最大被動阻力矩明顯上升（g=0.74）。更早的對側對照試驗講得更直接：四週、每個工作日 20 分鐘的腿後肌伸展，標準化力矩下的延展性完全沒變（-1 度），能忍受的伸展角度卻多了 8 度。也就是說，多數人量到的「變軟」有很大一部分是伸展耐受度改變，不是組織真的變長。至於表現，每個肌群 ≤60 秒放在完整暖身裡只造成 1–2% 的微小損害，>60 秒才會出現 4.0–7.5% 的實質下降。",
+      "citations": [
+        {
+          "pmid": "40180774",
+          "title": "Mechanisms Underlying Range of Motion Improvements Following Acute and Chronic Static Stretching: A Systematic Review, Meta-analysis and Multivariate Meta-regression",
+          "journal": "Sports Med",
+          "year": 2025,
+          "design": "meta-analysis",
+          "takeaway": "65 篇研究、1542 名成人。單次與長期靜態伸展都只讓整體勁度小幅下降（急性 g=0.42；長期 g=0.37），肌束長度在兩種情況下都沒有顯著改變；只有長期伸展讓可忍受的最大被動阻力矩上升（g=0.74）。長期伸展後活動度的進步同時與勁度下降（g=0.59, p=0.03）和耐受度上升（g=0.74, p<0.001）相關——這是「伸展改變的是耐受度而非肌肉長度」最直接的統合證據。"
+        },
+        {
+          "pmid": "39614059",
+          "title": "Optimising the Dose of Static Stretching to Improve Flexibility: A Systematic Review, Meta-analysis and Multivariate Meta-regression",
+          "journal": "Sports Med",
+          "year": 2025,
+          "design": "meta-analysis",
+          "takeaway": "189 篇研究、6654 名成人。單次靜態伸展對柔軟度有中等效果（g=0.63），長期則是大效果（g=0.96）。關鍵在劑量上限：每次累積 4 分鐘、每週累積 10 分鐘之後就沒有額外增益。伸展強度、每週次數、介入長度、年齡、性別、訓練狀態都不是調節變項；只有基線柔軟度差的人進步較多（p=0.01）。"
+        },
+        {
+          "pmid": "16515422",
+          "title": "Can apparent increases in muscle extensibility with regular stretch be explained by changes in tolerance to stretch?",
+          "journal": "Aust J Physiother",
+          "year": 2006,
+          "design": "rct",
+          "takeaway": "20 名腿後肌延展性受限者，同一個人一腳伸展、一腳當對照，連續四週每個工作日伸展 20 分鐘。結果：標準化力矩下的髖屈角度（真正的延展性）平均變化 -1 度（95% CI -4 至 3），等於沒變；能忍受最大力矩的角度卻增加 8 度（95% CI 5 至 12）。同一個人、同一套測試，把「看起來變軟」與「組織真的變長」拆開來的經典設計。"
+        },
+        {
+          "pmid": "31849713",
+          "title": "Acute Effects of Static Stretching on Muscle Strength and Power: An Attempt to Clarify Previous Caveats",
+          "journal": "Front Physiol",
+          "year": 2019,
+          "design": "narrative-review",
+          "takeaway": "把「訓練前不能靜態伸展」這句話修正成劑量問題：每個肌群 ≤60 秒、且放在含有氧、動態伸展與專項活動的完整暖身裡，後續肌力與爆發力只有 1–2% 的微幅下降；>60 秒才會出現 4.0–7.5% 的實質下降。短時間伸展在完整暖身中甚至可能降低肌腱受傷風險，但高水準運動員仍需注意那 1–2% 在比賽中的意義。"
+        }
+      ]
+    },
+    {
+      "id": "dynamic-mobility",
+      "name": "動態活動度",
+      "evidence_grade": "moderate",
+      "summary": "動態活動度（擺盪、繞環、貓牛、動態伸展）在暖身裡的定位比靜態伸展穩。比較三種伸展急性效果的系統性回顧顯示，靜態伸展平均使後續表現下降 3.7%、PNF 下降 4.4%，動態伸展則小幅提升 1.3%；靜態伸展的損害有清楚劑量關係（每肌群 ≥60 秒 -4.6%，<60 秒 -1.1%）。三者都能增加活動度，但效果通常 30 分鐘內消退。一項控制試驗顯示動態伸展後膝伸展活動度增加 7–10%、被動勁度下降 7.9–16.7%，維持了 90 分鐘；但代表伸展耐受度的疼痛起始被動力矩只上升 10%，30 分鐘內回到基線——動態伸展的短期效果比較像溫度與組織勁度改變，而非耐受度改變，這點跟靜態伸展相反。暖身研究的品質要留意：32 篇高品質研究的回顧中 79% 的表現指標改善，但作者直言隨機對照試驗太少。合理定位是訓練前把活動度與體溫帶起來，不要期待長期柔軟度適應。",
+      "citations": [
+        {
+          "pmid": "26642915",
+          "title": "Acute effects of muscle stretching on physical performance, range of motion, and injury incidence in healthy active individuals: a systematic review",
+          "journal": "Appl Physiol Nutr Metab",
+          "year": 2016,
+          "design": "systematic-review",
+          "takeaway": "直接比較三種伸展的急性效果：靜態伸展 -3.7%、PNF -4.4%、動態伸展 +1.3%。靜態伸展存在劑量反應（每肌群 ≥60 秒 -4.6% vs <60 秒 -1.1%），但在較長肌肉長度測試時反而有 +2.2% 的益處。三種伸展都能增加活動度，效果通常維持不到 30 分鐘；靜態與 PNF 對整體或過度使用傷害沒有明確影響，動態伸展則完全沒有傷害資料。伸展後若接上動態活動，表現損害就看不出來了。"
+        },
+        {
+          "pmid": "29063454",
+          "title": "Acute Effects of Dynamic Stretching on Muscle Flexibility and Performance: An Analysis of the Current Literature",
+          "journal": "Sports Med",
+          "year": 2018,
+          "design": "narrative-review",
+          "takeaway": "動態伸展對活動度與後續力量、爆發、衝刺、跳躍多半是正向的；作者把活動度增加歸因於肌腱單位勁度下降，把表現提升歸因於溫度與活化後增益（potentiation）——因為動態伸展本身就有隨意收縮。但也有相當數量的研究報告沒有改變甚至下降，調節因素包括持續時間、幅度與速度；速度更快的彈振式伸展效益低於受控的動態伸展。回顧特別點名文獻最大的問題是「動態伸展」的操作定義各家不一，難以形成共識。"
+        },
+        {
+          "pmid": "30787647",
+          "title": "Dynamic Stretching Has Sustained Effects on Range of Motion and Passive Stiffness of the Hamstring Muscles",
+          "journal": "J Sports Sci Med",
+          "year": 2019,
+          "design": "crossover",
+          "takeaway": "24 人（實驗與對照各 12），腿後肌動態伸展 10 組 × 30 秒（每組 15 次），測到 90 分鐘。活動度立即增加 7–10% 並維持整整 90 分鐘，被動勁度下降 7.9–16.7% 同樣維持 90 分鐘；但代表伸展耐受度的疼痛起始被動力矩只增加 10%，30 分鐘內就回到基線。動態伸展的窗口比一般想像長，而且主要來自力學性質而非耐受度。"
+        },
+        {
+          "pmid": "19996770",
+          "title": "Effects of warming-up on physical performance: a systematic review with meta-analysis",
+          "journal": "J Strength Cond Res",
+          "year": 2010,
+          "design": "meta-analysis",
+          "takeaway": "32 篇高品質研究（PEDro 6.5–9，平均 7.6），只納入伸展以外的暖身活動。79% 的表現指標在充分暖身後改善，幾乎沒有證據顯示暖身會損害表現。作者同時提醒：設計良好的隨機對照試驗數量太少，所以「暖身有效」的信心來自一致的方向，而不是高精確度的效果量。"
+        }
+      ]
+    },
+    {
+      "id": "active-control",
+      "name": "主動活動度與動作控制",
+      "evidence_grade": "moderate",
+      "summary": "主動活動度與動作控制訓練的證據要分兩層看。第一層是「能不能增加活動度」——55 篇研究的統合分析顯示，用外部負荷做阻力訓練本身就能增加活動度（ES=0.73），且與伸展訓練沒有顯著差異（ES=0.08, p=0.79）；只用自身體重則沒有顯著改變。等長訓練的系統性回顧進一步指出角度特異性：在較長肌肉長度（末端位置）做等長訓練，每週肥大 0.86–1.69%，明顯高於短肌肉長度的 0.08–0.83%，對動態表現的轉移也較好；要改變肌腱結構則需 ≥70% 的高強度。第二層是「特定控制訓練是否比一般運動好」——答案是否定的。Cochrane 收錄 29 篇試驗、2431 人的結論是：動作控制訓練優於最小介入（長期疼痛 MD -12.97），但與徒手治療、與其他形式運動相比都沒有臨床重要差異。所以在可控範圍內把活動度用起來值得練，但不必相信某一套控制或啟動訓練有專屬魔力。",
+      "citations": [
+        {
+          "pmid": "36622555",
+          "title": "Resistance Training Induces Improvements in Range of Motion: A Systematic Review and Meta-Analysis",
+          "journal": "Sports Med",
+          "year": 2023,
+          "design": "meta-analysis",
+          "takeaway": "55 篇研究。阻力訓練本身就能增加活動度（ES=0.73, p<0.001），但只用自身體重的訓練沒有顯著效果。阻力訓練 vs 伸展訓練沒有差異（ES=0.08, p=0.79）；伸展＋阻力訓練也不優於單做伸展（ES=-0.001, p=0.99）。未訓練與久坐者的進步（ES=1.04）顯著大於已訓練者（ES=0.43, p=0.005）。結論很直白：只要有外部負荷的全幅度訓練，在阻力訓練前後另外伸展未必必要。"
+        },
+        {
+          "pmid": "30580468",
+          "title": "Isometric training and long-term adaptations: Effects of muscle length, intensity, and intent: A systematic review",
+          "journal": "Scand J Med Sci Sports",
+          "year": 2019,
+          "design": "systematic-review",
+          "takeaway": "26 份研究。在較長肌肉長度做等長訓練，每週肥大 0.86–1.69%（ES 0.03–0.09/週），明顯高於等量的短肌肉長度訓練 0.08–0.83%（ES -0.003–0.07/週），而且對動態表現的轉移較佳。以爆發意圖（ballistic intent）執行能得到更大的神經肌肉活化與快速發力增益。肌力與肥大在各種強度下都會進步，但要改變肌腱結構與功能需要 ≥70% 的高強度——這是「末端位置等長」有生理依據、但需要足夠強度的證據基礎。"
+        },
+        {
+          "pmid": "26742533",
+          "title": "Motor control exercise for chronic non-specific low-back pain",
+          "journal": "Cochrane Database Syst Rev",
+          "year": 2016,
+          "design": "systematic-review",
+          "takeaway": "29 篇隨機對照試驗、2431 人。動作控制訓練相對於最小介入有臨床重要的疼痛改善（長期 MD -12.97, 95% CI -18.51 至 -7.42），功能與整體恢復感也較好；但與徒手治療相比（中至高品質證據）以及與其他形式的運動相比（低至中品質證據）都沒有臨床重要差異。作者明講：既然動作控制訓練不優於其他運動，選擇應該取決於病人偏好、治療師訓練、成本與安全性——不是因為它「矯正了」什麼。"
+        }
+      ]
+    },
+    {
+      "id": "breathing",
+      "name": "呼吸與胸廓活動",
+      "evidence_grade": "limited",
+      "summary": "呼吸練習在這門課裡有兩種目的，證據強度不一樣。當成慢性下背痛的介入時，13 篇隨機對照試驗、677 人的統合分析報告疼痛（VAS SMD -0.84）與失能（ODI SMD -0.74）都有改善，用力肺活量也小幅提高（MD 0.24 L）；但納入研究少、樣本小、對照組異質性高，作者只把它定位成「可考慮的替代選項」。一項把相同動作控制訓練分成有無同步呼吸兩組的試驗（n=30）雖顯示實驗組在疼痛、失能與自我效能超過最小臨床重要差異，但那是明講自己是可行性先導研究的設計，不足以當結論。當成表現介入時證據較厚：46 篇研究的回顧顯示呼吸肌訓練能提升健康成人的耐力表現，體能較差者獲益較大（最大攝氧量每低 10 mL/kg/min 多進步 6.0%）。至於「橫膈呼吸能減壓」，JBI 系統性回顧只找到 3 篇合格研究、無法統合。呼吸練習便宜、安全、值得放進課表，但不該當成處理胸廓活動度或疼痛的主要手段。",
+      "citations": [
+        {
+          "pmid": "37718775",
+          "title": "Effects of breathing exercises on chronic low back pain: A systematic review and meta-analysis of randomized controlled trials",
+          "journal": "J Back Musculoskelet Rehabil",
+          "year": 2024,
+          "design": "meta-analysis",
+          "takeaway": "13 篇隨機對照試驗、677 人。呼吸練習顯著降低疼痛（VAS SMD -0.84, 95% CI -1.24 至 -0.45）與失能（ODI SMD -0.74, 95% CI -0.95 至 -0.54），用力肺活量（MD 0.24 L）與 FEV1/FVC（MD 1.90）也有小幅改善；但 FEV1（MD 0.22, p=0.05）與最大自主換氣量（MD 8.22, p=0.19）沒有顯著差異。作者的結語相當保守：可作為慢性下背痛的「潛在替代治療」，而非首選。"
+        },
+        {
+          "pmid": "22765281",
+          "title": "Effect of respiratory muscle training on exercise performance in healthy individuals: a systematic review and meta-analysis",
+          "journal": "Sports Med",
+          "year": 2012,
+          "design": "meta-analysis",
+          "takeaway": "46 篇原始研究進入多元迴歸、8 篇對照試驗進入統合分析。呼吸肌訓練確實提升健康者的耐力表現，但獲益高度取決於對象：最大攝氧量每低 10 mL/kg/min，進步幅度多 6.0%（95% CI 1.8–10.2%），也就是體能愈差獲益愈大、菁英運動員獲益最小。吸氣肌力量訓練與呼吸肌耐力訓練效果無顯著差異（p=0.208）；運動項目別不影響結果。值得注意的是效果只在定負荷測試與間歇遞增測試上測得到，傳統遞增測試測不出來。"
+        },
+        {
+          "pmid": "31436595",
+          "title": "Effectiveness of diaphragmatic breathing for reducing physiological and psychological stress in adults: a quantitative systematic review",
+          "journal": "JBI Database System Rev Implement Rep",
+          "year": 2019,
+          "design": "systematic-review",
+          "takeaway": "全面檢索之後只有 3 篇研究合格（1 篇隨機對照試驗、2 篇類實驗），且因介入與結果指標異質性太高而無法統合。三篇分別在呼吸速率與唾液皮質醇、收縮壓與舒張壓、DASS-21 壓力次量表上看到改善，介入長度從單次 20 分鐘到九個月不等。這是「橫膈呼吸能減壓」目前最完整的系統性回顧——證據方向一致，但基數小到只能算初步。"
+        },
+        {
+          "pmid": "39031339",
+          "title": "Identical movement control exercises with and without synchronized breathing for chronic non-specific low back pain:A randomized pilot trial",
+          "journal": "J Back Musculoskelet Rehabil",
+          "year": 2024,
+          "design": "rct",
+          "takeaway": "30 人先導試驗，兩組做完全相同的動作控制居家運動，只差在實驗組加上同步呼吸。實驗組在疼痛強度、失能與自我效能的改善超過最小臨床重要差異，對照組在任何指標上都沒有；11 項結果指標中有 9 項偏向實驗組，兩組居家運動依從度幾乎相同、無不良事件。但這是明確定位為可行性研究的設計（招募率 24.8%），作者的結論只到「值得推進到大型試驗」為止——不能拿來宣稱配合呼吸就一定更有效。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "categories": [
+    {
+      "id": "foam-roll",
+      "name": "滾筒與自我筋膜放鬆",
+      "evidence_grade": "moderate",
+      "summary": "「滾筒有沒有用」要拆成四個問題分開答。短期活動度：26 篇高方法學品質試驗的多層次統合分析顯示，單次滾筒相對於不做事有大的效果量（SMD 0.74，95% CI 0.42–1.01，p = 0.0002），但相對於伸展完全沒有差別（SMD −0.02，p = 0.95）（31628662）。要注意統計上的效果量大不等於角度大——換算回關節角度通常只有幾度，而且絕大多數試驗只在介入後數分鐘內量一次，更長時間窗的資料幾乎不存在，所以「效果會維持多久」目前沒有可靠答案。長期活動度：11 篇研究、290 名平均 23.9 歲受試者的統合分析給出中等效果（ES 0.823，95% CI 0.325–1.322，p = 0.001），介入超過 4 週優於 4 週以內，但滾小腿並沒有增加踝背屈（35616852）。跟靜態伸展比：85 篇研究、204 個效果量的統合分析顯示兩者都能中等幅度增加 ROM（靜態伸展 ES −1.006、滾筒 ES −0.729），兩組整體差異不顯著（p = 0.228）；只有在介入 ≤ 4 週時靜態伸展明顯較好，滾筒在這個時間尺度上根本還沒做出效果（38760635）。表現與痠痛：21 篇研究的統合分析顯示訓練前滾筒對衝刺（+0.7%，g = 0.28）與柔軟度（+4.0%，g = 0.34）有小幅好處，對跳躍（g = 0.09）與肌力（g = 0.12）接近零，也就是「不會損害表現」；訓練後滾筒則能小幅降低肌肉疼痛感受（+6.0%，g = 0.47）（31024339）。合起來看：滾筒是低成本、低風險、效果短暫的窗口，值得放在課表裡，但它不是治療，也不是唯一或必然較好的方法。",
+      "citations": [
+        {
+          "pmid": "31628662",
+          "title": "Acute Effects of Foam Rolling on Range of Motion in Healthy Adults: A Systematic Review with Multilevel Meta-analysis.",
+          "journal": "Sports Med",
+          "year": 2020,
+          "design": "meta-analysis",
+          "takeaway": "26 篇高 PEDro 品質試驗的多層次統合分析：單次滾筒相對於不做事對 ROM 有大效果（SMD 0.74，95% CI 0.42–1.01，p = 0.0002），但相對於伸展毫無優勢（SMD −0.02，95% CI −0.73 至 0.69，p = 0.95）。滾多久、滾多快、BMI 這些調節變項幾乎都不顯著（p > 0.05），只有男性可能效果較小（p < 0.05）；加震動的滾筒在合併分析後也沒做出顯著差異（SMD 0.66，95% CI −1.5 至 2.8）。換句話說，滾筒的急性活動度效果不挑劑量，也不比伸展好。"
+        },
+        {
+          "pmid": "35616852",
+          "title": "Foam Rolling Training Effects on Range of Motion: A Systematic Review and Meta-Analysis.",
+          "journal": "Sports Med",
+          "year": 2022,
+          "design": "meta-analysis",
+          "takeaway": "11 篇 CT/RCT、290 名平均 23.9 ± 6.3 歲受試者、46 個效果量：滾筒訓練對 ROM 有中等效果（ES 0.823，95% CI 0.325–1.322，p = 0.001，I² = 72.76）。次群組分析顯示介入 > 4 週優於 ≤ 4 週（p = 0.049），且不同肌群反應不同（p = 0.047）——大腿後側與股四頭肌有增加，但滾小腿並沒有改善踝背屈。研究設計（RCT vs CT）不影響結果（p = 0.36）。所以滾筒的長期效果存在但需要時間，而且不是每個部位都吃這一套。"
+        },
+        {
+          "pmid": "38760635",
+          "title": "Static Stretch Training versus Foam Rolling Training Effects on Range of Motion: A Systematic Review and Meta-Analysis.",
+          "journal": "Sports Med",
+          "year": 2024,
+          "design": "meta-analysis",
+          "takeaway": "納入 85 篇研究（靜態伸展 72 篇、滾筒 13 篇）、204 個效果量的直接對照：兩種訓練相對於對照組都以中等幅度增加 ROM（靜態伸展 ES −1.006，p < 0.001；滾筒 ES −0.729，p = 0.001），而次群組比較顯示兩者整體沒有顯著差異（p = 0.228）。唯一的例外是短期：介入 ≤ 4 週時靜態伸展仍顯著有效（ES −1.436，p < 0.001），滾筒則做不出效果（ES −0.229，p = 0.248），這段期間靜態伸展顯著較佳（p < 0.001）。這篇是「滾筒不優於伸展」最直接的證據。"
+        },
+        {
+          "pmid": "31024339",
+          "title": "A Meta-Analysis of the Effects of Foam Rolling on Performance and Recovery.",
+          "journal": "Front Physiol",
+          "year": 2019,
+          "design": "meta-analysis",
+          "takeaway": "21 篇研究（訓練前 14 篇、訓練後 7 篇）：訓練前滾筒對衝刺（+0.7%，g = 0.28）與柔軟度（+4.0%，g = 0.34）有小幅改善，對跳躍（−1.9%，g = 0.09）與肌力（+1.8%，g = 0.12）則微不足道——重點是它不會損害表現。訓練後滾筒可小幅減緩運動造成的衝刺（+3.1%，g = 0.34）與肌力（+3.9%，g = 0.21）下滑，並降低肌肉疼痛感受（+6.0%，g = 0.47），但對跳躍恢復幾乎沒作用（g = 0.06）。滾筒棒在肌力恢復上的效果小於滾筒本身（g = −0.01 vs 0.27）。"
+        }
+      ]
+    },
+    {
+      "id": "massage-ball",
+      "name": "按摩球與局部加壓",
+      "evidence_grade": "limited",
+      "summary": "按摩球做的其實是「定點缺血性加壓」，文獻多半掛在肌筋膜疼痛症候群與激痛點治療底下，而結果比行銷話術保守得多。17 篇 RCT 的系統性回顧與統合分析中，壓痛閾值（PPT）確實上升（11 篇、427 人，SMD 0.67，95% CI 0.35–0.98，p < 0.0001，I² = 59%），但同一份分析裡的主觀疼痛評分（VAS/NRS，7 篇、251 人）與對照組沒有差異（SMD −0.22，95% CI −0.53 至 0.09，p = 0.16）（36050701）。這個落差很關鍵：讓那個點比較耐壓，不等於讓人比較不痛。頸部疼痛的 15 篇 RCT、725 人分析同樣看到即刻與短期的疼痛、PPT 與活動度改善，但乾針在疼痛（SMD 0.62）、失能（SMD 0.68）與活動度（MD −2.12）上都優於缺血性加壓（36872769）——也就是說加壓不是最強的選項，它的優勢在於便宜、可自己做、風險低。加壓確實會累積：62 名緊張型頭痛患者接受 12 次上斜方肌與枕下肌激痛點加壓按摩，PPT 在首次治療後即刻上升、整個療程持續累積，第 12 次仍有額外增幅，假超音波與等待組則沒有變化（28248690）。誠實的期待是：按摩球讓那個點比較耐壓、當下比較好動，之後你必須主動使用那個活動度。「摸到一顆結」不等於找到病灶，激痛點觸診本身的判讀信度在文獻中仍有爭議，不要把手感當診斷。",
+      "citations": [
+        {
+          "pmid": "36050701",
+          "title": "Effect of ischemic compression on myofascial pain syndrome: a systematic review and meta-analysis.",
+          "journal": "Chiropr Man Therap",
+          "year": 2022,
+          "design": "meta-analysis",
+          "takeaway": "17 篇 RCT 納入系統性回顧、15 篇進入統合分析。壓痛閾值有顯著改善（11 篇、427 人，SMD 0.67，95% CI 0.35–0.98，p < 0.0001，I² = 59%），但主觀疼痛強度（VAS/NRS，7 篇、251 人）相對於安慰或常規處置沒有差異（SMD −0.22，95% CI −0.53 至 0.09，p = 0.16）。這是「壓完比較耐壓、但不見得比較不痛」最直接的量化證據，也是把按摩球評為 limited 的主因。"
+        },
+        {
+          "pmid": "36872769",
+          "title": "Effectiveness of ischemic compression on myofascial trigger points in relieving neck pain: A systematic review and meta-analysis.",
+          "journal": "J Back Musculoskelet Rehabil",
+          "year": 2023,
+          "design": "meta-analysis",
+          "takeaway": "15 篇 RCT、725 名頸痛受試者：缺血性加壓相對於假處置／不治療，在即刻與短期的疼痛強度、壓痛閾值與活動度上都有顯著差異。但與乾針直接比較時，乾針在即刻疼痛（SMD 0.62，95% CI 0.08–1.16，p = 0.02）、疼痛相關失能（SMD 0.68，95% CI 0.19–1.17，p = 0.007）與活動度（MD −2.12，95% CI −2.59 至 −1.65，p < 0.001）全面勝出，短期疼痛也仍有小效果（SMD 0.44，p = 0.03）。加壓是有效但非最強的選項。"
+        },
+        {
+          "pmid": "28248690",
+          "title": "Responsiveness of Myofascial Trigger Points to Single and Multiple Trigger Point Release Massages: A Randomized, Placebo Controlled Trial.",
+          "journal": "Am J Phys Med Rehabil",
+          "year": 2017,
+          "design": "rct",
+          "takeaway": "62 名陣發性或慢性緊張型頭痛患者隨機分到 12 次、每次 45 分鐘、每週兩次的激痛點加壓按摩、假超音波或等待名單。四個測量點（雙側上斜方肌與枕下肌）的壓痛閾值只有按摩組上升（枕下肌 p < 0.0001；上斜方肌 p < 0.004），且呈現三種型態：首次治療後即刻上升、療程中累積且維持、第 12 次治療後仍有額外增幅。證明加壓的痛閾效果可以累積，不會很快撞到天花板。"
+        }
+      ]
+    },
+    {
+      "id": "massage-gun",
+      "name": "按摩槍與局部震動",
+      "evidence_grade": "limited",
+      "summary": "按摩槍是這四類裡證據最薄的一類：研究幾乎全是單次介入、二十人上下的小樣本，且集中在健康年輕人。急性活動度確實會動——16 名健康男性接受 5 分鐘小腿震動按摩後，最大背屈增加 5.4°（+18.4%，p = 0.002，d = 1.36），同時最大自主收縮力矩沒有下降（33239942）；另一項 20 人研究用 2 × 60 秒打大腿後側，被動直腿抬高增加 11.4%（p < 0.0001），MyotonPro 測到硬度下降 6%、張力反而上升 2%、放鬆時間延長 6.3%（37711710）。注意這幾個力學指標方向並不一致，而且該研究裡 ROM 變化與硬度變化之間沒有相關，把效果直接說成「把組織打軟了」是超譯。恢復用途的證據則明顯不利：65 名活躍成人在小腿力竭運動後單腿使用按摩槍 5 分鐘，活動度、小腿圍、等長肌力、小腿耐力與主觀痠痛在所有時間點都沒有組間差異，反而在即刻（d = −0.35）與 4 小時（d = −0.48）測到痠痛「略為增加」（37248364）。安全上有明確的下限：一名有未治療缺鐵性貧血的年輕女性在騎車後接受教練用按摩槍處理大腿，出現多發血腫、茶色尿與「高到測不出來」的肌酸激酶，診斷為嚴重橫紋肌溶解（33156927）。合理用法是短時間、低強度、避開骨突與頸前和血管神經走行處，並且不要用來「打散」什麼。",
+      "citations": [
+        {
+          "pmid": "33239942",
+          "title": "The Acute Effects of a Percussive Massage Treatment with a Hypervolt Device on Plantar Flexor Muscles' Range of Motion and Performance.",
+          "journal": "J Sports Sci Med",
+          "year": 2020,
+          "design": "crossover",
+          "takeaway": "16 名健康男性（27.2 ± 4.2 歲）分兩天接受 5 分鐘小腿 Hypervolt 震動按摩或靜坐對照。最大背屈 ROM 增加 5.4°（+18.4%，p = 0.002，d = 1.36），對照組無變化；兩種條件下的蹠屈最大自主收縮力矩都沒有改變。結論與徒手按摩一致：可以增加活動度，但不會提升也不會損害肌力——所以拿它當「熱身增力」的說法沒有支持。"
+        },
+        {
+          "pmid": "37711710",
+          "title": "The Acute Effects of Theragun™ Percussive Therapy on Viscoelastic Tissue Dynamics and Hamstring Group Range of Motion.",
+          "journal": "J Sports Sci Med",
+          "year": 2023,
+          "design": "rct",
+          "takeaway": "20 人分為震動治療組（Theragun Pro4 打大腿後側 2 × 60 秒，1 bar 壓力）與 2 分 30 秒仰臥休息對照組。被動直腿抬高在組內增加 11.4%（p < 0.0001，ηp² 0.656），組間也優於對照（p < 0.026）。MyotonPro 指標中硬度下降 6%（p < 0.016）、張力上升 2%（p < 0.003）、放鬆時間延長 6.3%（p < 0.002），彈性無變化，而且這些力學變化都只有組內顯著、沒有組間差異。方向不一致的力學指標提醒我們別把 ROM 增加直接歸因於組織變軟。"
+        },
+        {
+          "pmid": "37248364",
+          "title": "Under the Gun: Percussive Massage Therapy and Physical and Perceptual Recovery in Active Adults.",
+          "journal": "J Athl Train",
+          "year": 2024,
+          "design": "crossover",
+          "takeaway": "65 名活躍年輕成人（21.3 ± 1.4 歲）在下肢力竭運動後，一腳用按摩槍 5 分鐘、另一腳不做任何處置。踝活動度、小腿圍、等長肌力、小腿耐力與主觀痠痛在所有時間點都沒有組別 × 時間交互作用（p > .05），效果量多半不明確；唯一可辨識的是按摩槍側的主觀痠痛在即刻（d = −0.35）與 4 小時後（d = −0.48）反而略高。把按摩槍當作運動後恢復工具，目前沒有支持。"
+        },
+        {
+          "pmid": "33156927",
+          "title": "Rhabdomyolysis After the Use of Percussion Massage Gun: A Case Report.",
+          "journal": "Phys Ther",
+          "year": 2021,
+          "design": "case-report",
+          "takeaway": "首例按摩槍相關橫紋肌溶解的個案報告：一名患有未治療缺鐵性貧血的年輕女性，騎車後由教練以按摩槍處理疲勞的大腿肌肉，三天後出現大腿疼痛與茶色尿，理學檢查見肌肉壓痛與多處血腫，尿液呈血紅素尿，血清肌酸激酶「高到無法測得」，確診嚴重橫紋肌溶解，需大量靜脈輸液、尿液鹼化與電解質監測後才康復。作者同時指出按摩槍的效益、適應症與禁忌症都缺乏實證，本身就是使用時該保守的理由。"
+        }
+      ]
+    },
+    {
+      "id": "assisted-stretch",
+      "name": "輔助與被動伸展",
+      "evidence_grade": "moderate",
+      "summary": "輔助伸展（夥伴、彈力帶、毛巾、牆面，以及收縮－放鬆／PNF 這類需要外力配合的做法）在「有沒有效」這一層，是這四類介入裡結果最一致的。39 篇試驗、1770 名健康成人的系統性回顧顯示，hold-relax 與 contract-relax 對大腿後側柔軟度相對於不介入有大效果，單次後（6 篇，SMD 1.02，95% CI 0.69–1.35，I² = 2%）與多次療程後（4 篇，SMD 1.02，95% CI 0.64–1.40，I² = 0%）幾乎一樣大；但與靜態伸展相比結果互相衝突，且納入試驗的方法學品質中位數只有 PEDro 4/10（30423500）。另一篇聚焦髖屈活動度的回顧納入 5 篇 RCT，其中 4 篇找不到 PNF 與靜態伸展的差異，結論是兩者都有效、但 PNF 沒有比較好（28182516）。機轉層面必須保守：16 人的隨機交叉研究中，靜態伸展與 PNF 都顯著增加 ROM 且兩者無差異（p < 0.001，η² 0.59–0.68），只有 PNF 讓股二頭肌剪切模數下降（交互作用 p = 0.045）；關鍵是 ROM 變化與剪切模數變化之間沒有相關，作者因此把急性 ROM 增加主要歸因於伸展耐受度而非力學性質改變（37803178）。而「耐受度」很可能就是疼痛調節的一部分：19 名健康男性的交叉試驗顯示，運動誘發止痛與遠端冷痛刺激都能同時提高膝伸 ROM（p < 0.034）與壓痛閾值（p < 0.027）（34387949）。所以輔助伸展的正確定位是拉高你能忍受的角度，而不是把組織拉長。",
+      "citations": [
+        {
+          "pmid": "30423500",
+          "title": "Hold-relax and contract-relax stretching for hamstrings flexibility: A systematic review with meta-analysis.",
+          "journal": "Phys Ther Sport",
+          "year": 2019,
+          "design": "meta-analysis",
+          "takeaway": "39 篇 RCT、1770 名健康成人，納入試驗的 PEDro 中位數僅 4/10。相對於不介入，hold-relax 與 contract-relax 對大腿後側柔軟度在單次後（6 篇，SMD 1.02，95% CI 0.69–1.35，I² = 2%）與多次療程後（4 篇，SMD 1.02，95% CI 0.64–1.40，I² = 0%）都有大效果，且異質性極低。但與靜態伸展比較的統合結果互相衝突，與其他技術比較的個別試驗也不一致——效果有，優越性沒有，最佳劑量參數仍未知。"
+        },
+        {
+          "pmid": "28182516",
+          "title": "The Effectiveness of PNF Versus Static Stretching on Increasing Hip-Flexion Range of Motion.",
+          "journal": "J Sport Rehabil",
+          "year": 2018,
+          "design": "narrative-review",
+          "takeaway": "以臨床問題為導向的回顧，納入 5 篇比較 PNF 與靜態伸展對大腿後側延展性的 RCT（3 篇量主動膝伸角、1 篇量被動膝伸角、1 篇量單腳抬腿髖屈）。只有 1 篇顯示 PNF 在髖屈上優於靜態伸展，其餘 4 篇在肌肉延展性、主動膝伸角或髖屈 ROM 上都找不到差異。作者的臨床結論是：兩者都能有效增加髖屈 ROM，但沒有證據支持 PNF 比較好（推薦強度依據 level 2 以上證據）。"
+        },
+        {
+          "pmid": "37803178",
+          "title": "Acute effects of static and proprioceptive neuromuscular facilitation stretching on hamstrings muscle stiffness and range of motion: a randomized cross-over study.",
+          "journal": "Eur J Appl Physiol",
+          "year": 2024,
+          "design": "crossover",
+          "takeaway": "16 名休閒運動者隨機交叉接受靜態伸展或 PNF 伸展，量被動直腿抬高、主動膝伸 ROM 與股二頭肌／半腱肌的剪切模數。兩種伸展都顯著增加 ROM 且彼此無差異（p < 0.001，η² 0.59–0.68）；只有 PNF 使股二頭肌剪切模數顯著下降（時間 × 伸展方式交互作用 p = 0.045，η² 0.19），半腱肌兩者皆無變化。最關鍵的是 ROM 變化與剪切模數變化沒有顯著相關——急性 ROM 增加主要來自伸展耐受度，不是力學性質改變。"
+        },
+        {
+          "pmid": "34387949",
+          "title": "The tolerance to stretch is linked with endogenous modulation of pain.",
+          "journal": "Scand J Pain",
+          "year": 2021,
+          "design": "crossover",
+          "takeaway": "19 名健康男性參與隨機重複測量交叉試驗，比較四種情境：運動誘發止痛、兩回合靜態伸展、休息、遠端冷加壓痛刺激。運動誘發止痛與冷加壓測試都同時提高膝伸 ROM（p < 0.034）與壓痛閾值（p < 0.027）；壓痛閾值變化在運動誘發止痛與靜態伸展之間有中度相關（Rho > 0.507，p = 0.01）。作者的解讀是伸展耐受度可能只是疼痛敏感度的一個指標——這正是「伸展改變的是耐受度不是組織長度」的實驗支持。"
+        }
+      ]
+    }
+  ]
+}

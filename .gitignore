@@ -35,3 +35,7 @@ Thumbs.db
 .idea/
 .vscode/*
 !.vscode/extensions.json
+
+# macOS 自訂資料夾圖示（Finder 產生，檔名結尾是 CR）
+Icon\r
+Icon?

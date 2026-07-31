@@ -1,0 +1,222 @@
+{
+  "chapter": "CH5",
+  "title": "彈性回彈與負荷適應",
+  "units": [
+    {
+      "id": "ch5-u1",
+      "name": "伸展－收縮循環：彈性回彈是怎麼回事",
+      "type": "practice",
+      "assessment": "用手機側錄，站在牆邊做兩種跳：先做 3 次反向跳（站直、快速下蹲後立刻往上跳），休息 60 秒，再做 3 次蹲跳（蹲到底靜止停 3 秒，再往上跳，中途不可再往下沉）。各取最好的一次，比較摸高高度。多數人的反向跳會比蹲跳高 5–15%，這個差值就是伸展－收縮循環（SSC）替你多賺到的部分。差值小於 3%，代表你把下蹲的動能浪費掉了，練習重點是縮短「下蹲轉向上」的轉換時間；差值正常但兩種跳都很低，代表缺的是基礎肌力，先回去練蹲與硬舉，不要急著跳。要提醒自己：這個差值反映的是肌腱、肌肉主動剛度與神經預先啟動三者的合作，不是單一組織的功勞。",
+      "tight": ["小腿後側緊繃", "跟腱僵硬感", "足底疲勞"],
+      "weak": ["踝關節剛度", "落地緩衝控制", "快速轉換的節奏"],
+      "lesson": {
+        "title": "Stretch Shortening Cycle Explained | Physiology and Training the SSC",
+        "channel": "The Movement System",
+        "url": "https://www.youtube.com/watch?v=iilyVw5uVXg",
+        "duration": "10:16",
+        "why": "選它是因為它把 SSC 拆成離心、轉換（amortization）、向心三段講，而且有帶到訓練上怎麼分階。要保留的是它對「彈性能量」的描述：影片講得比較像單純的橡皮筋回彈，但實際上能不能用到那份能量，取決於轉換時間夠不夠短、以及肌肉在觸地前後有沒有先啟動把肌腱張力撐住——轉換一慢，儲存的能量就以熱耗散掉了。也因此不要把彈性表現整包歸給筋膜：肌腱的被動彈性、肌肉的主動剛度、神經的預先啟動與反射三者都有份，目前沒有證據能把貢獻切乾淨。"
+      },
+      "drills": [
+        {
+          "name": "反向跳與蹲跳落差測試",
+          "en": "Countermovement Jump vs Squat Jump",
+          "kind": "assess",
+          "target": "下肢整體、跟腱、股四頭肌",
+          "dose": "兩種跳各 3 次，中間休息 60 秒；每次都用最大努力，但落地必須能站穩才算數，不追求次數；停止條件：落地無法穩住、跟腱或膝蓋前方出現尖銳痛、或當天已做過大量下肢訓練（測出來的數字沒有參考價值），就改天再測",
+          "title": "Counter-movement Jump vs. Squat Jump",
+          "channel": "Ben Norley",
+          "url": "https://www.youtube.com/watch?v=DZV_RlzfSIY",
+          "duration": "1:06"
+        },
+        {
+          "name": "跳繩基礎彈跳節奏",
+          "en": "Jump Rope Basic Bounce",
+          "kind": "move",
+          "target": "小腿三頭肌、跟腱、足底",
+          "dose": "跳 30 秒、休 30 秒，共 6 組；腳跟不落地、用前足彈跳，強度控制在還能講出一個短句；停止條件：小腿出現灼熱痛、跟腱隔天晨起疼痛超過 5/10、或節奏亂掉開始重踩落地就停",
+          "title": "JUMP ROPE LIKE A PRO IN 2 MINUTES l LEARN HOW TO SKIP",
+          "channel": "Dayan Kole",
+          "url": "https://www.youtube.com/watch?v=vEJ7XbbAMAg",
+          "duration": "2:22"
+        },
+        {
+          "name": "原地彈跳（Pogo）",
+          "en": "Pogo Hops",
+          "kind": "load",
+          "target": "跟腱、小腿三頭肌、足弓",
+          "dose": "10–15 下 × 3 組，組間休息 60–90 秒；膝蓋幾乎不彎，目標是縮短觸地時間而不是跳高；停止條件：跟腱或足底痛超過 3/10、落地聲音變重、動作品質掉了就結束；每週最多 2–3 次",
+          "title": "Learn to Pogo in 3 Steps",
+          "channel": "Brendan Killian",
+          "url": "https://www.youtube.com/watch?v=39A-HLkq2cQ",
+          "duration": "0:45"
+        },
+        {
+          "name": "三個入門增強式動作",
+          "en": "Three Beginner Plyometric Drills",
+          "kind": "load",
+          "target": "臀部、股四頭肌、小腿",
+          "dose": "每個動作 5 下 × 3 組，動作之間休息 90 秒；以「跳得乾淨、落地無聲」為標準，不是跳得多；停止條件：落地失去控制、任何關節出現痛感就停；單次課的總觸地次數控制在 80–100 下以內",
+          "title": "將肌力轉換爆發力！增強運動表現！｜3個增強式訓練動作｜Jay Wang",
+          "channel": "Jay Wang",
+          "url": "https://www.youtube.com/watch?v=D53mfGk-x2w",
+          "duration": "6:09"
+        },
+        {
+          "name": "跳躍前的 Skipping 準備",
+          "en": "Skipping Drill",
+          "kind": "load",
+          "target": "髖屈肌、小腿、跟腱",
+          "dose": "20 公尺 × 4 趟，走回起點當作休息（約 60 秒）；著重節奏與彈起，不追求高度或速度；停止條件：出現重踩代償、小腿或髕腱不適、節奏跑掉就結束；單次課不超過 6 趟",
+          "title": "Don't Run Before You Can . . . Skip!",
+          "channel": "Muscle Therapies",
+          "url": "https://www.youtube.com/watch?v=F0GpyuIrgVQ",
+          "duration": "1:51"
+        }
+      ]
+    },
+    {
+      "id": "ch5-u2",
+      "name": "跳躍與落地：從雙腳到單腳",
+      "type": "practice",
+      "assessment": "做單腳跳落地測試：單腳向前跳出去，落地後在原地穩住 3 秒，手不扶東西、腳掌不移位、不出現第二次小跳。左右腳各做 3 次，量跳出的距離並側錄正面畫面。三個判讀點：一、左右腳的最遠距離差距超過 10%，弱的那側先回到雙腳與單腳肌力動作，暫時不要做單腳增強式；二、落地時膝蓋往內倒、腳掌往外翻、或需要往前踏一步才停得下來，代表你的減速能力還跟不上跳出去的能力；三、落地當下或隔天出現膝前、跟腱、脛骨前側痛超過 3/10，就把高度與距離降一階。三個都過關，才進入單腳跳與交替彈跳。",
+      "tight": ["膝前側緊繃", "小腿後側緊繃", "髖前側緊繃"],
+      "weak": ["單腳負重控制", "落地時的膝髖對位", "減速與煞車能力"],
+      "lesson": {
+        "title": "How To Assess And Teach Landing Mechanics",
+        "channel": "[P]rehab",
+        "url": "https://www.youtube.com/watch?v=b7UlaJjPiYw",
+        "duration": "5:54",
+        "why": "這支同時教「怎麼看落地」與「怎麼教落地」，剛好是本單元的兩件事，而且示範的退階順序（雙腳落地→單腳落地→加高度）可以直接照著排。要修正的地方：影片是從 ACL 傷害預防的篩檢角度切入，但前瞻性研究裡「落地膝內夾」對未來受傷的預測力其實不強，把它當成可以改善的動作品質項目比當成受傷風險指標誠實得多。另外落地的緩衝是踝、膝、髖與整條肌腱－肌肉單元一起吸收，不要把它講成筋膜在吸震。"
+      },
+      "drills": [
+        {
+          "name": "單腳跳遠對稱性測試",
+          "en": "Single Leg Hop for Distance Test",
+          "kind": "assess",
+          "target": "單腳下肢、臀部、膝關節",
+          "dose": "測前先暖身 5 分鐘；左右腳各 3 次取最遠一次，落地必須穩住 3 秒才計分；停止條件：落地站不住、膝蓋明顯內夾、或任一側出現痛感就中止測試，先回到雙腳動作",
+          "title": "Hop for Distance Test",
+          "channel": "Sport Rehab Guide",
+          "url": "https://www.youtube.com/watch?v=Gxs5nVnE4Yg",
+          "duration": "1:05"
+        },
+        {
+          "name": "雙腳落地的基本對位",
+          "en": "Two-Leg Landing Mechanics",
+          "kind": "move",
+          "target": "膝關節、髖部、足踝",
+          "dose": "從 20–30 公分高度往下踏落，5 次 × 3 組，每次落地停住 2 秒檢查膝蓋是否對著第二腳趾；強度以「落地幾乎沒有聲音」為準；停止條件：膝內夾怎麼提示都修不掉、落地聲音很大、膝前痛超過 3/10 就降低高度",
+          "title": "ACL Injury Prevention: Jumping and Landing Technique",
+          "channel": "Hospital for Special Surgery",
+          "url": "https://www.youtube.com/watch?v=lCxMeAhj8A0",
+          "duration": "2:56"
+        },
+        {
+          "name": "增強式五階漸進",
+          "en": "Five-Level Plyometric Progression",
+          "kind": "load",
+          "target": "下肢整體、跟腱、臀部",
+          "dose": "每一階連續做 2–3 週、每週 2 次、每次 60–100 次觸地，動作品質穩定了再往上升一階；強度以能維持乾淨落地為上限；停止條件：晉階後 24 小時內僵硬或痛感明顯增加，退回上一階待滿一週再試",
+          "title": "How to Progress Plyometrics | 5 Levels From Beginner to Advanced",
+          "channel": "The Movement System",
+          "url": "https://www.youtube.com/watch?v=_YudFDcW_Iw",
+          "duration": "5:52"
+        },
+        {
+          "name": "從雙腳到單腳的復健式漸進",
+          "en": "Double to Single Leg Plyometric Progression",
+          "kind": "load",
+          "target": "單腳下肢、膝關節、踝關節",
+          "dose": "單腳項目每側 5–8 下 × 3 組，組間休息 90 秒；先能在雙腳版本落地無聲、且單腳跳測試左右差 <10%，才進單腳；停止條件：左右差距在課中變大、落地需要用手撐、或痛感超過 3/10 就退回雙腳",
+          "title": "Plyometric Progressions For Rehab!",
+          "channel": "[P]rehab",
+          "url": "https://www.youtube.com/watch?v=FejJL2lmqsg",
+          "duration": "6:47"
+        },
+        {
+          "name": "單腳交替彈跳（Bounding）",
+          "en": "Bounding",
+          "kind": "load",
+          "target": "臀大肌、腿後肌、小腿",
+          "dose": "20–30 公尺 × 4–6 趟，趟間完全休息 60–90 秒；只在草地或跑道上做，速度掉了或步幅變亂立刻結束；停止條件：腿後肌出現拉扯感、落地變重、單週超過 1–2 次就不要再加",
+          "title": "Learning How to Bound // Easy Bounding Progression for Jumpers and Athletes",
+          "channel": "Coach Cale",
+          "url": "https://www.youtube.com/watch?v=zegHQw9HWNY",
+          "duration": "4:37"
+        }
+      ]
+    },
+    {
+      "id": "ch5-u3",
+      "name": "漸進負荷與結締組織的適應時間",
+      "type": "practice",
+      "assessment": "先量一個基準：單腳站，手指輕扶牆只維持平衡，另一腳離地，全幅度提踵到最高再放下，約 2 秒一下，做到再也達不到全高度為止，記次數；左右各測一次，中間休息 2 分鐘。左右差超過 20%，弱側就是本單元的主要目標。接著建立一條「24 小時規則」：每次加量後，隔天早上下床第一步的痛感不可以超過 5/10，也不可以比加量前更痛；符合就維持一到兩週再加，超過就退回上一階。把兩個數字記在同一張表上，每 4 週回頭看一次——肌力兩三週就會動，肌腱的剛度與膠原重塑要以月計，數字沒動不代表沒進步，但痛感連續三天上升就是明確的減量訊號。",
+      "tight": ["跟腱壓痛", "膝下方髕腱壓痛", "小腿後側緊繃"],
+      "weak": ["小腿肌耐力", "等長負荷耐受度", "漸進加量的紀律"],
+      "lesson": {
+        "title": "Why Your Tendons Are Weak: The Science of Building Tendon Strength",
+        "channel": "The Movement System",
+        "url": "https://www.youtube.com/watch?v=GvxD0zn6-B4",
+        "duration": "12:14",
+        "why": "選它是因為它把本單元最重要的一句話講清楚了：肌肉與肌腱的適應速度不一樣。肌力可以用「週」進步，肌腱的剛度與膠原轉換要用「月」算，這個時間差就是很多人練了六週覺得很強、然後跟腱或髕腱開始痛的原因。需要保留的地方：影片對具體處方（幾秒等長、幾組幾下）講得比文獻確定，目前站得住腳的只有幾個大原則——高負荷、每組張力維持得夠久、頻率規律、進度慢；最佳劑量仍未定案。另外肌腱痛不等於組織有破損，影像上的退化性變化在無症狀者身上也很常見。"
+      },
+      "drills": [
+        {
+          "name": "單腳提踵次數測試",
+          "en": "Single Leg Calf Raise Test",
+          "kind": "assess",
+          "target": "小腿三頭肌、跟腱",
+          "dose": "單腳全幅度提踵，約 2 秒一下，做到無法再達到全高度為止；左右各測一次，中間休息 2 分鐘；停止條件：跟腱出現尖銳痛、抽筋、或必須大量靠手撐體重時就停止並記下當時次數",
+          "title": "Single Leg Calf Raise Assessment",
+          "channel": "Gait Happens",
+          "url": "https://www.youtube.com/watch?v=s-NoA27XIdM",
+          "duration": "1:31"
+        },
+        {
+          "name": "西班牙深蹲等長支撐",
+          "en": "Spanish Squat Isometric",
+          "kind": "load",
+          "target": "髕腱、股四頭肌",
+          "dose": "撐 45 秒 × 5 組，組間休息 1–2 分鐘，每天 1–2 次；強度抓在當下痛感不超過 3/10 且不會愈做愈痛；停止條件：做完當下或隔天痛感升高，就減少組數或降低彈力帶張力，不要硬撐滿五組",
+          "title": "How to Set Up and Perform Spanish Squats Correctly (Don't Make This Mistake!)",
+          "channel": "E3 Rehab",
+          "url": "https://www.youtube.com/watch?v=hgFxm5KIF7M",
+          "duration": "4:04"
+        },
+        {
+          "name": "跟腱離心負荷（Alfredson 方案）",
+          "en": "Alfredson Eccentric Heel Drop",
+          "kind": "load",
+          "target": "跟腱、小腿三頭肌",
+          "dose": "直膝與屈膝各 3 組 × 15 下，每天 2 次，做滿 12 週才評估成效；下放約 3 秒，練習中痛感可到 5/10，但隔天晨起不可以更痛；停止條件：晨僵或痛感連續 3 天上升就減半，出現腫脹或使不上力就停止並就醫",
+          "title": "Alfredson Achilles Tendinopathy Rehab Protocol",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=fHHbn_Odk4E",
+          "duration": "4:58"
+        },
+        {
+          "name": "跟腱漸進負荷四階段",
+          "en": "Progressive Achilles Tendon Loading",
+          "kind": "load",
+          "target": "跟腱、小腿三頭肌、足底",
+          "dose": "每個階段至少停留 2–4 週、每週 3 次，用 24 小時反應決定要不要晉階；強度隨階段從等長走到重負荷再到彈性；停止條件：加量後隔天晨起第一步痛感 >5/10 或高於加量前，退回上一階待滿一週",
+          "title": "Progressive Achilles Tendon Loading | Baxter Achilles Tendinopathy Rehabilitation Program",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=nate3mVMGrw",
+          "duration": "8:31"
+        },
+        {
+          "name": "離心收縮的正確用法",
+          "en": "How to Use Eccentric Training",
+          "kind": "load",
+          "target": "下肢肌腱、大腿與小腿肌群",
+          "dose": "離心段控制 3–4 秒，每個動作 3 組 × 6–8 下、每週 2 次；離心會造成明顯的延遲性痠痛，第一次只做計畫量的一半；停止條件：痠痛持續超過 72 小時、或影響到下一次訓練品質就減量，出現尖銳痛立即停止",
+          "title": "訓練效果差、容易受傷？物理治療師教你離心收縮的正確用法｜啾c物理治療師",
+          "channel": "啾c物理治療師",
+          "url": "https://www.youtube.com/watch?v=UwsqBlyLu5E",
+          "duration": "10:03"
+        }
+      ]
+    }
+  ]
+}

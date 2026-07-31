@@ -1,0 +1,255 @@
+{
+  "chapter": "CH6",
+  "title": "足部、下肢與後側鏈",
+  "units": [
+    {
+      "id": "ch6-u1",
+      "name": "足底與小腿",
+      "type": "practice",
+      "assessment": "練前先做一次 Knee-to-Wall（負重弓箭步踝背屈測試）：赤腳面對牆，測試腳第二趾與膝蓋對準牆面，腳跟不離地把膝蓋往前推去碰牆，找出「膝蓋還碰得到牆、腳跟仍貼地」的最遠距離，用尺量大腳趾到牆的水平距離並左右各記錄一次。一般參考值是 10 公分以上，左右差不超過 1.5 公分；低於 8 公分或左右差超過 1.5 公分，代表踝背屈是你這個區域的限制因子。第二個指標是單腳提踵次數：扶牆單腳站，以每 2 秒一下的節奏做到腳跟無法再抬到最高，記錄次數與左右差。整套練完後 5 分鐘內把兩項各再量一次。合格的短期反應是 Knee-to-Wall 增加 1 公分以上、左右差縮小；提踵次數不必當天變多，但不該變少。要提醒的是：這個增加代表當下活動度變好，不代表任何組織被「拉長」或「壓開」，而且多半在 30 到 60 分鐘內退回去——所以放鬆之後一定要接上主動使用與負荷。",
+      "tight": ["足底緊繃或晨起第一步痛", "小腿後側緊繃", "踝關節前側卡住感", "跟腱附近痠緊"],
+      "weak": ["踝背屈活動度", "小腿單腳耐力", "足弓主動控制", "腳趾抓地與推蹬能力"],
+      "lesson": {
+        "title": "足底筋膜炎居家復健：按壓＋拉筋＋訓練三管齊下｜啾c物理治療師",
+        "channel": "啾c物理治療師",
+        "url": "https://www.youtube.com/watch?v=Lxt6G_-zJmc",
+        "duration": "6:38",
+        "why": "少數把「按壓、伸展、訓練」三件事排成同一條流程的中文影片，剛好對應本課「低強度輸入只是打開窗口，後面要接主動使用與負荷」的立場，而且明確講到足底不適要同時處理小腿。需要保留的是：影片把按壓講成緩解手段而非治療，這點正確；但若你聽到任何「把足底筋膜壓開、把沾黏推散」的說法（本片或其他影片），請直接當成描述感受，而不是描述組織變化——目前沒有影像學證據支持徒手壓力能改變筋膜的結構性沾黏。此外，足跟痛不一定是足底筋膜炎，也可能是脂肪墊損傷或跟骨壓力性骨折，痛點在正中央跟骨下方且踩地即痛、休息無改善時，請就醫而不是加大力道。"
+      },
+      "drills": [
+        {
+          "name": "Knee-to-Wall 踝背屈自我測量",
+          "en": "Weight-Bearing Lunge (Knee-to-Wall) Test",
+          "kind": "assess",
+          "target": "踝關節、距小腿關節、比目魚肌",
+          "dose": "練前練後各測 1 次，每側量 3 趟取最遠一趟，每趟停留約 2 秒；只推到腳跟即將離地為止，不要用力硬頂；停止條件：踝關節前側出現夾擠般的尖銳痛、或有踝扭傷病史且測試中出現不穩定感與痛，立即停止並改測非負重版本或就醫評估",
+          "title": "The Weight Bearing Lunge Test or Wall Test | Ankle Mobility",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=U7woPNLUT3Q",
+          "duration": "2:22"
+        },
+        {
+          "name": "足底按摩球加壓滾動",
+          "en": "Plantar Fascia Ball Release",
+          "kind": "release",
+          "target": "足底筋膜、足內在肌群、屈趾短肌",
+          "dose": "坐姿開始，每腳 60–90 秒，緩慢來回；壓力控制在痛感 4–6/10、能正常說話與呼吸的程度，站姿加壓只在坐姿完全可忍受後才嘗試；停止條件：出現麻、刺、放射到腳趾的痛，或壓完隔天走路比壓之前更痛，就把時間與壓力各減半；急性外傷腫脹、糖尿病足感覺異常、足部傷口或感染部位不做",
+          "title": "Plantar Fascia Release with a Tennis Ball – 3 Minute Foot Pain Relief",
+          "channel": "Resilience Occupational Therapy",
+          "url": "https://www.youtube.com/watch?v=3gDuNVtDO_M",
+          "duration": "3:04"
+        },
+        {
+          "name": "小腿滾筒放鬆與適用時機",
+          "en": "Calf Foam Rolling",
+          "kind": "release",
+          "target": "腓腸肌、比目魚肌、跟腱移行處",
+          "dose": "每側 60–90 秒，分內側／中央／外側三條路徑各約 20–30 秒；壓力以單腳承重為上限，痛感不超過 6/10，找到壓痛點停留 20–30 秒配合踝關節主動勾放 5–8 下；停止條件：小腿出現麻刺或放射痛立即停；單側小腿腫脹、發熱、按壓劇痛（深層靜脈栓塞風險）絕對不要滾壓，直接就醫；使用抗凝血劑者請先詢問醫療人員",
+          "title": "Calf Foam Rolling - When To Leave It, When It Can Be Useful, How To Do It",
+          "channel": "Sports Injury Physio",
+          "url": "https://www.youtube.com/watch?v=MuPVRt6_BV8",
+          "duration": "8:47"
+        },
+        {
+          "name": "腓腸肌與比目魚肌分開伸展",
+          "en": "Gastrocnemius and Soleus Stretch",
+          "kind": "move",
+          "target": "腓腸肌、比目魚肌、跟腱",
+          "dose": "直膝版（腓腸肌）與屈膝版（比目魚肌）各 3 組 × 30 秒，兩側都做，共約 6 分鐘；強度取「明顯牽拉但不痛」，約 3–5/10，腳跟全程貼地、腳掌不外翻；停止條件：小腿肚出現刺痛或撕裂感、跟腱處尖銳痛立即停止；六週內有小腿拉傷或跟腱急性疼痛者先不做長時間靜態伸展",
+          "title": "Stretching the Calf Muscles - Gastrocnemius & Soleus Stretches",
+          "channel": "Brian Abelson",
+          "url": "https://www.youtube.com/watch?v=JSzCfi0wbcA",
+          "duration": "3:18"
+        },
+        {
+          "name": "縮足運動與足弓主動控制",
+          "en": "Short Foot Exercise",
+          "kind": "move",
+          "target": "足內在肌群、足弓、外展拇肌",
+          "dose": "坐姿版每側 10 下 × 3 組，每下維持 5 秒；腳趾不可屈起抓地，只把前足往腳跟方向「縮短」抬高足弓；站姿與單腳版本各在前一階段能連做 10 下不抽筋後再進階；停止條件：足底或腳趾抽筋、小腿前外側出現緊繃灼痛就休息，當次不再加量",
+          "title": "足底筋膜炎的關鍵：縮足運動訓練足弓告別足底痛｜啾c物理治療師",
+          "channel": "啾c物理治療師",
+          "url": "https://www.youtube.com/watch?v=9bwMrxQMb_g",
+          "duration": "5:48"
+        },
+        {
+          "name": "提踵漸進負荷",
+          "en": "Progressive Calf Raise",
+          "kind": "load",
+          "target": "腓腸肌、比目魚肌、跟腱、足踝穩定肌群",
+          "dose": "雙腳提踵 3 組 × 15 下起步，每下上 2 秒、頂點停 1 秒、下 3 秒；能單腳連做 15 下且隔天無明顯痠痛才進階到單腳或負重，每週加量不超過 10%；屈膝版（比目魚肌）每週至少排一次；停止條件：跟腱出現尖銳痛或隔天晨起跟腱僵硬超過 30 分鐘就退回上一階，出現腫脹、無法承重或聽到啪聲請立即就醫",
+          "title": "告別鳥仔腳｜小腿訓練課表",
+          "channel": "CYFIT兆佑",
+          "url": "https://www.youtube.com/watch?v=ObBS7JvgIjw",
+          "duration": "3:44"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u2",
+      "name": "大腿後側與後側鏈",
+      "type": "practice",
+      "assessment": "練前先做兩個量測。第一個是 90/90 主動伸膝（Active Knee Extension）：仰躺，測試側髖屈 90 度、大腿垂直地面用雙手抱住不動，另一腳伸直貼地，然後主動把膝蓋伸直到有牽拉感為止，用手機測角度 App 貼在小腿前側量「離完全伸直還差幾度」。常見參考是欠缺角度小於 20 度、左右差不超過 10 度。第二個是指地距離：雙腳併攏站直、膝蓋不彎，慢慢往下摸，量中指到地面的距離（碰到地板記 0，超過就記負值）。兩項左右與數值都先寫下來。整套練完後 5 分鐘內再量一次：合格的短期反應是伸膝欠缺角度減少 5 度以上，或指地距離縮短 2 公分以上，且動作中沒有出現任何往小腿或腳底跑的麻刺感。要注意兩件事：一是這種當下改變主要反映你對牽拉的耐受度提高，不等於肌肉被拉長；二是抬腿時若出現沿著大腿後側往小腿放射的電擊感，那是神經激惹的訊號而不是「太緊」，請停止伸展並尋求專業評估。",
+      "tight": ["大腿後側緊繃", "坐骨附近痠緊", "彎腰摸不到地", "久坐後起身下肢僵硬"],
+      "weak": ["髖鉸鏈動作控制", "腿後肌離心肌力", "骨盆前傾控制能力", "後側鏈負荷承受度"],
+      "lesson": {
+        "title": "膕旁肌伸展，久坐大腿後側緊繃縮短，想改善大腿後側柔軟度，原來拉筋秘訣是「坐骨」！分享如何正確拉長膕旁肌卻不傷害腰椎。",
+        "channel": "全人物理治療所",
+        "url": "https://www.youtube.com/watch?v=HD9hT2HhDs8",
+        "duration": "5:29",
+        "why": "多數人拉腿後側其實是在拉腰椎——這支影片把重點放在骨盆與坐骨的動作方向，直接處理這個最常見的錯誤，示範清楚且不需要器材。需要修正的地方：標題與敘述用了「緊繃縮短」的說法，但久坐族大腿後側量到的「緊」多半是牽拉耐受度下降與神經動力學敏感，不必然代表肌肉真的變短；同樣地，伸展後變鬆也不等於組織被拉長。看的時候請把它當成「怎麼把牽拉感放在該放的地方」，而不是「怎麼把縮短的肌肉拉回原長」。"
+      },
+      "drills": [
+        {
+          "name": "90/90 主動伸膝角度自我檢測",
+          "en": "90-90 Active Knee Extension Test",
+          "kind": "assess",
+          "target": "腿後肌群、坐骨神經動力學、髖關節",
+          "dose": "練前練後各 1 次，每側做 3 趟取最好一趟，每趟在末端只停 2–3 秒；用「有牽拉感但不痛」為終點，不要彈震；停止條件：出現往小腿或腳底放射的電擊、麻、刺感立即停止測試並就醫評估，那是神經徵象而非柔軟度不足",
+          "title": "90-90 Straight Leg Raise Test ⎟ Hamstring Contractures",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=meM4S1vrbpk",
+          "duration": "1:27"
+        },
+        {
+          "name": "腿後肌滾筒放鬆",
+          "en": "Hamstring Foam Rolling",
+          "kind": "release",
+          "target": "腿後肌群、半腱肌、股二頭肌",
+          "dose": "每側 60–90 秒，分內側與外側兩條路徑；壓力用手撐地調整承重，痛感控制在 4–6/10，慢速來回每趟 3–4 秒；壓到痛點可停留 20–30 秒並配合主動屈伸膝 5 下；停止條件：膝窩正後方（膕窩，有神經血管通過）不要直接加壓，出現麻刺或放射痛立即停；單側小腿或大腿腫脹發熱、抗凝血劑使用者不做",
+          "title": "How to Foam Roll your Hamstrings",
+          "channel": "Meglio TV",
+          "url": "https://www.youtube.com/watch?v=78ZE9Dznsfg",
+          "duration": "1:44"
+        },
+        {
+          "name": "按摩槍用在大腿後側的正確方式與禁區",
+          "en": "Massage Gun on Hamstrings: Safe Use",
+          "kind": "release",
+          "target": "腿後肌群、臀部與大腿交界、髂脛束後緣",
+          "dose": "每個區塊 30–60 秒、整條腿後側不超過 2 分鐘，選低到中檔位並持續移動，不要定點久壓；力道以槍頭剛好陷入軟組織、不需咬牙為準；停止條件：膕窩、腹股溝、骨突與神經走行處不打；出現麻、刺、放射痛、皮下瘀青或打完更痛就停用；急性拉傷 72 小時內、血栓風險、凝血功能異常、骨質疏鬆與皮膚傷口部位禁用",
+          "title": "筋膜槍暗藏使用危險！？專業物理治療師教你如何正確使用不受傷｜詹珞瑤 物理治療師 Veronica Rehab",
+          "channel": "詹珞瑤",
+          "url": "https://www.youtube.com/watch?v=ocNhaC0Hf-c",
+          "duration": "8:14"
+        },
+        {
+          "name": "腿後肌主動活動度流程",
+          "en": "Active Hamstring Mobility Flow",
+          "kind": "move",
+          "target": "腿後肌群、髖關節、骨盆",
+          "dose": "跟著做一輪約 10 分鐘，每個動作 5–8 次或 20–30 秒；末端要主動收縮而不是靠體重壓下去，強度 4–6/10；每週 3–4 次比單次做久更有效；停止條件：坐骨結節處出現尖銳、定點的痛（可能是近端肌腱病），或動作中出現放射麻刺感，立即停止",
+          "title": "Unlock Your Hamstrings! (FOLLOW ALONG)",
+          "channel": "Tom Merrick",
+          "url": "https://www.youtube.com/watch?v=Qp3Vl7b_y6o",
+          "duration": "9:52"
+        },
+        {
+          "name": "髖鉸鏈動作控制",
+          "en": "Hip Hinge Pattern",
+          "kind": "move",
+          "target": "髖關節、腿後肌群、臀大肌、腰椎中立控制",
+          "dose": "徒手版 3 組 × 8–10 下，每下下降 3 秒、回站 2 秒；用一根棍子貼住後腦、上背與薦椎三點確認腰椎不彎，強度只要能維持三點接觸；停止條件：下背出現痛或棍子離開任何一點就縮小活動範圍；腰椎有急性疼痛、下肢麻木無力者先不做",
+          "title": "如何做髖關節鉸鏈 (中文字幕)",
+          "channel": "Fitting Room TW",
+          "url": "https://www.youtube.com/watch?v=wjP-t9olpns",
+          "duration": "5:50"
+        },
+        {
+          "name": "北歐彎舉離心負荷",
+          "en": "Nordic Hamstring Curl",
+          "kind": "load",
+          "target": "腿後肌群、股二頭肌長頭、後側鏈",
+          "dose": "從最容易的進階版開始（斜坡、彈力帶或縮小下降範圍），每週 2 次、每次 2–3 組 × 4–6 下，下降 3–5 秒，用手撐地推回；強度以「全程能控制、不是自由落下」為準，每週只加一個變因；停止條件：下降中出現大腿後側撕裂或啪的一聲立即停止並就醫；本動作延遲性痠痛很明顯，第一次做請只做 1 組，痠痛未退不加量",
+          "title": "Nordic Hamstring Curl Variations | Hamstring Training",
+          "channel": "Physiotutors",
+          "url": "https://www.youtube.com/watch?v=ihTUvs997b4",
+          "duration": "2:28"
+        }
+      ]
+    },
+    {
+      "id": "ch6-u3",
+      "name": "臀部與髖部",
+      "type": "practice",
+      "assessment": "練前量兩項。第一項是坐姿髖內旋：坐在高椅上大腿與小腿各成 90 度，固定膝蓋不動、把小腿往外擺（腳踝離開身體中線），用手機測角度 App 貼在脛骨前側量角度，左右各記錄。常見參考範圍是 30–45 度，重點不是絕對值而是左右差不超過 10 度。第二項是 90/90 坐姿：前後腳都擺成 90 度坐好，看你能不能在骨盆不後倒、坐骨兩側都著地的情況下維持 30 秒，並記錄軀幹能不能主動往前傾 30 度而不圓背；左右腳互換各做一次。整套練完 5 分鐘內再量一次，合格的短期反應是內旋角度增加 5 度以上或左右差縮小、90/90 坐姿從需要用手撐變成可以放手。同時記錄一個安全指標：所有動作中鼠蹊部深處都不應出現夾住般的尖銳痛。髖部前側夾擠痛不是「拉不開」，加大範圍硬壓通常讓它更痛，那是該轉去專業評估的訊號。",
+      "tight": ["臀部深處緊繃", "髖部前側夾住感", "久坐後髖屈肌緊", "盤腿或翹腳卡住"],
+      "weak": ["髖關節內外旋活動度", "臀大肌伸髖出力", "臀中肌側向穩定", "單腳負重控制"],
+      "lesson": {
+        "title": "盤坐下不去、翹腿總卡住？1分鐘測試找出原因，3個訓練找回髖關節空間",
+        "channel": "Shawna不只治療",
+        "url": "https://www.youtube.com/watch?v=rtC5CPGTmlc",
+        "duration": "8:31",
+        "why": "難得有中文影片先分辨「卡住的原因是軟組織張力還是骨性結構」再給訓練——髖臼與股骨頸的形狀是天生的，有些人的盤腿角度永遠到不了別人的位置，這個前提講清楚了，後面的練習才不會變成硬壓。三個訓練也符合本課的順序：先降低張力、再主動使用範圍。需要保留但別過度延伸的是：影片講的「找回空間」指的是關節活動時的動作品質改善，不是真的把關節腔撐大；如果測試時鼠蹊深處出現夾擠般的尖銳痛，那多半是骨性夾擠或關節唇問題，該做的是就醫，不是加大伸展幅度。"
+      },
+      "drills": [
+        {
+          "name": "坐姿髖內旋角度自我檢測",
+          "en": "Seated Hip Internal Rotation Test",
+          "kind": "assess",
+          "target": "髖關節、髖關節囊、臀部深層外旋肌群",
+          "dose": "練前練後各 1 次，每側 3 趟取最大角度，每趟末端停 2 秒；只做到「有阻擋感」就停，不要用手扳；停止條件：鼠蹊部深處出現夾擠般尖銳痛、髖關節有卡響伴隨疼痛，立即停止並尋求評估，不要重複測試找痛點",
+          "title": "Seated Hip Internal Rotation Test",
+          "channel": "Juniper Strength & Recovery Studio",
+          "url": "https://www.youtube.com/watch?v=hWpJ2fY6QqQ",
+          "duration": "1:29"
+        },
+        {
+          "name": "臀大肌滾筒放鬆",
+          "en": "Glute Foam Rolling",
+          "kind": "release",
+          "target": "臀大肌、臀中肌後緣、髂脛束近端",
+          "dose": "每側 60–90 秒，坐在滾筒上把同側腳踝翹到對側膝上以增加接觸；壓力用手與對側腳調整承重，痛感 4–6/10 且能正常呼吸；壓到痛點停留 20–30 秒並主動開合髖 5 下；停止條件：坐骨結節骨突處不要久壓，出現往腿後方放射的麻刺立即停；髖部置換術後、薦髂關節急性痛、抗凝血劑使用者不做",
+          "title": "滾筒紓壓，改善臀部肌肉僵硬，避免久坐傷害 | 康健陪你練",
+          "channel": "康健雜誌",
+          "url": "https://www.youtube.com/watch?v=C2oJy8wg0KY",
+          "duration": "1:51"
+        },
+        {
+          "name": "臀部深層按摩球加壓",
+          "en": "Glute and Piriformis Ball Release",
+          "kind": "release",
+          "target": "梨狀肌、臀部深層外旋肌群、臀中肌",
+          "dose": "每側 60–90 秒，先靠牆站姿版本降低壓力，能忍受再改坐姿；每個點停留 20–30 秒配合緩慢呼吸，痛感不超過 6/10；停止條件：出現沿著大腿後側往小腿或腳底跑的麻、刺、電擊感立即停止並移開接觸點——那是坐骨神經被激惹，不是「壓到深層筋膜」；孕期、髖部術後、局部皮膚傷口不做",
+          "title": "Tennis Ball Self-Massage for Your Glutes and Piriformis",
+          "channel": "The Online Physiotherapist",
+          "url": "https://www.youtube.com/watch?v=l3flN43z-EQ",
+          "duration": "2:53"
+        },
+        {
+          "name": "90/90 髖旋轉主動活動",
+          "en": "90/90 Hip Rotation",
+          "kind": "move",
+          "target": "髖關節內旋肌群、髖關節外旋肌群、臀部深層",
+          "dose": "左右換邊 10–12 次為 1 組，做 2–3 組；每次換邊時在末端主動用力把膝蓋往地板壓 3–5 秒再放，主動撐起軀幹而不是用手壓；強度 4–6/10，骨盆後倒或需要用手硬撐就縮小角度；停止條件：鼠蹊深處尖銳夾擠痛、膝關節內側被扭轉的痛立即停止並縮小前後腳角度",
+          "title": "How to do a 90/90 Hip Stretch properly - CORRECT FORM IS ESSENTIAL",
+          "channel": "Jack Hanrahan Fitness",
+          "url": "https://www.youtube.com/watch?v=VYvMMw8z3rE",
+          "duration": "5:59"
+        },
+        {
+          "name": "髖屈肌伸展",
+          "en": "Hip Flexor Stretch",
+          "kind": "move",
+          "target": "髂腰肌、股直肌、髖關節前側",
+          "dose": "半跪姿每側 3 組 × 30 秒；先用臀部收縮把骨盆後傾再往前移重心，不要靠腰椎往前頂，強度取「髖前側明顯牽拉、下背無感」約 4–6/10；末端可加 5 秒等長收縮再放鬆；停止條件：下背出現擠壓痛、膝蓋著地處痛、大腿前側抽筋立即停止；膝關節前側疼痛者在膝下墊軟墊或改站姿版本",
+          "title": "拯救骨盆前傾的重要拉筋：「髖屈肌伸展運動 hip flexor strtech」。伸展鼠蹊部，打開髖部前側。",
+          "channel": "全人物理治療所",
+          "url": "https://www.youtube.com/watch?v=LvUUoiisZP8",
+          "duration": "4:19"
+        },
+        {
+          "name": "臀橋負荷整合",
+          "en": "Glute Bridge Progression",
+          "kind": "load",
+          "target": "臀大肌、腿後肌群、髖關節伸展、核心",
+          "dose": "雙腳臀橋 3 組 × 12 下，每下頂點停 2 秒、下放 3 秒，肋骨不上翻、腰不過度反弓；能連做 15 下且隔天無下背不適，再進階到單腳或負重版本，每週加量不超過 10%；停止條件：下背出現痛或動作末端靠腰代償、大腿後側抽筋就退回上一階；急性下背痛或做完隔天下背更痛請停止並評估",
+          "title": "臀肌訓練 bridge exercise：利用橋式搶救核心及臀肌。",
+          "channel": "全人物理治療所",
+          "url": "https://www.youtube.com/watch?v=uz1EYLh37A0",
+          "duration": "2:05"
+        }
+      ]
+    }
+  ]
+}

@@ -19,12 +19,11 @@ build: ## 合併資料 → public/course.json，含配額驗證與 SEO 產出
 icons: ## 重新下載 Lucide 圖示並打包成內嵌 sprite
 	$(PY) src/build/build_icons.py
 
-og: ## 用 headless Chrome 重新產生社群預覽圖
+og: ## 用 headless Chrome 重新產生社群預覽圖（存進 course/assets，隨版控走）
 	@"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
-		--headless --disable-gpu --hide-scrollbars --force-device-scale-factor=2 \
-		--window-size=1200,630 --screenshot="$(PWD)/$(DIST)/og.png" "$(PWD)/src/web/og.html"
-	@magick $(DIST)/og.png -resize 1200x630 -strip $(DIST)/og.png
-	@echo "→ $(DIST)/og.png"
+		--headless --disable-gpu --hide-scrollbars --force-device-scale-factor=1 \
+		--window-size=1200,630 --screenshot="$(PWD)/$(COURSE)/assets/og.png" "$(PWD)/src/web/og.html"
+	@echo "→ $(COURSE)/assets/og.png（下次 make build 會複製進 $(DIST)）"
 
 meta: ## 用 yt-dlp 補齊 video-meta.json（長度、觀看數、頻道）
 	$(PY) src/build/fetch_meta.py

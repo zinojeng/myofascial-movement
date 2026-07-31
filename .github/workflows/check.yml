@@ -1,0 +1,36 @@
+name: check
+
+# 離線稽核是確定性的（不打網路），所以放得進 CI：同樣的 course/ 永遠得到同樣的報告。
+# 連結存活與 PMID 真偽由 verify 排程負責，那個會打真實 API，不適合擋 PR。
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: lint + build + audit
+        run: make check
+
+  verify:
+    # 打 YouTube oEmbed 與 PubMed E-utilities，只在手動觸發與每週排程時跑
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: build then re-verify every link and PMID
+        run: make build && make verify

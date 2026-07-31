@@ -1,0 +1,108 @@
+{
+  "categories": [
+    {
+      "id": "plyometric",
+      "name": "彈跳與伸展－收縮循環",
+      "evidence_grade": "moderate",
+      "summary": "這是本課裡效果最容易被量化的一類。26 篇試驗的統合分析顯示增強式訓練讓反向跳高度提升 8.7%（ES 0.88）、擺臂反向跳 7.5%、蹲跳與落地跳各 4.7%（PMID 17347316）；32 篇研究的統合分析則在組織層面看到肌肉厚度（SMD 0.59）、肌束長度（0.51）與肌腱剛性（0.55）同步增加（PMID 35312884）。「彈性回彈可以被訓練」因此有一致支持，但有兩點要說清楚：被測到的是肌腱與肌肉結構，不是坊間說的「筋膜彈性」，現有研究並未把筋膜單獨拆出來量；而且效果量多在中等區間，來自持續數週、有進度安排的課表，不是暖身跳幾下就會發生。傷害面更保守：28 篇研究、466 人的統合分析發現落地訓練降低了膝外翻力矩、增加髖與膝屈曲角度，但垂直地面反作用力沒變（PMID 28759729）——力學指標改善不等於受傷率下降。",
+      "citations": [
+        {
+          "pmid": "17347316",
+          "title": "Does plyometric training improve vertical jump height? A meta-analytical review.",
+          "journal": "Br J Sports Med",
+          "year": 2007,
+          "design": "meta-analysis",
+          "takeaway": "彙整 26 篇隨機與非隨機對照試驗後，增強式訓練對垂直跳高度的合併效果為：反向跳 +8.7%（95% CI 7.0–10.4；ES 0.88）、擺臂反向跳 +7.5%（ES 0.74）、蹲跳 +4.7%（ES 0.44）、落地跳 +4.7%（ES 0.62）。也就是說，最受益的是有預先下蹲、真正用到伸展－收縮循環的動作（CMJ 的增益接近純向心蹲跳的兩倍），而不是靜態起始的跳躍。"
+        },
+        {
+          "pmid": "35312884",
+          "title": "Effects of Plyometric Training on Lower Body Muscle Architecture, Tendon Structure, Stiffness and Physical Performance: A Systematic Review and Meta-analysis.",
+          "journal": "Sports Med Open",
+          "year": 2022,
+          "design": "meta-analysis",
+          "takeaway": "32 篇研究（納入條件為至少 8 次訓練課、健康成人）顯示增強式訓練同時改變結構與表現：肌肉厚度 SMD 0.59（95% CI 0.47–0.71）、肌束長度 0.51（0.26–0.76）、羽狀角 0.29（0.02–0.57）、肌腱剛性 0.55（0.28–0.82），跳躍 0.61、肌力 0.57。重點是肌腱剛性上升而非下降——彈性回彈的組織基礎是「更硬、更能存能量的肌腱」，不是「更鬆的筋膜」。"
+        },
+        {
+          "pmid": "28759729",
+          "title": "The Effects of Injury Prevention Programs on the Biomechanics of Landing Tasks: A Systematic Review With Meta-analysis.",
+          "journal": "Am J Sports Med",
+          "year": 2018,
+          "design": "meta-analysis",
+          "takeaway": "28 篇研究、466 人（多為年輕女性、雙腳落地任務）。傷害預防課程後，被視為 ACL 受傷重要預測因子的膝外翻力矩峰值下降（p = .01）；著地瞬間髖屈角（p = .009）、髖屈峰值（p = .002）與膝屈峰值（p = .007）增加，膝屈力矩峰值下降（p = .005），但垂直地面反作用力峰值沒有變化（p = .10）。改善的是動作策略指標，不是實際受傷率。"
+        }
+      ]
+    },
+    {
+      "id": "loaded-mobility",
+      "name": "負重活動度與離心負荷",
+      "evidence_grade": "moderate",
+      "summary": "這是本課少數證據方向相當一致的類別。55 篇研究的統合分析顯示阻力訓練本身就能增加關節活動度（ES 0.73，p < 0.001），與靜態伸展沒有顯著差異（ES 0.08，p = 0.79），伸展再加阻力訓練也沒比單做伸展好；唯一無效的是只用自身體重（PMID 36622555）。離心負荷更明確：17 篇研究、376 人得到 g = 0.86（0.65–1.08），踝背屈（1.12）與膝伸展（0.82）增益最大，6–8 週效果最好（PMID 36730587）；另一份 27 篇試驗、911 人得到 SMD 0.54（0.34–0.74）（PMID 35390669）。實務意義：不必在練肌力與練柔軟度之間二選一，在完整活動範圍下有控制地加負荷，兩件事會一起發生。誠實的是：研究多以被動活動度為結果、對象為健康成人、追蹤 4–14 週，沒回答長期維持與受傷風險；效果來自在長肌肉長度下承受張力，與筋膜有沒有被重塑無關。",
+      "citations": [
+        {
+          "pmid": "36622555",
+          "title": "Resistance Training Induces Improvements in Range of Motion: A Systematic Review and Meta-Analysis.",
+          "journal": "Sports Med",
+          "year": 2023,
+          "design": "meta-analysis",
+          "takeaway": "55 篇合格研究。阻力訓練相較對照組增加活動度 ES 0.73（p < 0.001）；阻力訓練與伸展訓練之間沒有顯著差異（ES 0.08，p = 0.79）；「伸展 + 阻力訓練」相對於「只做伸展」的差異幾乎是零（ES −0.001）。唯一的例外是只用自身體重的阻力訓練，並未顯著增加活動度——意味著要靠訓練換到活動度，外部負荷與可觀的張力是必要條件。"
+        },
+        {
+          "pmid": "36730587",
+          "title": "Effects of Eccentric Resistance Training on Lower-Limb Passive Joint Range of Motion: A Systematic Review and Meta-analysis.",
+          "journal": "Med Sci Sports Exerc",
+          "year": 2023,
+          "design": "meta-analysis",
+          "takeaway": "17 篇研究、376 人、22 個活動度結果，離心訓練對下肢被動關節活動度的合併效果為 g = 0.86（95% CI 0.65–1.08）。分層後：4–5 週 g = 0.63、6–8 週 g = 0.98、9–14 週 g = 0.75；部位上踝背屈 g = 1.12、膝伸展 0.82，但膝屈曲只有 0.41。等速離心（g = 1.07）雖然總訓練次數不到等張（0.77）的一半，效果卻更大，暗示張力強度比訓練量重要。"
+        },
+        {
+          "pmid": "35390669",
+          "title": "Eccentric exercise improves joint flexibility in adults: A systematic review update and meta-analysis.",
+          "journal": "Musculoskelet Sci Pract",
+          "year": 2022,
+          "design": "meta-analysis",
+          "takeaway": "32 篇試驗、1122 人納入回顧，其中 27 篇試驗、911 人可統合，離心運動對成人關節活動度或肌束長度的合併效果為 Hedges' g = 0.54（95% CI 0.34–0.74），異質性中等（I² = 50%）。試驗品質平均 PEDro 5.2 分，GRADE 從「低」到「高」不等。效果量比前一篇偏小，但信賴區間窄、估計精確——這是把離心負荷當成柔軟度手段的獨立佐證。"
+        }
+      ]
+    },
+    {
+      "id": "rom-self-test",
+      "name": "關節活動度自我檢測",
+      "evidence_grade": "limited",
+      "summary": "自我檢測要拆成三層看，三層的分數差很多。信度不錯：12 篇研究的系統性回顧顯示貼牆弓箭步測試施測者內 ICC 0.65–0.99、施測者間 0.80–0.99，但最小可偵測變化是 4.6–4.7 度或 1.6–1.9 公分——量出 2 公分的「進步」很可能只是誤差（PMID 25704110）。效度中等偏低：34 篇研究顯示坐姿體前彎估計大腿後側伸展性只有中等相關（rp 0.46–0.67），估計腰椎伸展性低到 0.16–0.35（PMID 24570599）；連貼牆測試的量角器讀數與 X 光一致區間也寬達 −7.84 至 5.92 度（PMID 31337266）。預測力最弱：24 篇前瞻研究中 FMS 分數只在男性軍人與受傷有「小」關聯（RR 1.47，1.22–1.77），足球員則有中等證據反對使用（PMID 28360142）。所以本課把自我檢測定位成你自己的前後對照，不是篩檢，也不是受傷風險評估。",
+      "citations": [
+        {
+          "pmid": "25704110",
+          "title": "Reliability and minimal detectable change of the weight-bearing lunge test: A systematic review.",
+          "journal": "Man Ther",
+          "year": 2015,
+          "design": "systematic-review",
+          "takeaway": "12 篇合格研究（9 篇檢驗施測者間、12 篇檢驗施測者內）。強證據支持貼牆弓箭步測試信度良好：施測者間 ICC 0.80–0.99、施測者內 ICC 0.65–0.99。關鍵數字是最小可偵測變化——施測者間平均 4.6 度或 1.6 公分、施測者內 4.7 度或 1.9 公分。這就是自我追蹤的判讀門檻：小於這個幅度的變化不能當成真的改變。"
+        },
+        {
+          "pmid": "31337266",
+          "title": "How Much Does the Talocrural Joint Contribute to Ankle Dorsiflexion Range of Motion During the Weight-Bearing Lunge Test? A Cross-sectional Radiographic Validity Study.",
+          "journal": "J Orthop Sports Phys Ther",
+          "year": 2019,
+          "design": "cross-sectional",
+          "takeaway": "20 名受試者同步拍攝 X 光與照片。末端貼牆弓箭步時 91.8% 的動作確實發生在距小腿關節、僅 8.2% 來自遠端關節，所以這個測試量到的東西大致是它宣稱的東西。但測量工具差很多：照片測量與 X 光的一致區間為 −2.17 至 2.49 度（可接受），量角器則是 −7.84 至 5.92 度（不可接受）。想自我追蹤，用固定機位拍照比用量角器可靠。"
+        },
+        {
+          "pmid": "24570599",
+          "title": "Criterion-Related Validity of Sit-and-Reach Tests for Estimating Hamstring and Lumbar Extensibility: a Meta-Analysis.",
+          "journal": "J Sports Sci Med",
+          "year": 2014,
+          "design": "meta-analysis",
+          "takeaway": "34 篇研究、8 種坐姿體前彎版本共 99 個相關係數。校正測量誤差後，各版本對大腿後側伸展性的效度只到中等（rp = 0.46–0.67），對腰椎伸展性則低（rp = 0.16–0.35）。換句話說，體前彎摸不到腳尖不代表大腿後側短，更不代表腰椎活動度差；女性、成人與本身柔軟度較好的人效度略高。"
+        },
+        {
+          "pmid": "28360142",
+          "title": "Do Functional Movement Screen (FMS) composite scores predict subsequent injury? A systematic review with meta-analysis.",
+          "journal": "Br J Sports Med",
+          "year": 2017,
+          "design": "meta-analysis",
+          "takeaway": "24 篇前瞻性世代研究。唯一達到「強證據」的族群是男性軍事人員，FMS 總分 ≤ 14 分與後續受傷的合併風險比為 1.47（95% CI 1.22–1.77，I² = 57%），關聯強度被評為「小」；足球員則有中等證據建議不要使用，其他族群（美式足球、大學運動員、籃球、冰球、跑者、警消）證據有限或互相矛盾。作者結論：不支持把 FMS 總分當成受傷預測工具。"
+        }
+      ]
+    }
+  ]
+}
