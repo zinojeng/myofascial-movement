@@ -19,7 +19,41 @@
         "夜間或完全休息時仍持續惡化的疼痛、發燒、不明原因體重下降等全身性症狀",
         "正在使用抗凝血劑、有骨質疏鬆症、皮膚傷口或感染部位，壓力要大幅下修或完全避開"
       ],
-      "caveats": "三件事必須說清楚。第一，多數效果量的比較對象是「什麼都不做」，一旦跟其他會提高組織溫度的暖身活動相比，差異就消失了（PMID 38244921）。第二，受試者絕大多數是年輕健康的成人（統合分析平均年齡約 24 歲），把結論外推到高齡者、術後或慢性疼痛族群並沒有依據。第三，活動度與疼痛都是有測量者與受測者期待介入的主觀成分的指標，多數研究無法對受試者盲化，效果量本身就含有安慰劑成分——這不代表沒用，但代表不該用它來解釋組織結構被改變了。"
+      "caveats": "三件事必須說清楚。第一，多數效果量的比較對象是「什麼都不做」，一旦跟其他會提高組織溫度的暖身活動相比，差異就消失了（PMID 38244921）。第二，受試者絕大多數是年輕健康的成人（統合分析平均年齡約 24 歲），把結論外推到高齡者、術後或慢性疼痛族群並沒有依據。第三，活動度與疼痛都是有測量者與受測者期待介入的主觀成分的指標，多數研究無法對受試者盲化，效果量本身就含有安慰劑成分——這不代表沒用，但代表不該用它來解釋組織結構被改變了。",
+      "citations": [
+        {
+          "pmid": "31628662",
+          "title": "Acute Effects of Foam Rolling on Range of Motion in Healthy Adults: A Systematic Review with Multilevel Meta-analysis.",
+          "journal": "Sports Med",
+          "year": 2020,
+          "design": "meta-analysis",
+          "takeaway": "26 篇高 PEDro 品質試驗的多層次統合分析：單次滾筒相對於不做事對 ROM 有大效果（SMD 0.74，95% CI 0.42–1.01，p = 0.0002），但相對於伸展沒有任何優勢（SMD −0.02，95% CI −0.73 至 0.69，p = 0.95）。滾壓時間、速度、BMI、肌群與測量方式等調節變項幾乎都不顯著（p > 0.05），加震動的滾筒合併後也沒做出顯著差異。這是「劑量無法被最佳化」最直接的證據。"
+        },
+        {
+          "pmid": "35616852",
+          "title": "Foam Rolling Training Effects on Range of Motion: A Systematic Review and Meta-Analysis.",
+          "journal": "Sports Med",
+          "year": 2022,
+          "design": "meta-analysis",
+          "takeaway": "11 篇 CT/RCT、290 名平均 23.9 ± 6.3 歲受試者、46 個效果量：滾筒訓練對 ROM 有中等效果（ES 0.823，95% CI 0.325–1.322，p = 0.001，I² = 72.76）。次群組顯示介入 > 4 週優於 ≤ 4 週（p = 0.049），且肌群間反應不同（p = 0.047）——大腿前後側有增加，滾小腿卻沒有改善踝背屈。長期有效但需要時間，也不是每個部位都吃這一套。"
+        },
+        {
+          "pmid": "31803517",
+          "title": "DURATION OF MYOFASCIAL ROLLING FOR OPTIMAL RECOVERY, RANGE OF MOTION, AND PERFORMANCE: A SYSTEMATIC REVIEW OF THE LITERATURE.",
+          "journal": "Int J Sports Phys Ther",
+          "year": 2019,
+          "design": "systematic-review",
+          "takeaway": "22 篇研究的質性系統性回顧（疼痛 n = 328、ROM n = 398、表現 n = 241），異質性過高無法做統合分析。證據最強的是減痛：8 篇評估疼痛／痠痛的研究中 7 篇出現短期下降，每肌群至少 90 秒是有效的最低劑量，且未找到上限。ROM 則只有 17 篇中的 10 篇改善、結果高度不一致，表現則沒有顯著效果。"
+        },
+        {
+          "pmid": "38244921",
+          "title": "Foam rolling and stretching do not provide superior acute flexibility and stiffness improvements compared to any other warm-up intervention: A systematic review with meta-analysis.",
+          "journal": "J Sport Health Sci",
+          "year": 2024,
+          "design": "meta-analysis",
+          "takeaway": "38 篇研究、1134 人、140 個效果量的統合分析（PEDro 平均 4.58，證據確定性低至中等）：滾筒或伸展與「其他任何能提高肌肉溫度的介入」相比，急性 ROM（ES 0.01，p = 0.88）、僵硬度（ES 0.09，p = 0.67）與被動峰值力矩（ES −0.30，p = 0.14）都沒有顯著差異，漏斗圖也未顯示發表偏誤。作者直言這挑戰了把滾筒或伸展視為暖身必要成分的既有觀點。"
+        }
+      ]
     },
     {
       "unit": "ch3-u2",
@@ -40,7 +74,41 @@
         "使用抗凝血劑、有出血傾向、骨質疏鬆、皮膚傷口或感染部位，避開或大幅降低壓力",
         "新發生的無力、感覺喪失或大小便功能改變，立即就醫，不要自行處理"
       ],
-      "caveats": "第一，把「壓下去很痛」當成「找到問題」是危險的推論：壓痛不等於損傷，很多完全無症狀的人身上都找得到潛在激痛點（PMID 33431281 的受試者全是無症狀志願者）。第二，激痛點的觸診可靠度只有 κ = 0.452（PMID 28098584），你和你的教練很可能認定的不是同一個點。第三，療程有效的研究（PMID 28248690）是由治療師施作、每次 45 分鐘、持續 6 週，跟你在地板上用球壓 2 分鐘不是同一件事，不能直接把效果量搬過來。第四，痛感強度不是療效指標——研究裡有效的劑量是 90 秒的「可忍受」壓力，不是把自己壓到冒汗。"
+      "caveats": "第一，把「壓下去很痛」當成「找到問題」是危險的推論：壓痛不等於損傷，很多完全無症狀的人身上都找得到潛在激痛點（PMID 33431281 的受試者全是無症狀志願者）。第二，激痛點的觸診可靠度只有 κ = 0.452（PMID 28098584），你和你的教練很可能認定的不是同一個點。第三，療程有效的研究（PMID 28248690）是由治療師施作、每次 45 分鐘、持續 6 週，跟你在地板上用球壓 2 分鐘不是同一件事，不能直接把效果量搬過來。第四，痛感強度不是療效指標——研究裡有效的劑量是 90 秒的「可忍受」壓力，不是把自己壓到冒汗。",
+      "citations": [
+        {
+          "pmid": "28098584",
+          "title": "Interrater Agreement of Manual Palpation for Identification of Myofascial Trigger Points: A Systematic Review and Meta-Analysis.",
+          "journal": "Clin J Pain",
+          "year": 2017,
+          "design": "meta-analysis",
+          "takeaway": "6 篇研究、363 位病人的統合分析：徒手觸診辨識肌筋膜激痛點的評估者間一致性僅 κ = 0.452（95% CI 0.364–0.540）。最可靠的判準是局部壓痛（κ = 0.676）與病人認出這就是他平常的痛（κ = 0.575），而不是摸到繃緊帶。作者結論是徒手觸診辨識激痛點並不可靠，未來應整合更可靠的技術。"
+        },
+        {
+          "pmid": "33431281",
+          "title": "Effects on Neuromuscular Function After Ischemic Compression in Latent Trigger Points in the Gastrocnemius Muscles: A Randomized Within-Participant Clinical Trial.",
+          "journal": "J Manipulative Physiol Ther",
+          "year": 2022,
+          "design": "rct",
+          "takeaway": "29 位有腓腸肌潛在激痛點的無症狀志願者、隨機同體對照（一腿 90 秒缺血性加壓、另一腿不處理）：治療側疼痛感受下降 15.8%、可忍受壓力上升 9.9%，效果量中等（疼痛 d = 0.69、壓痛閾值 d = 0.78、肌肉張力 d = 0.51、彈性 d = 0.54）。但弓箭步測試、被動踝關節活動度與 MyotonPro 測得的僵硬度、彈性、放鬆時間在組間都沒有顯著差異——改變的是感覺輸出，不是組織硬度。"
+        },
+        {
+          "pmid": "28248690",
+          "title": "Responsiveness of Myofascial Trigger Points to Single and Multiple Trigger Point Release Massages: A Randomized, Placebo Controlled Trial.",
+          "journal": "Am J Phys Med Rehabil",
+          "year": 2017,
+          "design": "rct",
+          "takeaway": "62 位緊縮型頭痛患者隨機分派到 12 次、每次 45 分鐘的激痛點加壓按摩、假超音波或等候名單：只有按摩組四個測試點的壓痛閾值上升（枕下肌群 p < 0.0001、上斜方肌 p < 0.004），且同時具備單次立即效果、跨療程累積並維持的效果，以及第 12 次治療當下的再一次上升。療程有效，但劑量是治療師施作、每次 45 分鐘、每週兩次持續 6 週。"
+        },
+        {
+          "pmid": "26416265",
+          "title": "Pain pressure threshold of a muscle tender spot increases following local and non-local rolling massage.",
+          "journal": "BMC Musculoskelet Disord",
+          "year": 2015,
+          "design": "rct",
+          "takeaway": "隨機對照試驗：滾壓小腿壓痛點後該側壓痛閾值上升 24%，而滾壓「對側完全沒有症狀、沒被處理」的小腿也上升 21%，兩者無顯著差異。沒被碰到的肢體也變得比較不痛，這種非局部效應支持中樞疼痛調節，而非局部結節被機械性壓開。"
+        }
+      ]
     },
     {
       "unit": "ch3-u3",
@@ -61,7 +129,49 @@
         "使用抗凝血劑、有出血傾向、骨質疏鬆、植入物或裝置部位、皮膚傷口與感染部位避開",
         "急性外傷後 48 小時內的腫脹部位，以及本來就在惡化的疼痛，不要用強度去壓過去"
       ],
-      "caveats": "第一，樣本小、清一色年輕健康男性、幾乎沒有假處理組，這種設計最容易高估效果。第二，唯一大一點（n = 65）且有對側對照的恢復研究是負面結果（PMID 37248364），這件事在行銷素材裡不會出現。第三，市售裝置的頻率、振幅與壓力差異很大，研究裡的「5 分鐘、可忍受壓力」不等於你手上那支的最高檔位；強度愈高不代表效果愈好，橫紋肌溶解的病例報告（PMID 33156927）就是最極端的提醒。第四，深筋膜剪切波速度下降（PMID 38508160）是單篇、15 人、無對照的發現，不足以支撐「按摩槍能改變筋膜」這種因果宣稱。"
+      "caveats": "第一，樣本小、清一色年輕健康男性、幾乎沒有假處理組，這種設計最容易高估效果。第二，唯一大一點（n = 65）且有對側對照的恢復研究是負面結果（PMID 37248364），這件事在行銷素材裡不會出現。第三，市售裝置的頻率、振幅與壓力差異很大，研究裡的「5 分鐘、可忍受壓力」不等於你手上那支的最高檔位；強度愈高不代表效果愈好，橫紋肌溶解的病例報告（PMID 33156927）就是最極端的提醒。第四，深筋膜剪切波速度下降（PMID 38508160）是單篇、15 人、無對照的發現，不足以支撐「按摩槍能改變筋膜」這種因果宣稱。",
+      "citations": [
+        {
+          "pmid": "33239942",
+          "title": "The Acute Effects of a Percussive Massage Treatment with a Hypervolt Device on Plantar Flexor Muscles' Range of Motion and Performance.",
+          "journal": "J Sports Sci Med",
+          "year": 2020,
+          "design": "crossover",
+          "takeaway": "16 位健康男性（27.2 ± 4.2 歲）的兩日交叉試驗，Hypervolt 施作小腿 5 分鐘對比靜坐：最大踝背屈增加 5.4 度（+18.4%，p = 0.002，d = 1.36），對照條件無變化；兩種條件下的最大自主收縮力矩都沒有改變。活動度會開，肌力不會掉。"
+        },
+        {
+          "pmid": "37248364",
+          "title": "Under the Gun: Percussive Massage Therapy and Physical and Perceptual Recovery in Active Adults.",
+          "journal": "J Athl Train",
+          "year": 2024,
+          "design": "crossover",
+          "takeaway": "65 位活躍年輕成人（21.3 ± 1.4 歲）在劇烈小腿運動後，一腳施作 5 分鐘按摩槍、另一腳不處理：踝關節活動度、小腿圍、等長肌力、小腿耐力與主觀痠痛都沒有顯著的組別×時間交互作用（p > 0.05）。唯一可辨識的效果量是按摩槍側主觀痠痛在結束當下（d = −0.35）與 4 小時後（d = −0.48）反而略高。這是目前樣本最大、且有同體對照的恢復研究，結果是負面的。"
+        },
+        {
+          "pmid": "38508160",
+          "title": "Acute Effects of Local High-Frequency Percussive Massage on Deep Fascial and Muscular Stiffness and Joint Range of Motion in Young Adult Men.",
+          "journal": "J Sport Rehabil",
+          "year": 2024,
+          "design": "pre-post",
+          "takeaway": "15 位健康男性、單組前後測、剪切波彈性影像：內側腓腸肌 5 分鐘高頻敲擊按摩後，深筋膜剪切波速度顯著下降 0.7 m/s（p = .003），踝背屈活動度增加 3.0 度（p = .002），但肌肉本身與深層肌間筋膜都沒有顯著變化。這是「按摩槍改變的是筋膜層而不是肌肉」最具體的單篇證據，但無對照組、也沒追蹤效果持續多久。"
+        },
+        {
+          "pmid": "37754971",
+          "title": "The Effects of Massage Guns on Performance and Recovery: A Systematic Review.",
+          "journal": "J Funct Morphol Kinesiol",
+          "year": 2023,
+          "design": "systematic-review",
+          "takeaway": "281 筆記錄篩選後僅 11 篇可納入（10 篇中度偏誤風險、1 篇高度）的系統性回顧：按摩槍可能改善髂腰肌、腿後肌、小腿三頭肌與後側鏈的柔軟度，並在疲勞方案後改善僵硬度、活動度與肌力等恢復指標；但在肌力、平衡、加速、敏捷與爆發性活動上沒有改善甚至下降，作者因此不建議在這些項目之前使用。收縮時間、主觀費力程度與乳酸濃度則無差異。"
+        },
+        {
+          "pmid": "40021055",
+          "title": "The merit of superimposed vibration for flexibility and passive stiffness: A systematic review with multilevel meta-analysis.",
+          "journal": "J Sport Health Sci",
+          "year": 2025,
+          "design": "meta-analysis",
+          "takeaway": "65 篇研究的多層次統合分析：疊加機械震動相對於被動對照有中等效果（急性柔軟度 ES 0.71、被動僵硬度 ES −0.89），但一旦對照組改成假震動，效果就掉到沒有意義（ES 0.20）。這暗示「震動」本身可能不是有效成分，接觸壓力與施作時間才是。"
+        }
+      ]
     },
     {
       "unit": "ch3-u4",
@@ -82,7 +192,41 @@
         "急性外傷當下的腫脹、變形或無法承重，先就醫排除骨折與韌帶斷裂",
         "休息日仍有夜間痛、發燒、不明原因體重下降等全身性症狀，停止自我處理並就醫"
       ],
-      "caveats": "第一，三個時機沒有被放在同一個隨機分派研究裡直接比較過，本單元的建議是把不同研究分組後間接推論的（PMID 31024339），確定性有限。第二，訓練後恢復類研究的結果指標多半是主觀痠痛與短期表現，而受試者無法盲化，安慰劑成分無法排除。第三，「訓練前一定要滾筒」的說法沒有證據支持——任何能提高肌肉溫度的活動都能得到相似的急性活動度（PMID 38244921）；滾筒的優勢在於方便與可控，不在於它獨特。第四，休息日的長期活動度應該交給伸展或負荷訓練，滾筒不是效率最好的工具（PMID 38760635）。"
+      "caveats": "第一，三個時機沒有被放在同一個隨機分派研究裡直接比較過，本單元的建議是把不同研究分組後間接推論的（PMID 31024339），確定性有限。第二，訓練後恢復類研究的結果指標多半是主觀痠痛與短期表現，而受試者無法盲化，安慰劑成分無法排除。第三，「訓練前一定要滾筒」的說法沒有證據支持——任何能提高肌肉溫度的活動都能得到相似的急性活動度（PMID 38244921）；滾筒的優勢在於方便與可控，不在於它獨特。第四，休息日的長期活動度應該交給伸展或負荷訓練，滾筒不是效率最好的工具（PMID 38760635）。",
+      "citations": [
+        {
+          "pmid": "31024339",
+          "title": "A Meta-Analysis of the Effects of Foam Rolling on Performance and Recovery.",
+          "journal": "Front Physiol",
+          "year": 2019,
+          "design": "meta-analysis",
+          "takeaway": "21 篇研究的統合分析，明確拆成訓練前滾筒（14 篇）與訓練後滾筒（7 篇）：訓練前對衝刺（+0.7%，g = 0.28）與柔軟度（+4.0%，g = 0.34）有小幅好處，對跳躍（−1.9%，g = 0.09）與肌力（+1.8%，g = 0.12）可忽略；訓練後則能小幅減輕運動造成的衝刺（+3.1%，g = 0.34）與肌力（+3.9%，g = 0.21）下降，並降低肌肉疼痛感受（+6.0%，g = 0.47）。本單元「時機」的結論就是從這個分組間接推得的。"
+        },
+        {
+          "pmid": "35321144",
+          "title": "Effects of Foam Rolling Duration on Tissue Stiffness and Perfusion: A Randomized Cross-Over Trial.",
+          "journal": "J Sports Sci Med",
+          "year": 2021,
+          "design": "crossover",
+          "takeaway": "隨機交叉試驗比較滾筒施作時間：2 × 3 分鐘讓局部血流上升 9.7%，明顯高於 2 × 1 分鐘的 2.8%；但兩種劑量下組織僵硬度的變化（−1.6%、−1.9%）都沒有超過最小可偵測變化量。作者因此建議較長的施作時間比較適合暖身與收操情境——效果來自灌流與溫度，不是組織被壓軟。"
+        },
+        {
+          "pmid": "38244921",
+          "title": "Foam rolling and stretching do not provide superior acute flexibility and stiffness improvements compared to any other warm-up intervention: A systematic review with meta-analysis.",
+          "journal": "J Sport Health Sci",
+          "year": 2024,
+          "design": "meta-analysis",
+          "takeaway": "38 篇研究、1134 人：滾筒與伸展跟其他任何能提高肌肉溫度的暖身介入相比，急性 ROM（ES 0.01，p = 0.88）與僵硬度（ES 0.09，p = 0.67）都沒有差別。也就是說「訓練前一定要滾筒」沒有證據支持，任何能升溫的活動都能取得相同的急性活動度。"
+        },
+        {
+          "pmid": "30276016",
+          "title": "FOUR WEEKS OF ROLLER MASSAGE TRAINING DID NOT IMPACT RANGE OF MOTION, PAIN PRESSURE THRESHOLD, VOLUNTARY CONTRACTILE PROPERTIES OR JUMP PERFORMANCE.",
+          "journal": "Int J Sports Phys Ther",
+          "year": 2018,
+          "design": "rct",
+          "takeaway": "23 人、4 週、每週 3 次或 6 次滾壓大腿前後側（各 4 組 30 秒）的訓練研究：在關節活動度、壓痛閾值、最大自主等長收縮特性與跳躍表現上都沒有看到一致的訓練效果。把滾筒當成休息日的獨立課表，投報率並不好。"
+        }
+      ]
     },
     {
       "unit": "ch4-u1",
@@ -103,7 +247,49 @@
         "新發生或進行性的肌力下降、感覺異常，或休息與夜間仍持續惡化的疼痛",
         "關節明顯腫脹、發熱、發紅，或伴隨發燒、不明原因體重下降等全身性症狀"
       ],
-      "caveats": "第一，「活動度變好」多半是耐受度變好，不是組織變長（PMID 28801950），這會影響你怎麼解讀進步：角度增加不代表結構改變。第二，統合分析發現伸展強度沒有調節效果（PMID 39614059），拉到痛不會換來更多回報，只會增加不適與放棄的機率。第三，關於受傷預防，系統性回顧指出靜態伸展與本體感覺神經肌肉促進術對整體或過度使用型傷害都沒有明確效果，動態伸展則沒有資料可談；作者的建議是把伸展放在「包含後續動態活動」的完整暖身裡（PMID 26642915）。第四，多數研究的受試者是年輕健康成人（平均約 27 歲、61% 男性），外推到高齡或臨床族群要保守。"
+      "caveats": "第一，「活動度變好」多半是耐受度變好，不是組織變長（PMID 28801950），這會影響你怎麼解讀進步：角度增加不代表結構改變。第二，統合分析發現伸展強度沒有調節效果（PMID 39614059），拉到痛不會換來更多回報，只會增加不適與放棄的機率。第三，關於受傷預防，系統性回顧指出靜態伸展與本體感覺神經肌肉促進術對整體或過度使用型傷害都沒有明確效果，動態伸展則沒有資料可談；作者的建議是把伸展放在「包含後續動態活動」的完整暖身裡（PMID 26642915）。第四，多數研究的受試者是年輕健康成人（平均約 27 歲、61% 男性），外推到高齡或臨床族群要保守。",
+      "citations": [
+        {
+          "pmid": "39614059",
+          "title": "Optimising the Dose of Static Stretching to Improve Flexibility: A Systematic Review, Meta-analysis and Multivariate Meta-regression.",
+          "journal": "Sports Med",
+          "year": 2025,
+          "design": "meta-analysis",
+          "takeaway": "189 篇研究、6654 位成人（61% 男性，平均 26.8 ± 11.4 歲）的多層次統合分析加多變量統合迴歸：單次靜態伸展對柔軟度有中等效果（Hedges' g = 0.63，95% CI 0.52–0.75，p < 0.001），數週訓練有大效果（g = 0.96，95% CI 0.84–1.09，p < 0.001）。關鍵是兩者都沒有被伸展強度、年齡、性別、訓練狀態，或每週次數與介入總長度所調節（p > 0.05）——拉到痛不會換來更多角度。"
+        },
+        {
+          "pmid": "28801950",
+          "title": "Can chronic stretching change the muscle-tendon mechanical properties? A review.",
+          "journal": "Scand J Med Sci Sports",
+          "year": 2018,
+          "design": "meta-analysis",
+          "takeaway": "26 篇研究、介入 3 至 8 週、平均每週伸展 1165 秒的統合分析：只有最大可忍受被動力矩出現小的效果，關節被動阻力、肌肉結構、肌肉僵硬度與肌腱僵硬度都只有微不足道的效果，且異質性大。作者結論是 3 至 8 週的伸展增加的是延展性與對張力的耐受度，適應「主要發生在感覺層級」。"
+        },
+        {
+          "pmid": "38735533",
+          "title": "Revisiting the stretch-induced force deficit: A systematic review with multilevel meta-analysis of acute effects.",
+          "journal": "J Sport Health Sci",
+          "year": 2024,
+          "design": "meta-analysis",
+          "takeaway": "83 篇研究、2012 位受試者、超過 400 個效果量的多層次統合分析（robust variance estimation，只納入有對照與前後測的試驗）：訓練前靜態伸展造成的最大肌力損失整體只有小效果（ES −0.21，p = 0.003），但每組 ≥ 60 秒時效果量大（ES −0.84，p = 0.004）；對比主動對照組時損失落在 ES −0.17 至 −0.28。重要的是伸展整體並未對運動表現本身造成負面影響，且過去歸因於 EMG 下降的解釋同樣可能來自一般性疲勞。"
+        },
+        {
+          "pmid": "21659901",
+          "title": "Effect of acute static stretch on maximal muscle performance: a systematic review.",
+          "journal": "Med Sci Sports Exerc",
+          "year": 2012,
+          "design": "systematic-review",
+          "takeaway": "106 篇研究的系統性回顧，給出明確的劑量反應：< 30 秒的靜態伸展對最大肌力表現沒有不利影響（合併估計 −1.1%），30 至 45 秒也沒有顯著影響（−1.9%），顯著下降主要出現在 ≥ 60 秒；此關係呈 S 型，且獨立於測試項目、收縮模式與受測肌群。這就是「訓練前每肌群 60 秒以內」這條實務門檻的來源。"
+        },
+        {
+          "pmid": "37318696",
+          "title": "Muscle Architecture Adaptations to Static Stretching Training: A Systematic Review with Meta-Analysis.",
+          "journal": "Sports Med Open",
+          "year": 2023,
+          "design": "meta-analysis",
+          "takeaway": "19 篇研究、467 位受試者、GRADE 確定性高的統合分析：伸展訓練只讓靜息時肌束長度出現微不足道的增加（SMD 0.17，95% CI 0.01–0.33，p = 0.042）、伸展狀態下的肌束長度小幅增加（SMD 0.39，95% CI 0.05–0.74，p = 0.026），羽狀角（p = 0.30）與肌肉厚度（p = 0.18）則沒有變化，且只有在高伸展量下才看得到肌束長度改變。結構適應的證據確實遠弱於感覺適應。"
+        }
+      ]
     },
     {
       "unit": "ch4-u2",
@@ -124,7 +310,41 @@
         "胸悶、頭暈、異常喘或心悸等心血管症狀，立即停止並就醫",
         "關節明顯腫脹發熱、發燒或不明原因體重下降等全身性症狀"
       ],
-      "caveats": "第一，動態伸展沒有優於其他能提高肌肉溫度的活動——把急性活動度的功勞歸給某一套特定的動態流程並沒有證據支持（PMID 38244921）。第二，關於受傷預防，系統性回顧明白指出動態伸展沒有可用的傷害發生率資料（PMID 26642915），任何「動態暖身可以預防受傷」的說法目前是外推而非結論。第三，網絡統合分析中動態伸展的效果受到伸展時間、族群與年齡等多個調節變項影響（I² 分別為 80.4%、77.2%、75.6%），異質性偏高（PMID 37644585），個人差異可能不小。第四，研究族群以年輕運動者為主，久坐者與高齡族群的最佳暖身時間可能更長。"
+      "caveats": "第一，動態伸展沒有優於其他能提高肌肉溫度的活動——把急性活動度的功勞歸給某一套特定的動態流程並沒有證據支持（PMID 38244921）。第二，關於受傷預防，系統性回顧明白指出動態伸展沒有可用的傷害發生率資料（PMID 26642915），任何「動態暖身可以預防受傷」的說法目前是外推而非結論。第三，網絡統合分析中動態伸展的效果受到伸展時間、族群與年齡等多個調節變項影響（I² 分別為 80.4%、77.2%、75.6%），異質性偏高（PMID 37644585），個人差異可能不小。第四，研究族群以年輕運動者為主，久坐者與高齡族群的最佳暖身時間可能更長。",
+      "citations": [
+        {
+          "pmid": "19996770",
+          "title": "Effects of warming-up on physical performance: a systematic review with meta-analysis.",
+          "journal": "J Strength Cond Res",
+          "year": 2010,
+          "design": "meta-analysis",
+          "takeaway": "32 篇全部高品質（PEDro 6.5–9，平均 7.6）的研究：適當暖身讓所檢視指標中的 79% 出現表現改善，且幾乎沒有證據顯示暖身對運動參與者有害。注意納入條件要求暖身內容不能只有伸展——這是「暖身本身有用」而非「某個特定流程有用」的證據。"
+        },
+        {
+          "pmid": "40469856",
+          "title": "Acute Effects of Dynamic and Ballistic Stretching on Flexibility: A Systematic Review and Meta-analysis.",
+          "journal": "J Sports Sci Med",
+          "year": 2025,
+          "design": "meta-analysis",
+          "takeaway": "17 篇研究的隨機效果統合分析：動態與彈震式伸展合計對柔軟度有小的效果（ES 0.372，95% CI 0.187–0.557，Z = 3.936，p < 0.001，I² = 27%）。次族群分析在年齡（p = 0.24）、性別（p = 0.76）、伸展方式（動態 vs 彈震，p = 0.83）、受測肌群（p = 0.20）與柔軟度指標（p = 0.34）之間都沒有顯著差異——效果小但穩定，而且不挑做法。"
+        },
+        {
+          "pmid": "37644585",
+          "title": "A systematic review and net meta-analysis of the effects of different warm-up methods on the acute effects of lower limb explosive strength.",
+          "journal": "BMC Sports Sci Med Rehabil",
+          "year": 2023,
+          "design": "meta-analysis",
+          "takeaway": "35 篇研究的網絡統合分析：靜態加動態伸展（MD 1.80 公分，95% CI 0.43–3.20）與單純動態伸展（MD 1.60 公分，95% CI 0.67–2.60）的反向跳高度顯著優於對照；衝刺時間只有動態伸展顯著改善（MD −0.08 秒，95% CI −0.15 至 −0.008），單獨靜態伸展反而變慢（MD +0.07 秒，95% CI 0.002–0.13）。動態伸展的效果受伸展時間（I² = 80.4%）、族群（77.2%）與年齡（75.6%）調節，最佳時間落在 7 至 10 分鐘；滾筒等其他方法則沒有做出與對照組的顯著差異。"
+        },
+        {
+          "pmid": "38244921",
+          "title": "Foam rolling and stretching do not provide superior acute flexibility and stiffness improvements compared to any other warm-up intervention: A systematic review with meta-analysis.",
+          "journal": "J Sport Health Sci",
+          "year": 2024,
+          "design": "meta-analysis",
+          "takeaway": "38 篇研究、1134 人：任何能提高肌肉溫度的介入所帶來的急性 ROM 改變，與伸展或滾筒沒有顯著差異（ES 0.01，p = 0.88），僵硬度亦然（ES 0.09，p = 0.67）。這支持「暖身的價值在升溫與活化」，也直接反駁把急性活動度歸功於某一套特定動態流程的說法。"
+        }
+      ]
     },
     {
       "unit": "ch4-u3",
@@ -145,7 +365,41 @@
         "急性外傷後的腫脹、變形或無法承重，先就醫排除骨折與韌帶損傷",
         "關節明顯腫脹、發熱、發紅，或伴隨發燒、不明原因體重下降等全身性症狀"
       ],
-      "caveats": "第一，也是最重要的一條：本單元沒有直接證據支持，所有數字都是從阻力訓練、離心訓練與活動範圍研究外推來的，請不要把它讀成「已被證實」。第二，市面上以品牌名稱包裝的關節控制流程沒有對應的臨床試驗，付費課程的宣稱（例如能改善關節健康、預防退化）目前沒有文獻可以支撐。第三，離心訓練的活動度資料是被動關節活動度（PMID 36730587），並不等同於主動活動度改善，兩者之間的轉換沒有被直接測量。第四，證據顯示只用自身體重的阻力訓練不足以顯著改善活動度（PMID 36622555），所以徒手的主動活動度練習如果完全沒有負荷，效果可能有限。"
+      "caveats": "第一，也是最重要的一條：本單元沒有直接證據支持，所有數字都是從阻力訓練、離心訓練與活動範圍研究外推來的，請不要把它讀成「已被證實」。第二，市面上以品牌名稱包裝的關節控制流程沒有對應的臨床試驗，付費課程的宣稱（例如能改善關節健康、預防退化）目前沒有文獻可以支撐。第三，離心訓練的活動度資料是被動關節活動度（PMID 36730587），並不等同於主動活動度改善，兩者之間的轉換沒有被直接測量。第四，證據顯示只用自身體重的阻力訓練不足以顯著改善活動度（PMID 36622555），所以徒手的主動活動度練習如果完全沒有負荷，效果可能有限。",
+      "citations": [
+        {
+          "pmid": "36622555",
+          "title": "Resistance Training Induces Improvements in Range of Motion: A Systematic Review and Meta-Analysis.",
+          "journal": "Sports Med",
+          "year": 2023,
+          "design": "meta-analysis",
+          "takeaway": "55 篇研究的統合分析：阻力訓練能增加關節活動度（ES 0.73，p < 0.001），與伸展訓練沒有顯著差異（ES 0.08，p = 0.79），阻力訓練加伸展相對於只伸展也沒有額外好處（ES −0.001）。唯一的例外極關鍵——只用自身體重的阻力訓練沒有顯著改善活動度。這暗示完全沒有外部負荷的主動活動度練習，效果可能有限。"
+        },
+        {
+          "pmid": "36730587",
+          "title": "Effects of Eccentric Resistance Training on Lower-Limb Passive Joint Range of Motion: A Systematic Review and Meta-analysis.",
+          "journal": "Med Sci Sports Exerc",
+          "year": 2023,
+          "design": "meta-analysis",
+          "takeaway": "17 篇研究、376 人、22 個 ROM 結果的統合分析：離心阻力訓練讓下肢被動關節活動度大幅增加（g = 0.86，95% CI 0.65–1.08）；踝背屈 g = 1.12、膝伸展 g = 0.82、膝屈曲僅 g = 0.41；6 至 8 週（g = 0.98）優於 4 至 5 週（g = 0.63），等速離心（g = 1.07）優於等張離心（g = 0.77）。注意測的是被動關節活動度，不是主動可用範圍。"
+        },
+        {
+          "pmid": "34170576",
+          "title": "Effects of range of motion on resistance training adaptations: A systematic review and meta-analysis.",
+          "journal": "Scand J Med Sci Sports",
+          "year": 2021,
+          "design": "meta-analysis",
+          "takeaway": "16 篇研究的統合分析（PROSPERO 註冊、RoB 2 與 GRADE 評級）：全活動範圍阻力訓練在肌力（ES 0.56，p = 0.004）與下肢肌肉肥大（ES 0.88，p = 0.027）上顯著優於部分範圍，功能性表現也傾向全範圍（ES 0.44，p = 0.186，未達顯著）；但肌肉厚度、羽狀角與肌束長度在兩者間沒有顯著差異（ES 0.28，p = 0.226）。「能在完整範圍內出力」本身就是訓練優勢，但別把它說成結構被改變。"
+        },
+        {
+          "pmid": "28801950",
+          "title": "Can chronic stretching change the muscle-tendon mechanical properties? A review.",
+          "journal": "Scand J Med Sci Sports",
+          "year": 2018,
+          "design": "meta-analysis",
+          "takeaway": "26 篇、3 至 8 週伸展介入的統合分析：最大可忍受被動力矩只有小效果，關節被動阻力、肌肉結構與肌肉／肌腱僵硬度都是微不足道的效果，作者結論是短於 8 週的適應主要發生在感覺層級。這解釋了為什麼單純被動伸展拿到的角度未必伴隨主動控制能力——被動角度與主動可用範圍不是同一件事。"
+        }
+      ]
     },
     {
       "unit": "ch4-u4",
@@ -166,7 +420,41 @@
         "急性外傷後的腫脹、變形或無法承重，先排除骨折與韌帶損傷",
         "骨質疏鬆、關節置換術後或有關節不穩病史者，末端範圍的負荷應由專業人員個別評估後再進行"
       ],
-      "caveats": "第一，效果一致但機轉未定——特別是「負重活動度會改變肌肉結構」目前沒有得到支持（肌肉厚度、羽狀角與肌束長度在全範圍與部分範圍之間沒有顯著差異，PMID 34170576）。第二，離心訓練的資料測的是被動關節活動度（PMID 36730587），不能直接當成「主動可用範圍」的證據。第三，證據明確顯示只用自身體重不足以顯著改善活動度（PMID 36622555），所以負重活動度真的需要負荷，不是把徒手動作做慢一點。第四，高離心成分的長肌肉長度訓練會產生明顯痠痛與短期力量下降，漸進必須非常保守；統合分析的效果量來自 4 至 14 週的規律訓練（PMID 36730587），不是一次課就能拿到的。第五，受試族群以健康成人為主，臨床族群的適用性尚待確認。"
+      "caveats": "第一，效果一致但機轉未定——特別是「負重活動度會改變肌肉結構」目前沒有得到支持（肌肉厚度、羽狀角與肌束長度在全範圍與部分範圍之間沒有顯著差異，PMID 34170576）。第二，離心訓練的資料測的是被動關節活動度（PMID 36730587），不能直接當成「主動可用範圍」的證據。第三，證據明確顯示只用自身體重不足以顯著改善活動度（PMID 36622555），所以負重活動度真的需要負荷，不是把徒手動作做慢一點。第四，高離心成分的長肌肉長度訓練會產生明顯痠痛與短期力量下降，漸進必須非常保守；統合分析的效果量來自 4 至 14 週的規律訓練（PMID 36730587），不是一次課就能拿到的。第五，受試族群以健康成人為主，臨床族群的適用性尚待確認。",
+      "citations": [
+        {
+          "pmid": "36622555",
+          "title": "Resistance Training Induces Improvements in Range of Motion: A Systematic Review and Meta-Analysis.",
+          "journal": "Sports Med",
+          "year": 2023,
+          "design": "meta-analysis",
+          "takeaway": "55 篇研究的統合分析：阻力訓練增加關節活動度（ES 0.73，p < 0.001），與伸展訓練無顯著差異（ES 0.08，p = 0.79），且「阻力訓練 + 伸展」相對於單純伸展沒有額外好處（ES −0.001）。唯一沒做出顯著改善的情況是只用自身體重當阻力——負重活動度真的需要負荷。"
+        },
+        {
+          "pmid": "33917036",
+          "title": "Strength Training versus Stretching for Improving Range of Motion: A Systematic Review and Meta-Analysis.",
+          "journal": "Healthcare (Basel)",
+          "year": 2021,
+          "design": "meta-analysis",
+          "takeaway": "11 篇隨機對照試驗、452 位受試者的統合分析：肌力訓練與伸展在改善關節活動度上沒有顯著差異（ES −0.22，95% CI −0.55 至 0.12，p = 0.206）。這與 PMID 36622555 各自獨立得到同一個結論——想變柔軟，練力量是與拉筋等效的路徑。"
+        },
+        {
+          "pmid": "36730587",
+          "title": "Effects of Eccentric Resistance Training on Lower-Limb Passive Joint Range of Motion: A Systematic Review and Meta-analysis.",
+          "journal": "Med Sci Sports Exerc",
+          "year": 2023,
+          "design": "meta-analysis",
+          "takeaway": "17 篇研究、376 人：離心阻力訓練對下肢被動關節活動度有大的效果（g = 0.86，95% CI 0.65–1.08），踝背屈 g = 1.12、膝伸展 g = 0.82、膝屈曲 g = 0.41；6 至 8 週（g = 0.98）優於 4 至 5 週（g = 0.63），等速離心（g = 1.07）優於等張離心（g = 0.77）。效果量來自數週規律訓練，且測的是被動而非主動活動度。"
+        },
+        {
+          "pmid": "34170576",
+          "title": "Effects of range of motion on resistance training adaptations: A systematic review and meta-analysis.",
+          "journal": "Scand J Med Sci Sports",
+          "year": 2021,
+          "design": "meta-analysis",
+          "takeaway": "16 篇研究的統合分析：全活動範圍阻力訓練在肌力（ES 0.56，p = 0.004）與下肢肌肉肥大（ES 0.88，p = 0.027）上顯著優於部分範圍，功能性表現亦傾向全範圍（ES 0.44，p = 0.186）；但肌肉厚度、羽狀角與肌束長度沒有顯著差異（ES 0.28，p = 0.226）。全範圍負重同時買到活動度、肌力與肥大，但「改變肌肉結構」這個說法沒有被支持。"
+        }
+      ]
     }
   ]
 }

@@ -41,6 +41,20 @@ def fetch(pmids: list[str]) -> dict:
 
 BLOBS: dict[Path, dict] = {}
 
+# 散文裡的「(PMID 12345678)」。這些沒有 citation 物件可比對標題，但讀者看得到，
+# 所以至少要確認它真的存在——捏造一個看起來合理的 8 碼數字太容易了。
+INLINE = re.compile(r"PMID[\s:]*(\d{6,9})")
+
+
+def collect_inline() -> dict[str, set[str]]:
+    """回傳 pmid -> 提到它的檔名集合。只掃實證檔的散文欄位。"""
+    out: dict[str, set[str]] = {}
+    for pattern in ("drill-evidence-*.json", "oe-*.json"):
+        for path in sorted(DATA.glob(pattern)):
+            for pmid in INLINE.findall(path.read_text()):
+                out.setdefault(pmid, set()).add(path.name)
+    return out
+
 
 def collect() -> list[tuple[str, str, str, dict]]:
     """回傳 (檔名, 類別／單元 id, pmid, citation dict)。citation 是可就地修改的參照。
@@ -118,12 +132,34 @@ def main() -> int:
     ok = len(rows) - len(missing) - len(mismatch)
     print(f"\n通過 {ok} / {len(rows)}（{ok / max(len(rows), 1) * 100:.1f}%）")
 
+    # 第二道：散文裡直接寫出來的 PMID。structured citations 之外的漏網之魚。
+    inline = collect_inline()
+    unchecked = sorted(set(inline) - set(meta))
+    if unchecked:
+        extra: dict = {}
+        for i in range(0, len(unchecked), BATCH):
+            extra.update(fetch(unchecked[i : i + BATCH]))
+            time.sleep(0.4)
+        meta.update(extra)
+
+    ghost = [
+        p
+        for p in sorted(inline)
+        if not (meta.get(p) and not meta[p].get("error") and meta[p].get("title"))
+    ]
+    if ghost:
+        print(f"\n✗ 散文中引用但 PubMed 查無此筆 {len(ghost)} 個：")
+        for p in ghost[:20]:
+            print(f"   PMID {p} · 出現在 {'、'.join(sorted(inline[p]))}")
+    else:
+        print(f"散文內另引用 {len(inline)} 個 PMID，全部存在")
+
     if fix:
         for path, blob in BLOBS.items():
             path.write_text(json.dumps(blob, ensure_ascii=False, indent=1))
         print(f"→ --fix：已用 PubMed 回傳值覆寫 {len(BLOBS)} 個檔案的 title/journal/year")
 
-    return 1 if (missing or bad_pmid) else 0
+    return 1 if (missing or bad_pmid or ghost) else 0
 
 
 if __name__ == "__main__":
