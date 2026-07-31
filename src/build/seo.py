@@ -66,12 +66,17 @@ def build_schema(course: dict) -> dict:
     citations = []
     for s in course.get("stance", []):
         for c in s.get("citations", [])[:3]:
-            if c.get("url"):
+            # 引用通常只帶 pmid——那本身就是一個 URL。以前這裡只認 url 欄位，
+            # 結果整組 PubMed 引用被靜靜跳過，結構化資料裡一篇文獻都沒有。
+            url = c.get("url") or (
+                f"https://pubmed.ncbi.nlm.nih.gov/{c['pmid']}/" if c.get("pmid") else ""
+            )
+            if url:
                 citations.append(
                     {
                         "@type": "CreativeWork",
                         "name": c.get("title", ""),
-                        "url": c["url"],
+                        "url": url,
                         **({"datePublished": str(c["year"])} if c.get("year") else {}),
                     }
                 )
