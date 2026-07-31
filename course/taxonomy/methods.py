@@ -29,6 +29,7 @@ CATEGORIES: list[tuple[str, str, str, list[str]]] = [
         [
             "檢測", "測試", "自我評估", "自我測量", "量測", "再評估", "基準值", "測你的",
             "Knee to Wall", "Knee-to-Wall", "膝碰牆", "貼牆", "牆壁測試",
+            "品質", "十項", "Qualitative", "Screen", "判讀",
             "Sit and Reach", "坐姿體前彎", "指地", "抬腿", "Straight Leg Raise",
             "Thomas Test", "湯瑪士", "FABER", "90/90", "背後互扣", "有沒有用",
             "Test", "Screen", "Assessment", "Measure", "FMS",
@@ -51,7 +52,8 @@ CATEGORIES: list[tuple[str, str, str, list[str]]] = [
         [
             "按摩球", "花生球", "筋膜球", "網球", "壓痛點", "激痛點", "trigger point",
             "massage ball", "lacrosse ball", "peanut", "ischemic compression",
-            "缺血性加壓", "定點加壓", "按壓", "加壓", "指壓",
+            "缺血性加壓", "定點加壓", "按壓", "加壓", "指壓", "要不要壓",
+            "自我按摩", "低強度處理", "Self-Massage", "Self Massage",
         ],
     ),
     (
@@ -82,6 +84,8 @@ CATEGORIES: list[tuple[str, str, str, list[str]]] = [
             "鳥狗", "Bird Dog", "Bird-Dog", "死蟲", "Dead Bug",
             "active range", "motor control", "isometric hold", "end range",
             "segmental", "activation", "PAILs", "RAILs", "CARs",
+            "滑動", "神經滑動", "Glide", "爬", "Crawl", "側走", "Side Step",
+            "抵牆", "Wall-Braced",
         ],
     ),
     (
@@ -134,6 +138,8 @@ CATEGORIES: list[tuple[str, str, str, list[str]]] = [
         [
             "負重", "負荷", "離心", "加重", "等長", "壺鈴", "啞鈴", "槓鈴", "彈力帶阻力",
             "深蹲", "硬舉", "分腿蹲", "臀橋", "橋式", "提踵", "羅馬尼亞", "彎舉", "推舉",
+            "肌力訓練", "阻力訓練", "抬舉", "投擲", "收膝", "側棒", "landmine", "肌訓練",
+            "Strengthening", "Raise", "Throw", "Plank", "Press",
             "Loaded", "eccentric", "isometric", "Squat", "Deadlift", "Lunge", "Bridge",
             "Calf Raise", "Nordic", "Copenhagen", "Jefferson", "Pallof",
         ],

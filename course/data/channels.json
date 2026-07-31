@@ -548,5 +548,140 @@
     "background": "Google 內部的作者演講系列，主題橫跨各領域。內容權威度取決於受邀講者本人，平台本身不做同儕審查或事實查核。",
     "tier": "media",
     "credential": "企業主辦的作者演講系列"
+  },
+  "BESS - British Elbow & Shoulder Society": {
+    "background": "英國肘與肩學會（British Elbow and Shoulder Society）的官方頻道，內容為學會提供給肩肘患者的居家運動單張式短片，動作指令直接、不談機轉，屬專業學會的衛教出版品。",
+    "tier": "research",
+    "credential": "英國肘與肩專科學會"
+  },
+  "Alyssa Kuhn, Arthritis Adventure": {
+    "background": "美國物理治療師 Alyssa Kuhn（DPT）經營的頻道，主題聚焦關節炎與中高齡族群的肌力與活動能力，內容以可自行操作的動作測試與漸進訓練為主。她習慣把「緊繃」重新框架成肌力不足，這個論點屬於臨床觀察而非已被檢驗的因果，引用時需標註。頻道同時推廣自家線上課程會員。",
+    "tier": "clinical",
+    "credential": "美國物理治療師（DPT）"
+  },
+  "Westcoast SCI Physiotherapy": {
+    "background": "加拿大溫哥華的物理治療與復健診所頻道，影片多為單一動作的短示範，只講操作步驟，通常不附劑量、適用對象與禁忌。",
+    "tier": "clinical",
+    "credential": "物理治療診所"
+  },
+  "British Journal of Sports Medicine (BJSM)": {
+    "background": "英國運動醫學期刊（BJSM）的官方頻道，內容為期刊作者與臨床工作者製作的檢查示範、研究導讀與共識說明，設定觀眾是醫療與運動醫學專業人員，不是一般自學者。",
+    "tier": "research",
+    "credential": "同儕審查期刊官方頻道"
+  },
+  "BSR Physical Therapy": {
+    "background": "美國物理治療診所的居家運動示範頻道，影片多為單一動作的短示範，旁白直接給姿勢設定與壓力提示，不做機轉解釋也不推銷療程。",
+    "tier": "clinical",
+    "credential": "物理治療診所"
+  },
+  "Tread Athletics": {
+    "background": "美國以棒球投手為主的遠距肌力與體能訓練機構，內容聚焦旋轉發力、髖肩分離與投擲動作的分解教學，示範對象多為專項運動員。",
+    "tier": "coach",
+    "credential": "肌力與體能訓練機構"
+  },
+  "Carter Physiotherapy": {
+    "background": "美國物理治療師 Jarrod Carter（PT, DPT）經營，內容以自我處理技巧為主，示範時會說明適用情境與力道拿捏，用詞保守不做結構改變的宣稱。",
+    "tier": "clinical",
+    "credential": "物理治療師 PT, DPT"
+  },
+  "Mike Reinold": {
+    "background": "美國物理治療師 Mike Reinold（PT, DPT, SCS, ATC），曾任職職業棒球隊防護與復健工作，頻道內容偏向對同業說明評估與訓練決策的理由，示範簡短且針對性強。",
+    "tier": "clinical",
+    "credential": "物理治療師 PT, DPT, SCS, ATC"
+  },
+  "Therapeutic Associates Physical Therapy": {
+    "background": "美國物理治療連鎖機構的衛教頻道，動作示範多附三個難度版本與明確的品質判準，內容針對跑者與一般族群。",
+    "tier": "clinical",
+    "credential": "物理治療機構"
+  },
+  "That Fit Friend": {
+    "background": "美國肌力訓練與器材評測頻道，由具 CSCS 資格的作者經營，訓練變項的討論常引用研究並說明適用範圍，不做健康宣稱。",
+    "tier": "coach",
+    "credential": "肌力與體能專家 CSCS"
+  },
+  "Champion Physical Therapy and Performance": {
+    "background": "美國波士頓的物理治療與運動表現機構（Mike Reinold 團隊），影片多為單一動作的短示範，會直接說明難度調整的變項與適用族群。",
+    "tier": "clinical",
+    "credential": "物理治療與運動表現機構"
+  },
+  "Muscle & Motion": {
+    "background": "以 3D 解剖與生物力學動畫為主的教學內容製作單位，影片把動作拆成分期並標示參與肌群，會明確標註動作的技術門檻與先備條件。",
+    "tier": "research",
+    "credential": "解剖與生物力學教學單位"
+  },
+  "Psoas Massage + Bodywork": {
+    "background": "美國西雅圖的按摩與徒手治療診所，由執照按摩治療師（LMT）經營，內容為針對單一部位的自我加壓教學，會給明確的壓力刻度與時間，但沿用徒手治療圈的「釋放」用語描述機轉。",
+    "tier": "clinical",
+    "credential": "執照按摩治療師（LMT）"
+  },
+  "Fitness Pain Free": {
+    "background": "美國物理治療師 Dan Pope（DPT、CSCS）經營，內容聚焦運動傷害後回到重量訓練與競技的漸進安排，示範多附進退階變項與判準。",
+    "tier": "clinical",
+    "credential": "物理治療師（DPT）暨肌力體能專家"
+  },
+  "Performance Sport & Spine": {
+    "background": "美國脊骨神經醫學診所（Dr. Zach Greenwade, DC）經營，內容以特定肌腱與關節疼痛的成因、活動調整與漸進負荷為主，會先解釋負荷與承受能力的關係再給動作。",
+    "tier": "clinical",
+    "credential": "脊骨神經醫師（DC）"
+  },
+  "ACEfitness": {
+    "background": "American Council on Exercise（美國運動委員會）官方頻道，為健身與健康專業人員的認證機構，影片多為評估流程與動作教學的標準示範，用語保守並會標示不適用族群。",
+    "tier": "research",
+    "credential": "體適能專業認證機構"
+  },
+  "Kinatex Sports Physio Rockland": {
+    "background": "加拿大魁北克 Kinatex 運動物理治療連鎖診所的分院頻道，內容為診間常給的居家活動度與伸展處方短片，動作說明具體但不談機轉。",
+    "tier": "clinical",
+    "credential": "運動物理治療診所"
+  },
+  "Osteo and Physio": {
+    "background": "英國整骨與物理治療診所（Austin Osteopathy & Physiotherapy）經營，內容多為特定部位疼痛的居家例行流程，會強調品質重於數量與疼痛時縮小範圍，部分解說沿用整骨傳統的「抑制」「釋放」術語。",
+    "tier": "clinical",
+    "credential": "整骨師與物理治療師"
+  },
+  "The Barbell Physio": {
+    "background": "美國物理治療師 Zach Long（DPT）經營的頻道，主題集中在舉重運動員的活動度篩檢與傷害處理，內容多為短片形式的測試步驟與矯正動作，示範標準明確、少談機轉。",
+    "tier": "clinical",
+    "credential": "美國物理治療師（DPT）"
+  },
+  "The Musculoskeletal Clinic": {
+    "background": "澳洲肌肉骨骼物理治療診所經營的頻道，影片常以近期文獻的常模數值為出發點示範對應的測試與訓練，會說明測試結果代表什麼、不代表什麼。",
+    "tier": "clinical",
+    "credential": "肌肉骨骼物理治療師"
+  },
+  "Dr. Beau Beard": {
+    "background": "美國脊骨神經醫師（DC）經營的個人頻道，內容為運動傷害相關的動作示範與短片教學，會清楚給出退階與進階版本，但少引用文獻、標題常帶行銷式鉤子。",
+    "tier": "clinical",
+    "credential": "脊骨神經醫師"
+  },
+  "Elite Healers Sports Massage": {
+    "background": "美國運動按摩工作室經營的頻道，內容為部位別的自我按摩與暖身示範，手法位置與力度講得具體，但不引用文獻，也不交代適用與不適用的對象；從可觀察資訊無法確認執業背景。",
+    "tier": "unverified",
+    "credential": "運動按摩工作室"
+  },
+  "Eric Cressey": {
+    "background": "美國肌力與體能教練 Eric Cressey 經營，Cressey Sports Performance 共同創辦人，長期服務棒球投手族群。內容多為給同業看的技術短片，重點放在肩胛與髖的位置控制，不談機轉推測，也不做治療宣稱。",
+    "tier": "coach",
+    "credential": "CSCS 肌力與體能教練、Cressey Sports Performance 共同創辦人"
+  },
+  "Physical Therapy Education Solutions": {
+    "background": "美國物理治療科系的教學用頻道，內容是關節活動度測量、徒手肌力測試等基本技術的標準操作示範。片長多在兩分鐘內，只示範步驟，不含臨床解讀與適應症說明。",
+    "tier": "research",
+    "credential": "物理治療教育單位"
+  },
+  "Mark Wildman": {
+    "background": "美國壺鈴與棒鈴（club）教練 Mark Wildman 經營，內容以單一動作的分階教學與長期課表安排為主，說明動作路徑與常見錯誤時相當細緻，不做治療或機轉宣稱。",
+    "tier": "coach",
+    "credential": "壺鈴與棒鈴訓練教練"
+  },
+  "Backs & Beyond Osteopathic Clinic": {
+    "background": "英國整骨（osteopathy）診所的衛教頻道，內容以短片示範自我按摩與居家運動為主。技術步驟拍得清楚，但沿用「結節（knots）」等傳統徒手治療用語，機轉說法需要保留。",
+    "tier": "clinical",
+    "credential": "整骨治療師（osteopath）診所"
+  },
+  "Jacksonville Orthopaedic Institute": {
+    "background": "美國佛州的骨科醫療機構官方頻道，內容多為術後與運動傷害的居家復健動作示範，操作步驟與次數交代清楚，不做機轉推測，但通常不說明適用階段與禁忌。",
+    "tier": "clinical",
+    "credential": "骨科醫療機構"
   }
 }

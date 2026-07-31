@@ -37,7 +37,7 @@
   "hero": {
     "eyebrow": "實證自學課程",
     "heading": "不把筋膜神化，也不把筋膜忽略",
-    "lede": "九個章節、27 個單元、{units} 支影片，從筋膜解剖、疼痛與活動度，到自我放鬆、主動控制與負荷整合，涵蓋 {problems} 個實作主題。每個主題都分成三層講：<strong>做了之後可能有什麼效果</strong>、<strong>效果是不是筋膜本身造成的</strong>，以及<strong>它有沒有比其他方法更好</strong>。"
+    "lede": "十三個章節、{units} 支影片，以 Myers 的十二條肌筋膜經線為主軸，涵蓋 {problems} 個實作主題。每一條線都照同一個順序講：<strong>這條線是什麼</strong>、<strong>它的解剖驗證到哪裡</strong>、<strong>這一區值得練的是什麼</strong>，最後才是跟練。驗證數字寫在每章開頭，不藏在展開區塊裡。"
   },
   "ui": {
     "searchPlaceholder": "搜尋單元、動作或部位…",
@@ -284,7 +284,7 @@
   },
   "nav": [
     {
-      "title": "基礎與立場",
+      "title": "基礎",
       "chapters": [
         "CH0",
         "CH1",
@@ -292,25 +292,23 @@
       ]
     },
     {
-      "title": "方法與練習",
+      "title": "十二條經線",
       "chapters": [
         "CH3",
         "CH4",
-        "CH5"
-      ]
-    },
-    {
-      "title": "部位與整合",
-      "chapters": [
+        "CH5",
         "CH6",
         "CH7",
-        "CH8"
+        "CH8",
+        "CH9"
       ]
     },
     {
-      "title": "筋膜線專題",
+      "title": "方法與整合",
       "chapters": [
-        "CH9"
+        "CH10",
+        "CH11",
+        "CH12"
       ]
     }
   ],
@@ -333,7 +331,7 @@
     },
     {
       "code": "CH2",
-      "title": "筋膜常見說法與科學爭議",
+      "title": "經線的讀法與這套框架的驗證狀態",
       "icon": "microscope",
       "source": "ch1-2",
       "units": 4,
@@ -341,59 +339,83 @@
     },
     {
       "code": "CH3",
-      "title": "自我筋膜放鬆與工具使用",
-      "icon": "waves",
-      "source": "ch3",
-      "units": 4,
-      "drills": 24
+      "title": "淺背線 Superficial Back Line",
+      "icon": "move-down",
+      "source": "line-sbl",
+      "units": 3,
+      "drills": 18
     },
     {
       "code": "CH4",
-      "title": "活動度、伸展與主動控制",
-      "icon": "accessibility",
-      "source": "ch4",
-      "units": 4,
-      "drills": 24
+      "title": "淺前線 Superficial Front Line",
+      "icon": "move-up",
+      "source": "line-sfl",
+      "units": 3,
+      "drills": 18
     },
     {
       "code": "CH5",
-      "title": "彈性回彈與負荷適應",
-      "icon": "zap",
-      "source": "ch5",
+      "title": "側線 Lateral Line",
+      "icon": "move-diagonal",
+      "source": "line-ll",
       "units": 3,
-      "drills": 15
+      "drills": 18
     },
     {
       "code": "CH6",
-      "title": "足部、下肢與後側鏈",
-      "icon": "footprints",
-      "source": "ch6",
+      "title": "螺旋線 Spiral Line",
+      "icon": "rotate-ccw",
+      "source": "line-sl",
       "units": 3,
       "drills": 18
     },
     {
       "code": "CH7",
-      "title": "骨盆、軀幹、胸廓與肩頸",
+      "title": "手臂線 Arm Lines",
+      "icon": "move-vertical",
+      "source": "line-al",
+      "units": 4,
+      "drills": 20
+    },
+    {
+      "code": "CH8",
+      "title": "功能線 Functional Lines",
+      "icon": "link",
+      "source": "line-fl",
+      "units": 3,
+      "drills": 15
+    },
+    {
+      "code": "CH9",
+      "title": "深前線 Deep Front Line",
       "icon": "wind",
-      "source": "ch7",
+      "source": "line-dfl",
       "units": 3,
       "drills": 18
     },
     {
-      "code": "CH8",
-      "title": "日常與運動課表整合",
-      "icon": "clipboard-list",
-      "source": "ch8",
-      "units": 1,
-      "drills": 6
-    },
-    {
-      "code": "CH9",
-      "title": "筋膜線：臨床觀察與訓練應用",
-      "icon": "link",
-      "source": "ch9",
+      "code": "CH10",
+      "title": "自我放鬆與工具使用",
+      "icon": "waves",
+      "source": "ch10",
       "units": 4,
       "drills": 24
+    },
+    {
+      "code": "CH11",
+      "title": "活動度、負荷與彈性回彈",
+      "icon": "accessibility",
+      "source": "ch11",
+      "units": 4,
+      "drills": 24
+    },
+    {
+      "code": "CH12",
+      "title": "課表整合",
+      "icon": "clipboard-list",
+      "source": "ch12",
+      "units": 1,
+      "drills": 6
     }
   ],
   "audit": {

@@ -1,142 +1,179 @@
 {
   "lessons": [
     {
-      "unit": "ch3-u1",
+      "unit": "ch10-u1",
       "lang": "en",
       "title": "Foam Rolling, Does It Work? (Flexibility, Strength, Recovery)",
       "channel": "Tom Merrick",
       "url": "https://www.youtube.com/watch?v=v0n81ZoeMFc",
       "duration": "8:26",
       "why": "中文主課（身體智慧）講的是選滾筒與七大安全守則，屬於器材與禁忌面；這支補上中文主課沒細講的**劑量參數**——滾多久、滾幾次、要多用力，以及這些參數各自被文獻支持到什麼程度。Tom Merrick 把「滾筒能做什麼」和「滾筒不能做什麼」分開講：短期活動度增加是穩定的觀察，但他明確說這不是把組織壓開，也不會讓你長期變柔軟。這正是本課的兩層拆解，適合當中文主課的科學背書。",
-      "source_type": ["science", "coach"],
+      "source_type": [
+        "science",
+        "coach"
+      ],
       "practical_value": "high",
       "coach_takeaway": "單一部位 30–60 秒、疼痛控制在還能正常呼吸的程度，就已經接近文獻裡拿到效果的劑量；滾更久、滾更痛沒有額外好處。滾完的活動度窗口是拿來馬上做主動動作用的，不是終點。"
     },
     {
-      "unit": "ch3-u2",
+      "unit": "ch10-u2",
       "lang": "en",
       "title": "Trigger Point & Myofascial Release with Balls - Ask Doctor Jo",
       "channel": "AskDoctorJo",
       "url": "https://www.youtube.com/watch?v=lWnFXfzAQTw",
       "duration": "5:05",
       "why": "中文主課（三個字SunGuts）是器材比較——滾筒、花生球、按摩球各適合什麼；這支則是同一件事的**操作示範**：球放在哪、身體怎麼靠、壓力怎麼分段加，以及背部、臀部、肩胛區各自的貼牆與躺姿版本。由物理治療師示範，鏡頭角度看得到接觸點，補中文主課只有口頭說明的落差。",
-      "source_type": ["clinical", "demo"],
+      "source_type": [
+        "clinical",
+        "demo"
+      ],
       "practical_value": "high",
       "coach_takeaway": "球比滾筒的壓強大得多，先從貼牆站姿開始、把體重當調節鈕，躺在地上是最重的版本，不是入門版。壓到會反射性憋氣或縮起來就是太重了。",
       "claim_boundary": "影片沿用「trigger point（激痛點）／肌肉結」這套框架來解釋壓痛，但觸診判定激痛點的檢查者間信度在研究中偏低，「結節」是否為特定的組織結構也未定論。把它當成「這裡按下去比較痛、按完比較舒服」的操作描述即可，不要當成已確立的病理診斷。"
     },
     {
-      "unit": "ch3-u3",
+      "unit": "ch10-u3",
       "lang": "en",
       "title": "How To Use A Massage Gun - Risks, Benefits, Best Settings",
       "channel": "Sports Injury Physio",
       "url": "https://www.youtube.com/watch?v=tA99gl-72Ac",
       "duration": "12:01",
       "why": "中文主課（詹珞瑤）以危險案例與禁區為主軸，偏警示；這支把同一題目寫成完整的操作規格：震幅與頻率怎麼選、單一區域停留多久、什麼情況該調低、哪些部位（骨突、頸前、腋下、腹部、新傷腫脹處）不要打。它同時交代了效果的天花板——按摩槍在痠痛感受與短期活動度上有觀察到的效果，但沒有證據支持它加速組織修復。跟中文主課是「為什麼不能」與「那到底怎麼做」的分工。",
-      "source_type": ["clinical", "safety", "demo"],
+      "source_type": [
+        "clinical",
+        "safety",
+        "demo"
+      ],
       "practical_value": "very-high",
       "coach_takeaway": "先用最低檔在肌腹上試，單一區域 60–120 秒就夠；骨頭突起、關節前側、頸部前外側、新傷腫脹處一律跳過。出現麻、刺、放射痛或皮膚變色立刻停。",
       "claim_boundary": "影片提到按摩槍「促進血流與恢復」。血流增加在量測上成立，但「因此加速恢復」是推論，不是被證實的因果鏈。"
     },
     {
-      "unit": "ch3-u4",
+      "unit": "ch10-u4",
       "lang": "en",
       "title": "Foam Rolling 101 - How to Foam Roll for Best Results",
       "channel": "Sports Injury Physio",
       "url": "https://www.youtube.com/watch?v=qPP2Yhdk2XQ",
       "duration": "7:25",
       "why": "換掉原本的 podcast 剪輯（Huberman Lab Clips）：那支把效果解釋成筋膜滑動面、含水狀態與沾黏的改變，這些機轉在人體活體上都缺乏直接證據，而且對談被剪輯後脈絡不完整。這支由運動傷害物理治療師直接回答本單元的排程問題——什麼時候滾、單一部位滾多久、要多用力、哪些情況根本不必滾，並且把「滾筒能做到什麼」與「做不到什麼」分開講。跟主課 Jeff Nippard 的文獻回顧剛好互補：一個回答有沒有用，一個回答那到底該怎麼排。有人工英文字幕。",
-      "source_type": ["clinical", "expert-view", "program"],
+      "source_type": [
+        "clinical",
+        "expert-view",
+        "program"
+      ],
       "practical_value": "high",
       "coach_takeaway": "單一部位 30–60 秒就已經接近文獻裡拿到效果的劑量，訓練前用短版接動態暖身，訓練後與休息日才放慢、配長呼吸。滾完沒有立刻接主動動作，開出來的窗口數十分鐘內就會退回去。",
       "scope_note": "影片的建議以一般訓練者與跑者為對象。有急性外傷、明顯腫脹、單側小腿腫脹發熱壓痛或神經症狀時，先接受評估再決定要不要用工具，不要照著課表滾。"
     },
     {
-      "unit": "ch4-u1",
+      "unit": "ch11-u1",
       "lang": "en",
       "title": "The Key to a Better Stretch: How Long Do You Hold?",
       "channel": "Upright Health",
       "url": "https://www.youtube.com/watch?v=55Gb4IBHL8Y",
       "duration": "9:08",
       "why": "主課 E3 Rehab 回答的是「靜態 vs 動態、什麼時候做」；這支專攻中文與主課都沒展開的另一半——**單次要停多久、一週累積多少**。它把「30 秒」這個大家背下來的數字拆開講：短時間的效果多半是耐受度，要累積到每週數分鐘等級才看得到比較穩定的活動度改變，而且提醒讀者伸展到的感覺不等於組織被拉長。適合作為劑量觀念的補課。",
-      "source_type": ["coach", "demo"],
+      "source_type": [
+        "coach",
+        "demo"
+      ],
       "practical_value": "high",
       "coach_takeaway": "重點是每週的累積時間而不是單次撐多久：同一個部位每週累積 5 分鐘以上、分成幾次做，比一次硬撐兩分鐘有用。停留時感覺應該是可忍受的張力，不是刺痛。",
       "claim_boundary": "影片對「停多久最好」給的建議比文獻能支持的更明確；目前研究對最佳單次時長沒有共識，只有「總量比單次長度重要」這個方向性結論比較一致。"
     },
     {
-      "unit": "ch4-u2",
+      "unit": "ch11-u2",
       "lang": "en",
       "title": "The Most Effective Science-Based Warm Up & Mobility Routine (Full Body)",
       "channel": "Jeff Nippard",
       "url": "https://www.youtube.com/watch?v=E81GN-3A8XM",
       "duration": "9:17",
       "why": "中文主課（林勁瑋）5 分鐘講觀念取捨——靜態、動態、滾筒、跑步該怎麼選；這支則直接給出一套可照做的完整暖身流程，並且把每一段的理由（升溫、活動度、動作專項化、漸進加重）標在畫面上。它也點出靜態伸展在暖身中造成的力量下降在實務量級上很小、不必過度恐慌，正好平衡中文主課比較保守的說法。是本單元最能「今天就照著做」的一支。",
-      "source_type": ["science", "demo", "program"],
+      "source_type": [
+        "science",
+        "demo",
+        "program"
+      ],
       "practical_value": "very-high",
       "coach_takeaway": "暖身照四段走：全身升溫 → 目標關節活動度 → 該次訓練動作的空槓／輕重量版本 → 漸進加重組。全程 8–10 分鐘，不需要更長。",
       "claim_boundary": "影片標榜 science-based，但其中動作選擇與順序有相當部分是合理的教練慣例，不是每一項都有對照試驗支持。"
     },
     {
-      "unit": "ch4-u3",
+      "unit": "ch11-u3",
       "lang": "en",
       "title": "END RANGE STRENGTH | Bodyweight Basics Ep 8",
       "channel": "Tom Merrick",
       "url": "https://www.youtube.com/watch?v=Us8AJkhDses",
       "duration": "12:59",
       "why": "主課（Tate Englund）只有 3 分鐘，把主動與被動活動度的差別講清楚就結束了；這支接著回答「所以要怎麼練」。它示範被動範圍與主動範圍之間那段差距（active-passive gap）如何用等長收縮、離心控制與末端負重逐步收窄，並示範怎麼自我測量那段差距。這正是本課「滾完、拉完之後要主動用起來」的具體作法。",
-      "source_type": ["coach", "demo"],
+      "source_type": [
+        "coach",
+        "demo"
+      ],
       "practical_value": "high",
       "coach_takeaway": "先量出被動範圍與主動範圍的落差，再在末端做 10–20 秒的等長出力與慢速離心；落差縮小代表你真的能用那個角度，單純變柔軟不算。",
       "claim_boundary": "影片對末端訓練的效果講得相當肯定，但「主動範圍訓練優於一般肌力訓練」的比較性證據仍有限，多數支持來自訓練經驗與生理推論。"
     },
     {
-      "unit": "ch4-u4",
+      "unit": "ch11-u4",
       "lang": "en",
       "title": "My Top 3: Loaded Mobility Exercises (with BONUS Exercise)",
       "channel": "Tom Merrick",
       "url": "https://www.youtube.com/watch?v=csVJMO2JdjU",
       "duration": "8:27",
       "why": "主課 House of Hypertrophy 講的是伸展位負荷造成肥大的機轉，屬理論；這支是同一件事的操作版——直接示範幾個把活動度放在負荷下使用的動作（負重深蹲末端、負重前彎、過頭負重支撐），並交代重量怎麼起步、範圍怎麼一段一段推。中文與主課都缺這種「拿起重量之後範圍怎麼守住」的示範，這支補得剛好。",
-      "source_type": ["coach", "demo"],
+      "source_type": [
+        "coach",
+        "demo"
+      ],
       "practical_value": "high",
       "coach_takeaway": "負重活動度的起步重量應該輕到你能在末端停住並控制回來；判斷標準不是舉得起來，而是**在最深的位置還能主動出力**。範圍先固定、重量再加，兩個一起推最容易受傷。"
     },
     {
-      "unit": "ch5-u1",
+      "unit": "ch11-u4",
       "lang": "en",
       "title": "Stretch-Shorten Cycle Exercises | Achilles/Tibialis Posterior Tendinopathy & Plantar Fasciitis",
       "channel": "Physiotutors",
       "url": "https://www.youtube.com/watch?v=6CxYm1-wq2k",
       "duration": "4:21",
       "why": "主課 The Movement System 講 SSC 的生理機轉（離心－轉換－向心、彈性能量與牽張反射）；這支是臨床端的落地版本，用四分鐘示範最低強度的 SSC 動作長什麼樣子——原地彈跳、短觸地時間的踝彈跳、單腳過渡——並示範觸地時間該怎麼看。理論配示範，讀者才知道「彈性回彈」在課表上具體是哪幾個動作。",
-      "source_type": ["clinical", "demo"],
+      "source_type": [
+        "clinical",
+        "demo"
+      ],
       "practical_value": "high",
       "coach_takeaway": "SSC 的品質看觸地時間而不是跳多高：腳落地就馬上彈起、聽起來很輕，才是在用彈性；落地有明顯的「蹲一下再起來」就退回更低強度。",
       "claim_boundary": "示範的分期是為肌腱病變復健設計的，健康族群可以借用它的漸進邏輯，但不需要照搬臨床分期的節奏與適應症判斷。"
     },
     {
-      "unit": "ch5-u2",
+      "unit": "ch9-u2",
       "lang": "en",
       "title": "Plyometric Training for ACL Rehab (4 Stage Jumping Program for Speed, Strength and Performance)",
       "channel": "E3 Rehab",
       "url": "https://www.youtube.com/watch?v=24vTemdHiqY",
       "duration": "14:01",
       "why": "主課 [P]rehab 只教怎麼看落地動作品質（5:54）；這支把它延伸成完整的四階段進階系統：雙腳原地 → 雙腳位移 → 單腳原地 → 單腳位移與變向，每一階段都給了進階條件與量的建議。這正是本單元標題「從雙腳到單腳」的骨架，也是中文內容裡最難找到的部分。",
-      "source_type": ["science", "clinical", "program"],
+      "source_type": [
+        "science",
+        "clinical",
+        "program"
+      ],
       "practical_value": "very-high",
       "coach_takeaway": "進到下一階段的條件不是「做得完」，而是**落地無聲、膝蓋不內夾、能穩住 2 秒**；先把雙腳原地做到這個標準再談單腳。跳躍量從每次 60–80 次觸地起算，隔天不痛才往上加。",
       "claim_boundary": "內容以 ACL 術後復健為脈絡，一般訓練者可沿用其階段邏輯，但不要把它當成傷後自行復健的處方——術後進階需要臨床評估。"
     },
     {
-      "unit": "ch5-u3",
+      "unit": "ch9-u3",
       "lang": "en",
       "title": "How To Rehab Tendon Injuries & Pain (Exercises & Education for Tendinitis, Tendinosis, Tendinopathy)",
       "channel": "E3 Rehab",
       "url": "https://www.youtube.com/watch?v=SNZMgnnLz1k",
       "duration": "24:13",
       "why": "主課 The Movement System 講肌腱為什麼會弱、怎麼變強；這支補上本單元最核心也最常被略過的那一塊——**時間**。它清楚說明肌腱的適應以月為單位（通常 12 週以上才看得到結構層面的改變），痛感下降的速度會遠快於組織強度回復的速度，所以「不痛了就回去練」是最常見的復發原因。也交代了等長 → 重慢速 → 儲能 → 增強式的負荷順序。整支是本課「漸進負荷與結締組織適應時間」最完整的英文說明。",
-      "source_type": ["science", "clinical"],
+      "source_type": [
+        "science",
+        "clinical"
+      ],
       "practical_value": "very-high",
       "coach_takeaway": "肌腱不痛不等於肌腱夠強：疼痛可能兩週改善，承重能力要 12 週以上。用「隔天早上的疼痛是否回到基線」當加量的紅綠燈，而不是當下痛不痛。",
       "claim_boundary": "影片以肌腱病變為主題，健康者可借用其負荷漸進與時間尺度的原則；已經有持續疼痛或明確傷病者應先就醫評估，不要用影片自行處理。"
