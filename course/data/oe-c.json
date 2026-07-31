@@ -18,7 +18,41 @@
         "夜間或完全休息時仍持續惡化的疼痛，以及發燒、不明原因體重下降等全身性症狀",
         "急性外傷後的腫脹、變形或無法承重，任何情況下都不要「跳跳看還痛不痛」"
       ],
-      "caveats": "第一，本單元引用的機轉研究有相當比例來自動物模型（大鼠比目魚肌）與離體標本，外推到人體整體動作時要打折。第二，彈震訓練的表現統合分析多半以年輕健康或運動族群為對象，久坐者、體重較高者與肌腱曾有症狀者的風險－效益比不同，不能直接套用同樣的量。第三，也是最重要的一點：任何宣稱「訓練筋膜彈性」的課程，目前都沒有辦法在活體上證明改變的是筋膜而不是肌腱或神經控制——效果可能是真的，機轉的標籤則是行銷。"
+      "caveats": "第一，本單元引用的機轉研究有相當比例來自動物模型（大鼠比目魚肌）與離體標本，外推到人體整體動作時要打折。第二，彈震訓練的表現統合分析多半以年輕健康或運動族群為對象，久坐者、體重較高者與肌腱曾有症狀者的風險－效益比不同，不能直接套用同樣的量。第三，也是最重要的一點：任何宣稱「訓練筋膜彈性」的課程，目前都沒有辦法在活體上證明改變的是筋膜而不是肌腱或神經控制——效果可能是真的，機轉的標籤則是行銷。",
+      "citations": [
+        {
+          "pmid": "33488399",
+          "title": "Evidence for Muscle Cell-Based Mechanisms of Enhanced Performance in Stretch-Shortening Cycle in Skeletal Muscle.",
+          "journal": "Front Physiol",
+          "year": 2020,
+          "design": "narrative-review",
+          "takeaway": "回顧指出目前最常見的兩個 SSC 解釋——牽張反射活化與肌腱儲能——都撐不住：在單一肌纖維標本中牽張反射被排除、肌腱儲能極小，仍可觀察到大量 SSC 效應。因此作者把預先活化（pre-activation）、cross-bridge 動力學與殘餘力量增強（RFE）列為同等候選機轉，並明確指出各機轉的貢獻比例會隨收縮條件而變。這正是「把彈性回彈整包歸功於某個組織」站不住腳的原因。"
+        },
+        {
+          "pmid": "31278128",
+          "title": "Contribution of the Achilles tendon to force potentiation in a stretch-shortening cycle.",
+          "journal": "J Exp Biol",
+          "year": 2019,
+          "design": "animal-experiment",
+          "takeaway": "大鼠比目魚肌直接對照：把跟骨固定於力量感測器（有肌腱）與把肌肉固定在肌腱交界處（無肌腱），比較離心預活化後向心期做功與純向心的比值。有肌腱組 SSC 效應 318±86%、無肌腱組 271±70%，兩者無統計差異（P=0.167）。作者結論是肌腱伸長對該模型的 SSC 效應貢獻可忽略，預先活化與 RFE 等其他因素才需要被檢驗。"
+        },
+        {
+          "pmid": "39663152",
+          "title": "Decoupling of muscle-tendon unit and fascicle velocity contributes to the in vivo stretch-shortening cycle effect in the male human triceps surae muscle.",
+          "journal": "Physiol Rep",
+          "year": 2024,
+          "design": "crossover",
+          "takeaway": "人體活體、電刺激次大蹠屈，於兩種速度（40、120°/s）與兩種活動範圍（15、25°）下比較 SSC 與純向心。SSC 縮短期的踝關節力矩與功、肌腱單位力量與功、肌束力量都比純向心高 12–22%；但肌束的長度變化與速度顯著較小，肌束做的功反而少約 35%。力量增益來自肌腱單位與肌束「解耦」讓肌肉停在較有利的力－速度區間，也說明關節層級的功不能拿來推估肌肉的功。"
+        },
+        {
+          "pmid": "17347316",
+          "title": "Does plyometric training improve vertical jump height? A meta-analytical review.",
+          "journal": "Br J Sports Med",
+          "year": 2007,
+          "design": "meta-analysis",
+          "takeaway": "26 篇隨機與非隨機對照試驗的合併估計：彈震訓練使蹲跳 +4.7%（95% CI 1.8–7.6）、反向跳 +8.7%（7.0–10.4）、擺臂反向跳 +7.5%（4.2–10.8）、落地跳 +4.7%（0.8–8.6），標準化效果量分別為 0.44、0.88、0.74、0.62。這是本單元證據最紮實的一塊：效果存在且具實務意義，但終點是跳躍高度，不是活動度也不是疼痛。"
+        }
+      ]
     },
     {
       "unit": "ch5-u2",
@@ -39,7 +73,41 @@
         "夜間或休息時仍持續惡化的疼痛、發燒或不明原因體重下降",
         "骨質疏鬆、近期骨折病史或懷孕後期——高衝擊落地應先由醫療專業評估再決定劑量"
       ],
-      "caveats": "第一，預防計畫的統合分析絕大多數以年輕女性運動員為對象（PMID 30001501），而落地力學的統合分析同樣以年輕女性與雙腳落地任務為主（PMID 28759729），一般成人與男性族群的效果量不能直接複製。第二，這些是「整包計畫」的效果，計畫裡通常同時含肌力、平衡、彈震與敏捷，無法歸功於單一動作，更不能歸功於某個筋膜概念。第三，效果高度依賴依從性（PMID 23182020）：做一半的計畫不會給你一半的保護，而是可能接近沒有。第四，Landing Error Scoring System 這類落地評分工具受多種因素影響，把單次評分當成個人受傷風險的判決書並不恰當。"
+      "caveats": "第一，預防計畫的統合分析絕大多數以年輕女性運動員為對象（PMID 30001501），而落地力學的統合分析同樣以年輕女性與雙腳落地任務為主（PMID 28759729），一般成人與男性族群的效果量不能直接複製。第二，這些是「整包計畫」的效果，計畫裡通常同時含肌力、平衡、彈震與敏捷，無法歸功於單一動作，更不能歸功於某個筋膜概念。第三，效果高度依賴依從性（PMID 23182020）：做一半的計畫不會給你一半的保護，而是可能接近沒有。第四，Landing Error Scoring System 這類落地評分工具受多種因素影響，把單次評分當成個人受傷風險的判決書並不恰當。",
+      "citations": [
+        {
+          "pmid": "30001501",
+          "title": "Evidence-Based Best-Practice Guidelines for Preventing Anterior Cruciate Ligament Injuries in Young Female Athletes: A Systematic Review and Meta-analysis.",
+          "journal": "Am J Sports Med",
+          "year": 2019,
+          "design": "meta-analysis",
+          "takeaway": "18 篇前瞻對照試驗、27,231 名女性參與者、347 件 ACL 傷害：神經肌肉訓練把風險從每 54 人 1 件降到每 111 人 1 件（OR 0.51；95% CI 0.37–0.69）。整個計畫的平均訓練量為 18.17 小時，換算每次 24.1 分鐘、每週 2.51 次；國高中年齡層效果（OR 0.38；0.24–0.60）優於大學／職業層級（OR 0.65；0.48–0.89）。每次課程中「落地穩定」與「下肢肌力」動作愈多，預防效果愈好，且所有介入都含帶領者訓練。"
+        },
+        {
+          "pmid": "28759729",
+          "title": "The Effects of Injury Prevention Programs on the Biomechanics of Landing Tasks: A Systematic Review With Meta-analysis.",
+          "journal": "Am J Sports Med",
+          "year": 2018,
+          "design": "meta-analysis",
+          "takeaway": "28 篇研究、466 名參與者：預防計畫後最大膝外翻力矩下降（P=.01），是韌帶主導型指標中唯一改變者；股四頭肌主導型指標中初始觸地髖屈角（P=.009）、最大髖屈角（P=.002）與最大膝屈角（P=.007）增加，最大膝屈力矩下降（P=.005），但初始觸地膝屈角（P=.18）與最大垂直地面反作用力（P=.10）都沒變。多數研究對象是年輕女性、雙腳落地任務。"
+        },
+        {
+          "pmid": "23182020",
+          "title": "Compliance with neuromuscular training and anterior cruciate ligament injury risk reduction in female athletes: a meta-analysis.",
+          "journal": "J Athl Train",
+          "year": 2012,
+          "design": "meta-analysis",
+          "takeaway": "205 篇文獻中只有 6 篇同時報告 ACL 傷害數與依從性資料。合併後，高依從性研究的 ACL 傷害發生率明顯低於低依從性研究（發生率比 0.27）。這支持本單元的核心提醒：決定保護效果的是「有沒有照劑量持續做」，而不是任何單一落地姿勢細節。"
+        },
+        {
+          "pmid": "36906633",
+          "title": "Effects of Plyometric Jump Training on the Reactive Strength Index in Healthy Individuals Across the Lifespan: A Systematic Review with Meta-analysis.",
+          "journal": "Sports Med",
+          "year": 2023,
+          "design": "meta-analysis",
+          "takeaway": "61 篇研究、2,576 名 8.1–73.1 歲參與者（男性約 78%，未滿 18 歲約 60%），中位 PEDro 6.0：彈震跳躍訓練相對於主動對照組提升反應力量指數，ES 0.54（95% CI 0.46–0.62，p<0.001）。成人的增益大於青少年（p=0.023），且介入 >7 週優於 ≤7 週、總次數 >14 次優於 ≤14 次。RSI 反映 SSC 效率，是跳躍訓練少數有跨年齡層證據的表現指標。"
+        }
+      ]
     },
     {
       "unit": "ch5-u3",
@@ -60,7 +128,41 @@
         "夜間或休息時仍持續惡化的疼痛、發燒或不明原因體重下降",
         "使用氟喹諾酮類抗生素或全身性類固醇期間與之後數週——肌腱斷裂風險升高，加量前請先諮詢醫師"
       ],
-      "caveats": "第一，「肌力進步以週計、肌腱與其他結締組織以月計」是這一單元的核心訊息，但本次查證找不到把兩者放在同一批受試者身上做頭對頭比較的研究；能直接支持後半句的是那篇 3 個月訓練／3 個月停練的時間序列研究（PMID 22105708），而它只有 9 名年輕男性、只做等長蹠屈，外推要保守。第二，統合分析的介入幾乎都是 8 週以上的阻力訓練、集中在跟腱與髕腱（PMID 27747846、35657492），上肢與其他部位的資料少得多。第三，肌腱病變的臨床試驗樣本規模都在數十人等級（跟腱 58 人、髕腱 44 人），足以說明「兩種做法差不多」，不足以精確估計最佳劑量。第四，本單元所有結論都是關於肌腱與腱膜；把它們套用到「筋膜」這個更大的概念上，是外推而非證據。"
+      "caveats": "第一，「肌力進步以週計、肌腱與其他結締組織以月計」是這一單元的核心訊息，但本次查證找不到把兩者放在同一批受試者身上做頭對頭比較的研究；能直接支持後半句的是那篇 3 個月訓練／3 個月停練的時間序列研究（PMID 22105708），而它只有 9 名年輕男性、只做等長蹠屈，外推要保守。第二，統合分析的介入幾乎都是 8 週以上的阻力訓練、集中在跟腱與髕腱（PMID 27747846、35657492），上肢與其他部位的資料少得多。第三，肌腱病變的臨床試驗樣本規模都在數十人等級（跟腱 58 人、髕腱 44 人），足以說明「兩種做法差不多」，不足以精確估計最佳劑量。第四，本單元所有結論都是關於肌腱與腱膜；把它們套用到「筋膜」這個更大的概念上，是外推而非證據。",
+      "citations": [
+        {
+          "pmid": "35657492",
+          "title": "Mechanical, Material and Morphological Adaptations of Healthy Lower Limb Tendons to Mechanical Loading: A Systematic Review and Meta-Analysis.",
+          "journal": "Sports Med",
+          "year": 2022,
+          "design": "meta-analysis",
+          "takeaway": "61 篇文獻、763 名參與者（跟腱 33 篇、髕腱 24 篇，阻力訓練佔 49 篇）：機械負荷使肌腱剛度中等增加（SMD 0.74；95% CI 0.62–0.86）、楊氏模數大幅增加（SMD 0.82；0.58–1.07），但橫截面積只有小幅增加（SMD 0.22；0.12–0.33）。也就是說肌腱主要靠「材料變硬」而不是「變粗」來適應負荷。"
+        },
+        {
+          "pmid": "27747846",
+          "title": "Human tendon adaptation in response to mechanical loading: a systematic review and meta-analysis of exercise intervention studies on healthy adults.",
+          "journal": "Sports Med Open",
+          "year": 2015,
+          "design": "meta-analysis",
+          "takeaway": "27 篇研究、37 個介入（皆 ≥8 週）、264 名 18–50 歲健康成人：剛度 SMD 0.70（95% CI 0.51–0.88）、楊氏模數 0.69（0.36–1.03）、橫截面積 0.24（0.07–0.42）。次群組分析確認剛度的適應顯著取決於負荷強度（p<0.05），異質性分析亦指向負荷條件差異是主要來源。方向與 2022 年那篇獨立統合分析一致。"
+        },
+        {
+          "pmid": "16002437",
+          "title": "Coordinated collagen and muscle protein synthesis in human patella tendon and quadriceps muscle after exercise.",
+          "journal": "J Physiol",
+          "year": 2005,
+          "design": "crossover",
+          "takeaway": "健康年輕男性做 1 小時、67% Wmax 的單腿踢蹬（組織學確認無肌肉損傷），以同位素標記追蹤 72 小時：所有蛋白質的分數合成率在 6 小時就上升、24 小時達高峰——肌腱膠原 0.077%/小時、肌肉膠原 0.054%/小時、肌原纖維蛋白 0.121%/小時、肌漿蛋白 0.134%/小時。72 小時大致回落，但肌腱膠原與肌原纖維蛋白仍高於基線。這是「隔天再練同一條肌腱不是中性決定」的直接生理依據。"
+        },
+        {
+          "pmid": "22105708",
+          "title": "Time course of changes in the human Achilles tendon properties and metabolism during training and detraining in vivo.",
+          "journal": "Eur J Appl Physiol",
+          "year": 2012,
+          "design": "longitudinal-intervention",
+          "takeaway": "9 名 21–27 歲男性做 3 個月等長蹠屈訓練再 3 個月停練，每月量一次：跟腱剛度在訓練前 2 個月完全沒變，到訓練結束才達顯著（+50.3%）；反映第一型膠原合成的血清 P1P 在第 2 個月才顯著上升，回音強度 +9.1%、MRI 訊號強度 +24.2%（2 個月）與 +21.4%（3 個月）。停練僅 1 個月，剛度就已掉回訓練前水準，MRI 訊號也回到基線但回音強度未回落。"
+        }
+      ]
     },
     {
       "unit": "ch6-u1",
@@ -81,7 +183,41 @@
         "使用抗凝血劑、骨質疏鬆、糖尿病足或足部有傷口與感染——不適合使用滾筒、按摩球與按摩槍",
         "新發生或進行性的肌力下降，例如墊腳無力或走路拖腳"
       ],
-      "caveats": "第一，足底筋膜炎的伸展證據整體品質不高：統合分析明確指出證據等級介於中等到極低，且需要更高品質試驗來確認（PMID 33218515）。第二，高負荷提踵的優勢只在 3 個月的單一時間點存在，1 個月與 6、12 個月都沒有差別（PMID 25145882）——把它宣傳成「更有效的療法」是過度解讀，比較誠實的說法是「可能讓你早幾個月舒服」。第三，關節鬆動術的證據來自慢性踝關節不穩族群（PMID 30870009），健康人做同樣操作的效果不明。第四，那篇滾筒對照離心的試驗只有 23 名青年足球員（PMID 29893193），族群窄、樣本小，但它的方向與其他區域的文獻一致，因此仍值得當成教學重點。第五，所有這些介入都不會改變足弓結構或鞋子選擇的問題；如果疼痛持續超過數週或影響行走，請去看醫師或物理治療師。"
+      "caveats": "第一，足底筋膜炎的伸展證據整體品質不高：統合分析明確指出證據等級介於中等到極低，且需要更高品質試驗來確認（PMID 33218515）。第二，高負荷提踵的優勢只在 3 個月的單一時間點存在，1 個月與 6、12 個月都沒有差別（PMID 25145882）——把它宣傳成「更有效的療法」是過度解讀，比較誠實的說法是「可能讓你早幾個月舒服」。第三，關節鬆動術的證據來自慢性踝關節不穩族群（PMID 30870009），健康人做同樣操作的效果不明。第四，那篇滾筒對照離心的試驗只有 23 名青年足球員（PMID 29893193），族群窄、樣本小，但它的方向與其他區域的文獻一致，因此仍值得當成教學重點。第五，所有這些介入都不會改變足弓結構或鞋子選擇的問題；如果疼痛持續超過數週或影響行走，請去看醫師或物理治療師。",
+      "citations": [
+        {
+          "pmid": "33218515",
+          "title": "Calf stretching and plantar fascia-specific stretching for plantar fasciitis: A systematic review and meta-analysis.",
+          "journal": "J Bodyw Mov Ther",
+          "year": 2020,
+          "design": "meta-analysis",
+          "takeaway": "8 篇 RCT，以 GRADE 評估：足底筋膜特異性伸展（PFSS）在疼痛分數的降幅大於小腿伸展屬「中等品質」證據；而「小腿伸展合併 PFSS 或單獨小腿伸展優於假伸展」只有極低品質證據，且合併 CS+PFSS 在短期內還不如其他療法（極低品質）。整體證據品質介於中等到極低，伸展的治療效果雖大但與其他療法相當而非勝出。"
+        },
+        {
+          "pmid": "12851352",
+          "title": "Tissue-specific plantar fascia-stretching exercise enhances outcomes in patients with chronic heel pain. A prospective, randomized study.",
+          "journal": "J Bone Joint Surg Am",
+          "year": 2003,
+          "design": "rct",
+          "takeaway": "101 名慢性近端足底筋膜炎（症狀至少 10 個月，平均年齡 46 歲）隨機分為足底筋膜特異性伸展組與阿基里斯腱伸展組，兩組都拿到預製軟鞋墊、三週 celecoxib 與衛教影片，8 週後 82 人回診。Foot Function Index 疼痛次量表顯示 PFSS 組在「最劇烈疼痛」（p=0.02）與「起床頭幾步」（p=0.006）顯著較佳。這是把介入部位講清楚就有差別的少數直接對照。"
+        },
+        {
+          "pmid": "25145882",
+          "title": "High-load strength training improves outcome in patients with plantar fasciitis: A randomized controlled trial with 12-month follow-up.",
+          "journal": "Scand J Med Sci Sports",
+          "year": 2015,
+          "design": "rct",
+          "takeaway": "48 名超音波確診患者隨機分到鞋墊＋每日 PFSS，或鞋墊＋每兩天一次高負荷提踵（腳趾下墊毛巾的單側提踵）。主要終點 3 個月時，高負荷組 Foot Function Index 低 29 分（95% CI 6–52，P=0.016）；但 1、6、12 個月都沒有組間差異（P>0.34），12 個月時兩組 FFI 分別為 22 與 16 分。高負荷是「更快」而不是「更好」的路徑。"
+        },
+        {
+          "pmid": "29893193",
+          "title": "Acute and chronic effects of foam rolling vs eccentric exercise on ROM and force output of the plantar flexors.",
+          "journal": "J Sports Sci",
+          "year": 2019,
+          "design": "rct",
+          "takeaway": "23 名青年足球員隨機分到滾筒或離心訓練，每日做 4 週，於介入前、30 分鐘後、24 小時後與 4 週後量測。背屈出現顯著的時間×組別交互作用（P=0.036）：離心組在 30 分鐘（P<0.001）與 4 週（P<0.001）都增加，滾筒組只有急性增益、4 週後沒有維持。等長蹠屈力矩與落地跳反應力量指數在兩組都沒變——工具不傷表現，也不提升表現。"
+        }
+      ]
     },
     {
       "unit": "ch6-u2",
@@ -102,7 +238,41 @@
         "夜間或休息時仍持續惡化的疼痛、發燒或不明原因體重下降",
         "急性外傷後的腫脹、變形或無法承重"
       ],
-      "caveats": "這一單元被標成「證據互斥」不是因為證據少，而是因為兩派高品質統合分析對同一批研究得出相反結論——關鍵差別在於是否只納入真正隨機分派的 RCT（PMID 30808663 vs 34520846）。讀者應該知道的是：NHE 仍然是合理、低成本、可執行的做法，但「減半」這個數字目前撐不起承諾。同樣地，肌束長度與離心肌力的風險閾值（10.56 公分、337 N）來自單一族群的單一研究（PMID 26675089），在更大的樣本中並未完全複製（PMID 34559727），拿它當個人化篩檢工具會誤導。伸展的證據品質較高但終點很窄：改善的是可忍受的活動範圍（PMID 40180774），不是組織長度、不是疼痛、也不是受傷率。最後，「筋膜後側鏈是一條連續的功能單位」在本單元引用的任何一篇文獻中都沒有被驗證——這一區的訓練效果，用肌肉與肌腱的層次就足以解釋。"
+      "caveats": "這一單元被標成「證據互斥」不是因為證據少，而是因為兩派高品質統合分析對同一批研究得出相反結論——關鍵差別在於是否只納入真正隨機分派的 RCT（PMID 30808663 vs 34520846）。讀者應該知道的是：NHE 仍然是合理、低成本、可執行的做法，但「減半」這個數字目前撐不起承諾。同樣地，肌束長度與離心肌力的風險閾值（10.56 公分、337 N）來自單一族群的單一研究（PMID 26675089），在更大的樣本中並未完全複製（PMID 34559727），拿它當個人化篩檢工具會誤導。伸展的證據品質較高但終點很窄：改善的是可忍受的活動範圍（PMID 40180774），不是組織長度、不是疼痛、也不是受傷率。最後，「筋膜後側鏈是一條連續的功能單位」在本單元引用的任何一篇文獻中都沒有被驗證——這一區的訓練效果，用肌肉與肌腱的層次就足以解釋。",
+      "citations": [
+        {
+          "pmid": "30808663",
+          "title": "Including the Nordic hamstring exercise in injury prevention programmes halves the rate of hamstring injuries: a systematic review and meta-analysis of 8459 athletes.",
+          "journal": "Br J Sports Med",
+          "year": 2019,
+          "design": "meta-analysis",
+          "takeaway": "15 篇研究、8,459 名跨運動項目與年齡層的男女運動員：含北歐腿彎舉的預防計畫整體傷害風險比 0.49（95% CI 0.32–0.74，p=0.0008）。只合併其中 8 篇隨機研究後風險比升至 0.52（0.32–0.85），排除 8 篇高偏誤風險研究後再升至 0.55（0.34–0.89，p=0.006）。這就是被課程廣為引用的「腿後肌拉傷減半」數字的原始出處。"
+        },
+        {
+          "pmid": "34520846",
+          "title": "Why methods matter in a meta-analysis: a reappraisal showed inconclusive injury preventive effect of Nordic hamstring exercise.",
+          "journal": "J Clin Epidemiol",
+          "year": 2021,
+          "design": "systematic-review",
+          "takeaway": "方法學重新評估：上述統合分析納入的 15 篇裡，真正把受試者隨機分派到北歐腿彎舉的只有 5 篇 RCT。只用這 5 篇重算，風險比為 0.56（95% CI 0.20–1.52；預測區間 0.06–5.14）；再納入更新後找到的 1 篇新 RCT 為 0.59（95% CI 0.27–1.29）。信賴區間橫跨 1，作者結論是預防效果目前「未定論」，且證據多來自高偏誤風險試驗，最多只能給足球一個條件式建議。"
+        },
+        {
+          "pmid": "39614059",
+          "title": "Optimising the Dose of Static Stretching to Improve Flexibility: A Systematic Review, Meta-analysis and Multivariate Meta-regression.",
+          "journal": "Sports Med",
+          "year": 2025,
+          "design": "meta-analysis",
+          "takeaway": "189 篇研究、6,654 名成人（61% 男性，平均 26.8±11.4 歲）：單次靜態伸展對柔軟度有中等效果（Hedges' g=0.63；95% CI 0.52–0.75，p<0.001），多次伸展有大效果（g=0.96；0.84–1.09，p<0.001）。兩者都不受伸展強度、年齡、性別、訓練狀態調節，長期效果也不受每週次數與介入總長度調節（p>0.05）——劑量門檻比多數人想像的低。"
+        },
+        {
+          "pmid": "40180774",
+          "title": "Mechanisms Underlying Range of Motion Improvements Following Acute and Chronic Static Stretching: A Systematic Review, Meta-analysis and Multivariate Meta-regression.",
+          "journal": "Sports Med",
+          "year": 2025,
+          "design": "meta-analysis",
+          "takeaway": "65 篇研究、1,542 名成人：靜態伸展造成的整體剛度下降只是小效果（急性 g=0.42，95% CI 0.21–0.63；長期 g=0.37，0.18–0.56），最大可忍受被動阻力力矩則在長期伸展後中等增加（g=0.74，0.38–1.10）；急性與長期伸展都沒有改變肌束長度。多變量統合迴歸顯示 ROM 改善與剛度下降（g=0.59，0.08–1.10，p=0.03）及耐受度上升（g=0.74，0.41–1.09，p<0.001）都相關，後者關聯更強——「拉開」的是耐受度，不是組織長度。"
+        }
+      ]
     },
     {
       "unit": "ch6-u3",
@@ -123,7 +293,41 @@
         "夜間或完全休息時仍持續惡化的髖部疼痛——特別是有癌症病史或骨質疏鬆者",
         "使用抗凝血劑、近期髖部手術或人工關節置換——不要自行對髖部做深壓或大範圍伸展"
       ],
-      "caveats": "第一，這一區被標成「證據有限」的核心理由是那個陰性結果：唯一使用假運動對照的試驗顯示，在完整的負荷管理衛教之上，特定臀肌運動並沒有額外的意向治療效果（PMID 29715073）。這是對「非做這個動作不可」最有力的反證。第二，LEAP 試驗的介入是八週 14 次由物理治療師帶領的療程（PMID 29720374），跟自己在家看影片練不是同一件事，效果量不能直接搬過來。第三，髂脛束與髖屈肌的研究族群都是年輕男性職業或半職業足球員、樣本 39 與 40 人（PMID 39159925、40465522），一般成人的效果不明。第四，本單元完全沒有找到支持「臀部筋膜沾黏」或「髂脛束可以被壓鬆」的人體研究——工具確實能讓 Ober 角度變好、壓痛耐受度上升，但這兩件事都不需要用結構改變來解釋。第五，外側髖痛的第一線處置是避免肌腱壓迫（翹腳、側躺壓患側、髖內收姿勢），把滾筒直接壓在大轉子上往往讓症狀更糟。"
+      "caveats": "第一，這一區被標成「證據有限」的核心理由是那個陰性結果：唯一使用假運動對照的試驗顯示，在完整的負荷管理衛教之上，特定臀肌運動並沒有額外的意向治療效果（PMID 29715073）。這是對「非做這個動作不可」最有力的反證。第二，LEAP 試驗的介入是八週 14 次由物理治療師帶領的療程（PMID 29720374），跟自己在家看影片練不是同一件事，效果量不能直接搬過來。第三，髂脛束與髖屈肌的研究族群都是年輕男性職業或半職業足球員、樣本 39 與 40 人（PMID 39159925、40465522），一般成人的效果不明。第四，本單元完全沒有找到支持「臀部筋膜沾黏」或「髂脛束可以被壓鬆」的人體研究——工具確實能讓 Ober 角度變好、壓痛耐受度上升，但這兩件事都不需要用結構改變來解釋。第五，外側髖痛的第一線處置是避免肌腱壓迫（翹腳、側躺壓患側、髖內收姿勢），把滾筒直接壓在大轉子上往往讓症狀更糟。",
+      "citations": [
+        {
+          "pmid": "29720374",
+          "title": "Education plus exercise versus corticosteroid injection use versus a wait and see approach on global outcome and pain from gluteal tendinopathy: prospective, single blinded, randomised clinical trial.",
+          "journal": "BMJ",
+          "year": 2018,
+          "design": "rct",
+          "takeaway": "204 名 35–70 歲、外側髖痛超過三個月且經 MRI 確認的臀肌腱病變患者（167 名女性，平均 54.8±8.8 歲）隨機分三組，52 週追蹤完成率 92.6%。八週時整體改善成功人數為衛教加運動 51/66、單次類固醇注射 38/65、等待觀察 20/68；衛教加運動相對等待觀察的風險差 49.1%（95% CI 34.6–63.5），NNT 2.0；相對類固醇注射風險差 19.9%（4.7–35.0），NNT 5.0。介入是八週 14 次由物理治療師帶領的負荷管理衛教加運動。"
+        },
+        {
+          "pmid": "29715073",
+          "title": "Gluteal Loading Versus Sham Exercises to Improve Pain and Dysfunction in Postmenopausal Women with Greater Trochanteric Pain Syndrome: A Randomized Controlled Trial.",
+          "journal": "J Womens Health (Larchmt)",
+          "year": 2018,
+          "design": "rct",
+          "takeaway": "94 名有大轉子疼痛症候群的停經後婦女隨機接受 12 週針對性臀肌負荷（GLoBE）或假運動，兩組都拿到「避免肌腱壓迫」的活動調整衛教。意向治療分析顯示兩組沒有差異，但兩組的 VISA-G 在 12 週與 52 週都顯著改善（p<0.001）；只有在反應者分析中 GLoBE 組的 VISA-G、HOOS、OHS 與外側髖痛問卷優於假運動反應者。作者結論是在完整衛教之上再加運動計畫並沒有額外治療效果。"
+        },
+        {
+          "pmid": "39159925",
+          "title": "The Effects of Different Myofascial Release Techniques on Pain, Range of Motion, and Muscle Strength in Athletes With Iliotibial Band Tightness: A Randomized Controlled Study.",
+          "journal": "J Sport Rehabil",
+          "year": 2024,
+          "design": "rct",
+          "takeaway": "39 名 18–23 歲男性足球員隨機分成只做運動、運動＋器械輔助軟組織鬆動（IASTM）、運動＋滾筒三組。三組的 Ober 傾角都增加（P=.001），但兩個工具組幅度較大；壓痛閾值只有 IASTM 與滾筒組上升（P=.001），對照組沒變；三組髖部肌力都提升（P=.001），工具組較大。IASTM 與滾筒彼此沒有差異，且該研究並未測量髂脛束的機械性質。"
+        },
+        {
+          "pmid": "40465522",
+          "title": "The training and detraining effects of 8-week dynamic stretching of hip flexors on hip range of motion, pain, and physical performance in male professional football players with low back pain. A randomized controlled trial.",
+          "journal": "J Sports Sci",
+          "year": 2025,
+          "design": "rct",
+          "takeaway": "40 名有慢性下背痛與髖屈受限的男性職業足球員（平均 24.3±4.5 歲）隨機分到每週五次的髖屈肌動態伸展或維持常規訓練，於基線、4、8、12 週評估。8 週後髖關節活動度效果量達 3.01（優勢腳）與 3.06（非優勢腳）、疼痛 0.85、動態平衡 0.30、反向跳 0.31（皆 p≤0.001），但 20 公尺衝刺與敏捷測驗沒有變化（p>0.05）。停練 4 週後活動度（ES 0.80 與 0.64）與疼痛（ES 0.40）都顯著回退。"
+        }
+      ]
     }
   ]
 }
