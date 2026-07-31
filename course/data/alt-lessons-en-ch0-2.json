@@ -1,0 +1,121 @@
+{
+  "lessons": [
+    {
+      "unit": "ch0-u1",
+      "lang": "en",
+      "title": "Screening for Red Flags in Physiotherapy",
+      "channel": "Physiotutors",
+      "url": "https://www.youtube.com/watch?v=uX_xqezC8YA",
+      "duration": "7:41",
+      "why": "中文主課是針對下背痛的紅旗說明，這支則把紅旗篩檢當成一套通用流程講：為什麼要問夜間痛、體重減輕、發燒與癌症病史，以及單一紅旗其實特異性很低、要看的是整組線索。這正好補上中文主課沒有的部分——不是背一張紅旗清單，而是理解「什麼情況下要把自我練習停下來、轉給專業評估」。有人工英文字幕，YouTube 可自動轉繁中。",
+      "source_type": ["safety", "clinical", "science"],
+      "practical_value": "high",
+      "coach_takeaway": "把紅旗當成「轉介的門檻」而不是「診斷」：出現夜間持續惡化的疼痛、不明原因體重下降、發燒、進行性無力或感覺異常，就停止自我放鬆並安排就醫；單一項目不必恐慌，但兩三項同時出現要當一回事。",
+      "claim_boundary": "影片是給臨床工作者看的篩檢邏輯，不是自我診斷工具；聽完仍不代表你能自己排除嚴重病因。"
+    },
+    {
+      "unit": "ch1-u1",
+      "lang": "en",
+      "title": "Fascia: The Body's Remarkable, Functional Glue",
+      "channel": "SciShow",
+      "url": "https://www.youtube.com/watch?v=T-UsSmD7miI",
+      "duration": "6:30",
+      "why": "六分半把「筋膜到底是什麼、為什麼各家定義吵不完」講完，而且是科普媒體的中立視角，不賣課也不賣工具。它明講筋膜研究還很年輕、很多說法尚未定論，這跟本單元「定義到現在還在吵」的主軸完全一致。中文主課偏歷史脈絡，這支偏組織學與研究現況，兩支合起來剛好是一堂完整的入門。SciShow 有人工英文字幕，是本單元字幕可及性最好的選擇。",
+      "source_type": ["science"],
+      "practical_value": "medium",
+      "coach_takeaway": "跟學員解釋筋膜時，先說清楚「它是一個橫跨全身的結締組織網路」，再說「關於它能被訓練成什麼樣，證據還在累積」——這個順序比直接講功效誠實得多。",
+      "claim_boundary": "影片提到筋膜可能與疼痛有關，屬於研究方向而非已確立的因果；不要引用成「筋膜是疼痛的原因」。"
+    },
+    {
+      "unit": "ch1-u2",
+      "lang": "en",
+      "title": "How to Build a Human | The Anatomy of Connective Tissue",
+      "channel": "Institute of Human Anatomy",
+      "url": "https://www.youtube.com/watch?v=Ge5zFJt7ZGI",
+      "duration": "11:36",
+      "why": "本單元最難用文字講清楚的是「層次」——淺筋膜的脂肪與疏鬆結締組織、深筋膜的緻密纖維層、肌內膜／肌束膜／肌外膜、再連續到肌腱。這支用真實大體標本一層一層剝給你看，是圖解做不到的說服力。中文主課負責分類與命名，這支負責視覺化的連續性，分工很乾淨。",
+      "source_type": ["science", "demo"],
+      "practical_value": "high",
+      "coach_takeaway": "看過標本就會知道：肌肉與肌腱之間沒有一條界線，是同一片結締組織逐漸變緻密。這解釋了為什麼「只放鬆肌肉、不管肌腱」在解剖上並不成立。",
+      "claim_boundary": "只有自動字幕（英文自動辨識品質尚可，可再自動轉繁中）。"
+    },
+    {
+      "unit": "ch1-u3",
+      "lang": "en",
+      "title": "The Truth About Muscle Fascia",
+      "channel": "The Bioneer",
+      "url": "https://www.youtube.com/watch?v=IYmeLs8sRxM",
+      "duration": "12:35",
+      "why": "本單元要講筋膜的三個功能：感覺、力量傳遞、滑動。這支把三件事放在同一支影片裡談，而且會回頭問「這些功能被誇大到什麼程度」，語氣比多數筋膜訓練頻道克制。中文主課是 Schleip 的研討會講座（觀點來自筋膜研究陣營內部），這支則是站在外面檢視同一批說法，兩支放一起讀者才會看到分歧在哪裡。",
+      "source_type": ["expert-view", "science"],
+      "practical_value": "medium",
+      "coach_takeaway": "「筋膜有大量感覺受器」比「筋膜能被拉長」有更好的證據支持——所以滾筒與伸展的立即效果，優先用感覺與神經調節去解釋，而不是用組織形變。",
+      "claim_boundary": "影片後半談到彈性回彈與筋膜訓練的表現效益，那部分是推論多於實證；本課把它歸在「經驗性主張」而非「已證實的機轉」。"
+    },
+    {
+      "unit": "ch1-u4",
+      "lang": "en",
+      "title": "Muscles Tightness Explained: Why Muscle Tightness is NOT What You Think",
+      "channel": "Sports Rehab Expert",
+      "url": "https://www.youtube.com/watch?v=1B_yLhvPpFg",
+      "duration": "9:58",
+      "why": "本單元的核心命題是「筋膜、肌肉、神經與關節不能分開討論」，而最好的切入點就是拆解『緊』這個字。這支花十分鐘說明：緊是一種感覺輸出，可能來自保護性張力、關節位置、神經敏感度或肌力不足，不必然等於組織縮短。中文主課走的是概念整合路線，這支走臨床推理路線，讀者看完會知道下次覺得緊時，該問的是「為什麼會緊」而不是「要拉多久」。",
+      "source_type": ["clinical", "science"],
+      "practical_value": "high",
+      "coach_takeaway": "學員說「這裡很緊」時，先分辨三種可能：關節活動受限、肌力不足導致的保護性張力、單純的感覺敏感。三種的處理方式完全不同，只有第一種值得花時間在被動放鬆上。",
+      "claim_boundary": "影片以臨床推理與案例為主，不是系統性文獻回顧；其中「緊多半來自無力」的比重是講者的臨床印象，並非已量化的流行病學結論。"
+    },
+    {
+      "unit": "ch2-u1",
+      "lang": "en",
+      "title": "Does FOAM ROLLING Work?",
+      "channel": "Squat University",
+      "url": "https://www.youtube.com/watch?v=-RkmShMb-dc",
+      "duration": "4:17",
+      "why": "中文主課（Physiotutors）從機轉面否定「壓開沾黏」，這支則從教練面回答「那我到底還要不要滾」。四分鐘講完：短期活動度確實會增加、機轉比較像神經與疼痛耐受、滾完要接主動動作否則四十分鐘內退回去。它沒有為了破除迷思就把工具丟掉，這個分寸正是本課的立場。",
+      "source_type": ["coach", "science"],
+      "practical_value": "high",
+      "coach_takeaway": "把滾筒定位成「暖身的開場」而不是「治療」：滾完立刻接該部位的主動活動度或輕負荷動作，讓剛打開的範圍被實際用到。",
+      "claim_boundary": "影片仍偶爾使用「release」這類字眼描述效果，那是慣用語而非機轉宣稱；本課不採用「把沾黏壓開」的說法。"
+    },
+    {
+      "unit": "ch2-u2",
+      "lang": "en",
+      "title": "Dry Needling Deep Dive | Podcast Summary EP. 062",
+      "channel": "Physiotutors",
+      "url": "https://www.youtube.com/watch?v=mYNqHzF3lNw",
+      "duration": "7:18",
+      "why": "中文主課（Institute of Human Anatomy）講的是「肌肉結在解剖上可能是什麼」，這支補上另外一半：既然 trigger point 的觸診一致性偏低、模型本身仍有爭議，那針對它的介入（乾針）在文獻上到底站得住多少？Physiotutors 直接談效果量、對照組與安慰效應，不迴避「可能不是特異性效果」這個結論。對想理解「診斷不確定時該怎麼看待治療」的讀者，這是最誠實的一課。",
+      "source_type": ["science", "clinical"],
+      "practical_value": "medium",
+      "coach_takeaway": "壓痛點是有用的臨床線索，但不要把它當成結構診斷。按壓後覺得鬆，說明的是感覺改變，不代表你找到並解決了一個「結」。",
+      "claim_boundary": "乾針屬醫療處置，不在本課自我練習範圍內；引用這支是為了理解 trigger point 模型的證據強度，不是建議讀者去做。"
+    },
+    {
+      "unit": "ch2-u3",
+      "lang": "en",
+      "title": "Reading the Spiral Line with Tom Myers | Rolling Along Anatomy Trains",
+      "channel": "Tune Up Fitness",
+      "url": "https://www.youtube.com/watch?v=PPpdR1r9k7E",
+      "duration": "6:13",
+      "why": "中文主課（Physiotutors）是用文獻檢視筋膜鏈的連續性，這支反過來，讓筋膜鏈模型的提出者 Tom Myers 本人在真人身上把「螺旋線」畫一次。放這支不是背書，而是讓讀者先看清楚被檢驗的主張長什麼樣子——很多人爭論筋膜鏈時，其實沒看過原始模型怎麼描述。看完再回頭讀本單元的實證面板，落差會非常明顯。",
+      "source_type": ["contested-view", "expert-view", "demo"],
+      "practical_value": "medium",
+      "coach_takeaway": "筋膜鏈可以當成「觀察全身動作的地圖」——提醒你別只盯著痛的地方——但不要當成「拉這裡一定會影響那裡」的因果保證。",
+      "claim_boundary": "影片中「沿著這條線的張力會傳到那一端」是模型推論。大體研究只支持部分連續性，活體上跨關節的力量傳遞幅度遠小於圖示暗示；請把這支當成主張本身，不是主張的證據。"
+    },
+    {
+      "unit": "ch2-u4",
+      "lang": "en",
+      "title": "Doctors Debunk 11 Myths About Posture And Back Pain | Debunked",
+      "channel": "Insider Science",
+      "url": "https://www.youtube.com/watch?v=TiQGyKLj2Ds",
+      "duration": "10:55",
+      "why": "中文主課（Jeff Nippard）是從訓練者角度談「姿勢改不動也不必改」，這支則讓兩位醫師逐條拆解 11 個常見說法：坐姿不良會不會造成椎間盤突出、脊椎側彎需不需要矯正、「完美姿勢」存不存在。一條一條講的形式很適合當成單元的檢核表，讀者可以拿自己相信的說法逐項對照。有人工英文字幕，是本章字幕品質最好的一支。",
+      "source_type": ["science", "clinical"],
+      "practical_value": "high",
+      "coach_takeaway": "與其追求某個「正確角度」，不如把重點放在變換姿勢的頻率與整體活動量——這兩件事在文獻上跟疼痛的關聯，比任何靜態角度都穩定。",
+      "claim_boundary": "破除「姿勢導致疼痛」不等於「姿勢完全不重要」；特定情境（長時間固定負荷、術後、特定病理）仍需個別評估。"
+    }
+  ]
+}

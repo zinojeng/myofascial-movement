@@ -7,6 +7,7 @@
       "name": "靜態伸展：劑量、時機與它真正改變的東西",
       "type": "practice",
       "assessment": "先量到基準值再開始：躺姿把一側髖屈到 90 度、膝蓋朝天花板，然後主動把膝蓋打直，用手機的水平儀或量角器 App 貼在小腿前側，記下「距離完全打直還差幾度」（多數人 15–35 度）。左右各量兩次取好的一次。做完 5–8 分鐘伸展後立刻再量一次：多出 5–15 度是常見且合理的短期反應。重點在第二次判讀——隔天同一時間、還沒伸展前再量一次，如果又回到原本的數字，代表你改變的是「當下對牽張的耐受度」而不是組織長度；要留住它，必須在新範圍裡主動用力（下一個單元的內容）。伸展中出現麻、刺、放射痛或關節深處銳痛，立刻停止並降低角度。",
+      "coach_practice": "先量再拉、拉完再用，是這個單元的操作骨架。花兩分鐘量到基準角度再開始，沒有基準值，學員只會憑感覺說「好像鬆一點」。強度給到 3–5／10、還能正常說話就夠，不要用「愈痛愈有效」帶人：低強度長時間與高強度短時間的角度增加差不多，但後者讓人隔天不想再練。常見錯誤有三個——憋氣、用彈震硬撐角度、牽張感跑錯位置（半跪姿跑到下背、大腿後側跑到膝窩）。沒感覺的人先查骨盆有沒有代償，而不是加大幅度；太痛的人縮小角度、把單次時間拉長到 45 秒。收尾一定要接一組在新範圍裡的主動動作，不然四十分鐘後就退回原點。",
       "tight": ["大腿後側緊繃", "小腿後側緊繃", "髖前側緊繃", "胸前緊繃"],
       "weak": ["髖屈曲主動範圍", "踝背屈範圍", "末端角度的出力能力", "呼吸不憋氣的能力"],
       "lesson": {
@@ -14,7 +15,10 @@
         "channel": "E3 Rehab",
         "url": "https://www.youtube.com/watch?v=r-pxOslY-q4",
         "duration": "9:48",
-        "why": "這支把「靜態伸展會不會削弱表現」的文獻整理得很清楚：短時間（每組 30–60 秒以內）的靜態伸展對肌力與爆發力的負面影響很小、而且在後續動態暖身後幾乎消失，真正該擔心的是單一肌群連續數分鐘的極長時間伸展。要提醒讀者的是：影片談的效果幾乎都是「當下數十分鐘」的窗口，它沒有證明伸展改變了筋膜或肌肉的靜態長度——現有證據更支持牽張耐受度（stretch tolerance）改變的解釋。凡是把伸展講成「把筋膜拉開、把沾黏拉散」的說法，都超出這支影片與現有文獻能支持的範圍。"
+        "why": "這支把「靜態伸展會不會削弱表現」的文獻整理得很清楚：短時間（每組 30–60 秒以內）的靜態伸展對肌力與爆發力的負面影響很小、而且在後續動態暖身後幾乎消失，真正該擔心的是單一肌群連續數分鐘的極長時間伸展。要提醒讀者的是：影片談的效果幾乎都是「當下數十分鐘」的窗口，它沒有證明伸展改變了筋膜或肌肉的靜態長度——現有證據更支持牽張耐受度（stretch tolerance）改變的解釋。凡是把伸展講成「把筋膜拉開、把沾黏拉散」的說法，都超出這支影片與現有文獻能支持的範圍。",
+        "source_type": ["science", "clinical"],
+        "practical_value": "high",
+        "coach_takeaway": "把伸展排進暖身時，每個肌群的靜態伸展控制在 60 秒以內，拉完務必再接動態與專項動作把神經肌肉徵召拉回來；真正要避開的是賽前對單一肌群連續拉好幾分鐘。追求角度的長時間伸展，留給訓練後或獨立的活動度時段。"
       },
       "drills": [
         {
@@ -26,7 +30,11 @@
           "title": "90-90 Straight Leg Raise Test ⎟ Hamstring Contractures",
           "channel": "Physiotutors",
           "url": "https://www.youtube.com/watch?v=meM4S1vrbpk",
-          "duration": "1:27"
+          "duration": "1:27",
+          "source_type": ["clinical", "demo"],
+          "practical_value": "high",
+          "coach_takeaway": "測量要標準化才有比較意義：同一時段、同樣熱身狀態，對側大腿必須貼床、髖固定在 90 度，膝蓋伸到「第一個明顯阻力」就讀數，不要拉到最痛才量。左右各兩次取好的一次並把數字寫下來，這是之後所有前後對照的基準。",
+          "safety": ["測試中出現大腿後側或小腿的放射痛、麻刺感，代表是神經張力反應而不是肌肉緊，停止測試並先由專業評估", "急性大腿後側拉傷六週內不要做到最大範圍"]
         },
         {
           "name": "大腿後側靜態伸展（三種角度）",
@@ -37,7 +45,10 @@
           "title": "3動作改善腿後側不緊繃｜葛蕾蒂斯Gladys Fit Life",
           "channel": "Gladys Fit Life",
           "url": "https://www.youtube.com/watch?v=9LBC-rmalS4",
-          "duration": "13:40"
+          "duration": "13:40",
+          "source_type": ["coach", "demo"],
+          "practical_value": "medium",
+          "coach_takeaway": "三個角度輪流做的用意是換位置而不是加強度：每換一個姿勢，先確認骨盆有被帶著走、牽張感落在坐骨到膝窩的中段而不是膝窩正後方。彎腰型的版本用髖鉸鏈起始、背維持中立，撐不住就把手扶在椅背上降低難度。"
         },
         {
           "name": "小腿後側伸展：腳跟下降牽張",
@@ -48,7 +59,12 @@
           "title": "最佳小腿肌伸展動作：腳後跟下降運動 heel drop exercise ,可用於阿基里斯腱緊繃、足底筋膜緊繃、慢性跟腱炎、小腿肌緊繃等，30秒三次就能輕鬆伸展小腳後筋膜。",
           "channel": "全人物理治療所",
           "url": "https://www.youtube.com/watch?v=UGI-F2bII7U",
-          "duration": "3:45"
+          "duration": "3:45",
+          "source_type": ["demo", "clinical"],
+          "practical_value": "high",
+          "coach_takeaway": "膝蓋伸直與微彎各做一輪才涵蓋腓腸肌與比目魚肌，後者才是決定深蹲踝背屈的主角。下降用 3 秒慢慢放、腳跟不要彈；站階梯的版本前腳掌至少踩住三分之一，並且手要扶穩。",
+          "claim_boundary": "標題把效果講成「30 秒三次就能伸展小腿後方筋膜」，但單次牽張改變的主要是牽張耐受度與肌腱肌肉單位的暫時黏彈性，沒有證據顯示筋膜的結構長度被改變；慢性跟腱問題的改善來自漸進負荷訓練，伸展只是輔助。",
+          "safety": ["跟腱急性腫脹、壓痛加劇，或懷疑撕裂（踮腳無力、局部凹陷）時完全不要做，先就醫"]
         },
         {
           "name": "半跪姿髖屈肌伸展",
@@ -59,7 +75,11 @@
           "title": "拯救骨盆前傾的重要拉筋：「髖屈肌伸展運動 hip flexor strtech」。伸展鼠蹊部，打開髖部前側。",
           "channel": "全人物理治療所",
           "url": "https://www.youtube.com/watch?v=LvUUoiisZP8",
-          "duration": "4:19"
+          "duration": "4:19",
+          "source_type": ["demo", "clinical"],
+          "practical_value": "high",
+          "coach_takeaway": "順序是先夾臀讓骨盆後傾，再把重心往前移——很多人直接前推，結果牽張感全跑到下背。後腳膝蓋墊軟墊、前腳踩穩，加上同側手上舉可以多帶到腹斜與闊背；沒感覺時先檢查是不是偷偷塌腰，而不是把步距再拉大。",
+          "claim_boundary": "把「骨盆前傾」講成拉一拉髖屈肌就能矯正的問題超出證據範圍——骨盆傾斜角度在無症狀族群中變異很大，也沒有與疼痛建立穩定關聯（見 CH2）。伸展後覺得鬆，不代表骨盆角度被改變。"
         },
         {
           "name": "趴姿蛙式開髖伸展",
@@ -70,7 +90,11 @@
           "title": "青蛙拉筋frog pose , 用於開髖、大腿內側伸展、髖關節活動度增加、促進骨盆區域血液循環及改善假跨髖皆很有幫助！只需要輕鬆趴著伸展就可以達成了～",
           "channel": "全人物理治療所",
           "url": "https://www.youtube.com/watch?v=mtOqsjyHfgA",
-          "duration": "2:47"
+          "duration": "2:47",
+          "source_type": ["demo", "clinical"],
+          "practical_value": "medium",
+          "coach_takeaway": "靠呼吸而不是體重加深：吐氣時讓髖往後坐一點點，吸氣停住。膝蓋要墊軟，小腿與大腿維持約 90 度、腳踝在膝蓋正後方；一旦膝內側出現牽扯感，就是雙腿張太開，先縮小角度而不是硬撐時間。",
+          "claim_boundary": "影片標題提到「改善假胯寬」與「促進骨盆區域血液循環」：假胯寬主要由骨盆與股骨的形態、肌肉與脂肪分布決定，開髖伸展不會改變它；血流的短暫變化也不等於任何長期效益。"
         },
         {
           "name": "胸前（胸大肌）門框伸展",
@@ -81,7 +105,12 @@
           "title": "迅速緩解胸前肌肉緊繃，最適合上班族的伸展運動，改善駝背和肩頸痠痛！｜羅伯特物理治療",
           "channel": "羅伯特物理治療",
           "url": "https://www.youtube.com/watch?v=a0UqYB_6i_E",
-          "duration": "1:27"
+          "duration": "1:27",
+          "source_type": ["clinical", "demo"],
+          "practical_value": "high",
+          "coach_takeaway": "高、中、低三個手肘高度各做一輪，才分別帶到胸大肌不同纖維與胸小肌；身體只要前移到胸前有牽張就停，不必整個人壓過去。做完立刻接一組肩胛後收或牆天使，把當下多出來的範圍用起來。",
+          "claim_boundary": "標題說伸展能「改善駝背」：胸椎後凸角度不會因為幾分鐘的胸肌伸展而改變，姿勢與肩頸痠痛之間的因果關聯本身也不穩固（見 CH2）。可以期待的是胸前緊繃感下降、當下手臂上舉順一點。",
+          "safety": ["伸展中手臂發麻、刺痛或前臂無力，代表壓迫到神經血管束，立刻退回並縮小角度", "肩關節曾脫臼或有前側不穩定病史者，手肘不要高過肩線"]
         }
       ]
     },
@@ -90,6 +119,7 @@
       "name": "動態活動度與暖身",
       "type": "practice",
       "assessment": "用踝背屈當暖身的量化指標：赤腳面對牆做弓箭步，前腳第二趾與膝蓋對齊牆面，腳跟不離地把膝蓋往牆推到剛好碰到，然後把腳往後退到「再退一步就碰不到」的位置，量腳大拇趾到牆的距離。多數成人在 8–12 公分，左右差超過 2 公分值得注意。做完 6–8 分鐘動態暖身後立刻再量：進步 1–3 公分屬於正常的暖身反應。第二個判讀點是主觀的——暖身後你的第一組工作重量應該覺得比暖身前輕、動作路徑比較順；如果暖身完反而覺得腿沉、心跳一直下不來，代表暖身量開太大。任何關節在暖身過程中出現持續加劇的疼痛、卡住或不穩，當天就不要進入大重量。",
+      "coach_practice": "暖身的順序比內容重要：先讓體溫上來（3–5 分鐘快走或跳繩），再做活動度，最後接專項動作與漸進負重組，不要一開始就趴在地上做慢動作。總長 8–12 分鐘，練腿日多給踝與髖，上肢日多給胸椎與肩胛，不必全身做一遍。動態動作分三輪由小到大，第一輪只做一半範圍；最常見的錯誤是第一下就甩到底，或用腰代替髖與胸椎轉。判斷量夠不夠看第一組工作重量：覺得比平常輕就是剛好，覺得腿沉、心跳降不下來就是做太多。天冷或早上訓練把時間加長而不是加強度。",
       "tight": ["小腿後側緊繃", "髖前側緊繃", "上背與胸廓緊繃", "肩膀活動受限"],
       "weak": ["踝背屈範圍", "髖旋轉控制", "胸椎旋轉範圍", "動作間的節奏與協調"],
       "lesson": {
@@ -97,7 +127,11 @@
         "channel": "林勁瑋 x 大腦優先教練學院",
         "url": "https://www.youtube.com/watch?v=ZMrfXev-2iA",
         "duration": "5:01",
-        "why": "少見把「暖身四件事」的先後順序講清楚的中文影片：一般性升溫 → 活動度 → 專項動作 → 漸進負重組。它對靜態伸展的處理也算持平——不是不能做，而是別把單一肌群拉太久、拉完要接動態與專項動作。要補充的是，影片裡把滾筒與伸展放在暖身裡的理由是「當下活動度窗口」，不是「把筋膜鬆開」；另外目前沒有證據支持暖身能顯著降低整體受傷率，暖身最站得住腳的效益是體溫、神經肌肉徵召與當下活動度，別過度承諾。"
+        "why": "少見把「暖身四件事」的先後順序講清楚的中文影片：一般性升溫 → 活動度 → 專項動作 → 漸進負重組。它對靜態伸展的處理也算持平——不是不能做，而是別把單一肌群拉太久、拉完要接動態與專項動作。要補充的是，影片裡把滾筒與伸展放在暖身裡的理由是「當下活動度窗口」，不是「把筋膜鬆開」；另外目前沒有證據支持暖身能顯著降低整體受傷率，暖身最站得住腳的效益是體溫、神經肌肉徵召與當下活動度，別過度承諾。",
+        "source_type": ["coach", "program"],
+        "practical_value": "high",
+        "coach_takeaway": "把影片的四段順序寫成固定流程表：升溫 3–5 分鐘 → 活動度 3–4 分鐘 → 專項動作 2–3 分鐘 → 兩到三組漸進負重。總長 8–12 分鐘，當天訓練哪個部位就只挑那兩三個關節做活動度，其餘略過。",
+        "claim_boundary": "暖身最常被賣的理由是「預防受傷」，但目前沒有證據支持一般性暖身能顯著降低整體受傷率（少數例外是針對特定族群的結構化預防方案）。站得住腳的效益是體溫上升、神經肌肉徵召改善與當下活動度，不要過度承諾。"
       },
       "drills": [
         {
@@ -109,7 +143,10 @@
           "title": "The Weight Bearing Lunge Test or Wall Test | Ankle Mobility",
           "channel": "Physiotutors",
           "url": "https://www.youtube.com/watch?v=U7woPNLUT3Q",
-          "duration": "2:22"
+          "duration": "2:22",
+          "source_type": ["clinical", "demo"],
+          "practical_value": "high",
+          "coach_takeaway": "第二趾、膝蓋與牆面必須在同一直線，膝蓋往正前方推而不是往內倒；腳跟一離地就代表超過範圍，要退回去重量。在地上貼一條膠帶當基準線，暖身前後與每週複測都在同一條線上量，數字才可比較。"
         },
         {
           "name": "前後與左右擺腿",
@@ -120,7 +157,10 @@
           "title": "3. Leg Swings - Active Warm-Up - Fully Fit by Runner's World",
           "channel": "3v",
           "url": "https://www.youtube.com/watch?v=naW8u72lOzI",
-          "duration": "0:51"
+          "duration": "0:51",
+          "source_type": ["demo"],
+          "practical_value": "medium",
+          "coach_takeaway": "扶穩固定物、軀幹保持不動，讓動作只發生在髖關節——腰跟著甩就是幅度太大。分三輪由小到大加幅度，末端不做反彈；前後擺完再做左右擺，兩個方向都要，別只練習慣的那一個。"
         },
         {
           "name": "世界最棒伸展（弓箭步加旋轉）",
@@ -131,7 +171,10 @@
           "title": "The World's Greatest Stretch (Mobility Exercise) by Squat University",
           "channel": "Squat University",
           "url": "https://www.youtube.com/watch?v=-CiWQ2IvY34",
-          "duration": "0:43"
+          "duration": "0:43",
+          "source_type": ["demo", "coach"],
+          "practical_value": "high",
+          "coach_takeaway": "拆成三個節點做：前腳踩到手邊 → 同側手肘往下沉 → 再往上開胸旋轉並停 2–3 秒。旋轉要來自胸椎、眼睛跟著手走；轉不上去就把撐地的手墊在瑜伽磚上，不要用塌腰換角度。"
         },
         {
           "name": "毛毛蟲爬行",
@@ -142,7 +185,10 @@
           "title": "Dynamic Warmup Exercises | How to do Inch Worm",
           "channel": "Twin Cities Orthopedics",
           "url": "https://www.youtube.com/watch?v=Z19gpqxQBwo",
-          "duration": "1:11"
+          "duration": "1:11",
+          "source_type": ["demo", "clinical"],
+          "practical_value": "medium",
+          "coach_takeaway": "手往前走到肩膀在手腕正上方就停，腹部收住不讓腰塌下去；大腿後側緊的人膝蓋可以微彎，用走回來的過程再慢慢把膝蓋伸直。手腕撐不住就改在檯面或箱子上做，不要縮短動作品質換次數。"
         },
         {
           "name": "坐姿 90/90 髖轉換",
@@ -153,7 +199,10 @@
           "title": "90/90 Hip Switch (Improve Hip Health & Mobility)",
           "channel": "Simone Sports Performance",
           "url": "https://www.youtube.com/watch?v=qq_Z7sAmVrA",
-          "duration": "1:09"
+          "duration": "1:09",
+          "source_type": ["coach", "demo"],
+          "practical_value": "medium",
+          "coach_takeaway": "轉換要靠髖主動帶過去，不是用手推地板把身體甩過去，速度慢到膝蓋落地無聲。坐不直的人先坐上瑜伽磚或折疊墊把骨盆墊高，先求脊椎立得起來，再求角度大。"
         },
         {
           "name": "四足跪姿胸椎旋轉",
@@ -164,7 +213,11 @@
           "title": "「胸椎旋轉」改善胸椎活動度，解除胸悶，讓胸椎內的肺臟可以正常擴張，好好呼吸～也讓上方頸椎排列恢復正常，可幫助改善肩頸僵硬酸痛。",
           "channel": "全人物理治療所",
           "url": "https://www.youtube.com/watch?v=a4TlFx5WNrc",
-          "duration": "3:24"
+          "duration": "3:24",
+          "source_type": ["demo", "clinical"],
+          "practical_value": "medium",
+          "coach_takeaway": "先把骨盆與腰鎖住（臀部往腳跟坐一點會更容易固定），旋轉只發生在上背；到末端吐氣停 2 秒再回。手放後腦或手往上開兩種版本擇一即可，重點是不要用頸部代替胸椎轉。",
+          "claim_boundary": "影片把胸椎旋轉的效益延伸到「讓肺臟正常擴張」與「恢復頸椎排列」，這兩者都缺乏實證支持——活動度練習不會改變椎體排列。合理的期待是胸椎旋轉範圍與上背僵硬感在當下改善。"
         }
       ]
     },
@@ -173,6 +226,7 @@
       "name": "主動活動度與末端控制",
       "type": "practice",
       "assessment": "這個單元只問一件事：你拉出來的範圍，自己用得到嗎？躺平、雙腿伸直，先請人（或用彈力帶輔助）把一腿被動抬到最高、量角度，這是被動範圍；放下休息 30 秒，再完全不靠外力、膝蓋打直主動把同一腿抬到最高，量角度，這是主動範圍。兩者的差距就是你的「控制缺口」。差 15 度以內算是控制跟得上範圍；差 15–20 度以上代表你有範圍但缺乏在末端出力的能力，這時再多拉筋不會有幫助，該做的是本單元的主動活動度與末端控制練習。肩膀也可以同法比較（趴姿被動舉手 vs 主動舉手）。練 4–6 週後重測，目標是缺口縮小而不是被動角度變更大。任何測試中出現放射痛、麻木或肌力突然變差，停止並就醫。",
+      "coach_practice": "教學重點是把「量得出來的範圍」和「用得出來的範圍」分開講給學員聽。先做被動與主動的對照，讓他自己看到缺口，比講十分鐘理論有用。繞環的標準是慢——一圈 20–30 秒、全程自己出力，旁邊放鏡子或錄影，只要身體其他部位開始晃就是超出他能控制的範圍，把圈徑縮到不晃為止。等長推撐從兩成力加到六七成，絕不從全力開始；抽筋是劑量太高，不是進步。沒感覺的人不要加大角度，改成延長末端撐住的秒數；太痛的人退到痛前 10 度做同樣的收縮。",
       "tight": ["髖前側緊繃", "大腿後側緊繃", "肩膀活動受限", "髖內側緊繃"],
       "weak": ["髖屈曲主動範圍", "肩關節末端主動控制", "髖內收肌離心控制", "末端角度的出力能力"],
       "lesson": {
@@ -180,7 +234,11 @@
         "channel": "Tate Englund Functional Yoga",
         "url": "https://www.youtube.com/watch?v=pGB_OG6sto8",
         "duration": "3:10",
-        "why": "全課最貼近本單元命題的一支：把被動範圍與主動範圍的落差講成「你借來的活動度」與「你擁有的活動度」，並示範怎麼自己比較。要保留的是這個測量與比較的框架；要打折扣的是它背後 FRC／功能性活動度圈常見的機轉說法——「擴張關節囊」「讓神經系統重新取得該角度的控制權」目前都缺乏直接的人體實證，比較保守的解釋是末端角度的肌力與耐受度提升。此外影片提到的角度標準只是參考值，個體差異很大，請用你自己的前後對照當基準，不要拿別人的數字給自己貼標籤。"
+        "why": "全課最貼近本單元命題的一支：把被動範圍與主動範圍的落差講成「你借來的活動度」與「你擁有的活動度」，並示範怎麼自己比較。要保留的是這個測量與比較的框架；要打折扣的是它背後 FRC／功能性活動度圈常見的機轉說法——「擴張關節囊」「讓神經系統重新取得該角度的控制權」目前都缺乏直接的人體實證，比較保守的解釋是末端角度的肌力與耐受度提升。此外影片提到的角度標準只是參考值，個體差異很大，請用你自己的前後對照當基準，不要拿別人的數字給自己貼標籤。",
+        "source_type": ["expert-view", "contested-view", "demo"],
+        "practical_value": "high",
+        "coach_takeaway": "照它的方法把被動與主動範圍各量一次、記下差值，每 4–6 週複測，判讀重點放在「缺口縮小」而不是「被動角度變大」。缺口超過 15–20 度的人，課表要從多拉筋改成在末端出力。",
+        "claim_boundary": "影片背後的 FRC／功能性活動度說法——「擴張關節囊」「讓神經系統重新取得該角度的控制權」——目前都沒有直接的人體實證。可保留的是被動與主動範圍的測量與比較框架；比較保守的解釋是末端角度的肌力與牽張耐受度提升。"
       },
       "drills": [
         {
@@ -192,7 +250,10 @@
           "title": "FMS Active Straight Leg Raise",
           "channel": "Eric Schwefel",
           "url": "https://www.youtube.com/watch?v=UP4Hy-06Yi8",
-          "duration": "2:38"
+          "duration": "2:38",
+          "source_type": ["demo", "clinical"],
+          "practical_value": "medium",
+          "coach_takeaway": "這裡只把它當主動範圍的量尺用：對側腿與骨盆必須全程貼地，一離地就代表已經超過主動範圍，讀那個角度就好。左右各三次、最高點自己撐 3 秒，撐不住的高度不列入紀錄。"
         },
         {
           "name": "髖關節控制性繞環（CARs）",
@@ -203,7 +264,10 @@
           "title": "Controlled Articular Rotations (CARs) for Your Hips",
           "channel": "Cleveland Clinic",
           "url": "https://www.youtube.com/watch?v=hRMrq6G81p8",
-          "duration": "1:23"
+          "duration": "1:23",
+          "source_type": ["clinical", "demo"],
+          "practical_value": "high",
+          "coach_takeaway": "一圈慢到 20–30 秒，全程自己出力繞到外緣，另一手可以扶著骨盆當回饋——只要骨盆或肋廓開始跟著晃，就是離開了你能控制的範圍，把圈徑縮小到不晃為止。每天一組即可，不需要練到痠。"
         },
         {
           "name": "肩關節控制性繞環（CARs）",
@@ -214,7 +278,11 @@
           "title": "Controlled Articular Rotations (CARs) - Shoulder",
           "channel": "Tangelo - Seattle Chiropractor + Rehab",
           "url": "https://www.youtube.com/watch?v=CLWFwun1BfQ",
-          "duration": "1:53"
+          "duration": "1:53",
+          "source_type": ["expert-view", "demo"],
+          "practical_value": "high",
+          "coach_takeaway": "先全身繃緊到四五成再開始繞，肋廓不上抬、腰不代償；繞到某段突然卡住或無力，就停在那之前的角度反覆做，不要硬繞過去。站姿做不乾淨可以先躺著做，減少軀幹代償。",
+          "claim_boundary": "繞環常被說成能「維持關節囊健康」「促進滑液分泌與軟骨營養」，這些機轉在人體上沒有直接證據支持。它實際可觀察的是主動範圍的自我監測與末端控制練習，當成關節保養療程就是過度承諾。"
         },
         {
           "name": "末端等長推拉（PAILs／RAILs）",
@@ -225,7 +293,12 @@
           "title": "FRC Principle: PAILs & RAILs",
           "channel": "[P]rehab",
           "url": "https://www.youtube.com/watch?v=ZETE4uh0Sqg",
-          "duration": "1:01"
+          "duration": "1:01",
+          "source_type": ["expert-view", "contested-view"],
+          "practical_value": "high",
+          "coach_takeaway": "強度用階梯往上加：第一輪兩成力、第二輪五成、第三輪最多七成，收縮 10–20 秒配合吐氣；收縮完立刻試著主動把自己帶到新的末端撐 5 秒——那 5 秒才是這個方法真正要練的東西。",
+          "claim_boundary": "PAILs／RAILs 背後「用等長收縮擴張關節囊、改變關節被動結構」的說法缺乏人體實證，也還沒有研究顯示它在活動度上優於一般的靜態伸展加末端肌力訓練。可保留的原則是「在末端出力」，不是它宣稱的組織改造機轉。",
+          "safety": ["絕不從全力等長收縮開始，內收肌與大腿後側尤其如此，抽筋與拉傷多半發生在第一輪就給到最大力", "收縮後主動範圍反而變差、或關節出現銳痛，當天停止不要再加輪數"]
         },
         {
           "name": "躺姿主動髖屈練習",
@@ -236,7 +309,10 @@
           "title": "Supine Hip Flexion Drill",
           "channel": "Quinn Henoch",
           "url": "https://www.youtube.com/watch?v=hxpzDqfmC5Q",
-          "duration": "2:02"
+          "duration": "2:02",
+          "source_type": ["coach", "demo"],
+          "practical_value": "high",
+          "coach_takeaway": "先用手或彈力帶把腿帶到被動末端，再放開自己撐 5 秒——撐不住就往下降到撐得住的高度，那個高度才是你目前真正擁有的範圍。對側腿壓住地板維持骨盆穩定，不要用拱腰換角度。"
         },
         {
           "name": "哥本哈根側棒（內收肌負荷）",
@@ -247,7 +323,11 @@
           "title": "Copenhagen Planks for Strength and Reducing Risk of Groin Injury (Science-Based)",
           "channel": "E3 Rehab",
           "url": "https://www.youtube.com/watch?v=5Hs7AfiMXgs",
-          "duration": "5:22"
+          "duration": "5:22",
+          "source_type": ["science", "coach"],
+          "practical_value": "very-high",
+          "coach_takeaway": "退階順序記熟：短槓桿屈膝 → 下方腳掌落地輔助 → 直腿全長。每側先做 3 組 × 10–20 秒撐住，一週兩次、每週加 5 秒，撐到 30 秒再進下一階，以「隔天鼠蹊痠但走路不痛」當上限。",
+          "safety": ["鼠蹊部有急性拉傷或按壓劇痛時完全不要做，先就醫評估", "做的當下出現鼠蹊銳痛就停止，不要用縮短秒數的方式硬做完整組"]
         }
       ]
     },
@@ -256,6 +336,7 @@
       "name": "負重活動度：把「拉得開」變成「用得到」",
       "type": "practice",
       "assessment": "沿用上一單元的邏輯，但改用負重動作驗收：先做徒手過頭深蹲 5 下，請人從正面與側面各錄一段，記下三件事——腳跟有沒有離地、膝蓋有沒有內夾、手臂能不能停在耳朵後方而不靠塌腰。接著拿 8–12 公斤壺鈴做高腳杯深蹲 5 下再錄一次。如果加了負重反而蹲得更深更穩，代表你缺的不是活動度而是姿勢下的穩定與配重；如果加了負重就明顯變淺、腳跟浮起，代表這個範圍你只有被動版本、還沒有負荷下的版本。每 4 週用同樣重量與同樣角度重錄一次，判讀標準是「同樣重量下蹲得更深、且動作沒有變醜」。出現關節銳痛、腰部擠壓痛或動作中突然無力，立刻降重量並就醫評估。",
+      "coach_practice": "到這裡要換掉「拉筋」的思維：在肌肉被拉長的位置承受負荷，是目前最有實證的活動度做法。順序是先用徒手動作篩檢，再挑一個對應的負重動作，重量從很輕開始——高腳杯深蹲 8–12 公斤、傑佛遜彎舉 2–5 公斤就夠，看的是深度與控制而不是數字。進步優先加深度與停留時間，其次才加重；每 2–3 週才調一次負荷，結締組織適應比肌肉慢。常見錯誤是為了畫面好看犧牲姿勢（腳跟浮起、下背圓起來還硬蹲），寧可墊高腳跟或縮小幅度。長肌長訓練的痠痛較重，第一次做把組數砍半。",
       "tight": ["髖前側緊繃", "大腿後側緊繃", "小腿後側緊繃", "上背與胸廓緊繃"],
       "weak": ["單腳負重控制", "髖鉸鏈負重控制", "脊椎分節控制", "末端角度的出力能力"],
       "lesson": {
@@ -263,7 +344,10 @@
         "channel": "House of Hypertrophy",
         "url": "https://www.youtube.com/watch?v=5UTsWafnM0M",
         "duration": "12:49",
-        "why": "它談的是肌肥大，但引用的研究正好回答本單元的問題：在「肌肉被拉長的位置」承受負荷，除了長肌肉，多篇研究同時觀察到關節活動度增加，幅度與單純做靜態伸展相當甚至更好——這就是「把拉得開變成用得到」最有實證支撐的做法。要提醒的是兩件事：第一，這類研究的活動度效果多半來自數週的訓練，不是單次；第二，影片沒有講清楚長肌長訓練的肌肉痠痛與恢復成本明顯更高，剛開始請用較輕的重量、較少的組數，讓結締組織有時間適應（適應速度比肌肉慢，見 CH5）。"
+        "why": "它談的是肌肥大，但引用的研究正好回答本單元的問題：在「肌肉被拉長的位置」承受負荷，除了長肌肉，多篇研究同時觀察到關節活動度增加，幅度與單純做靜態伸展相當甚至更好——這就是「把拉得開變成用得到」最有實證支撐的做法。要提醒的是兩件事：第一，這類研究的活動度效果多半來自數週的訓練，不是單次；第二，影片沒有講清楚長肌長訓練的肌肉痠痛與恢復成本明顯更高，剛開始請用較輕的重量、較少的組數，讓結締組織有時間適應（適應速度比肌肉慢，見 CH5）。",
+        "source_type": ["science"],
+        "practical_value": "medium",
+        "coach_takeaway": "把它翻成課表：每個部位挑一個「肌肉被拉長時最吃力」的動作當主項（大腿後側用羅馬尼亞硬舉、股四頭用後腳墊高分腿蹲、內收肌用哥薩克深蹲），走完整範圍並在底部控制 2–3 秒，取代額外排一段拉筋。"
       },
       "drills": [
         {
@@ -275,7 +359,11 @@
           "title": "Overhead Squat Assessment: 4 Areas to Assess",
           "channel": "Precision Movement",
           "url": "https://www.youtube.com/watch?v=LHZQF1vAjz4",
-          "duration": "3:26"
+          "duration": "3:26",
+          "source_type": ["coach", "demo"],
+          "practical_value": "high",
+          "coach_takeaway": "正面與側面各錄一段，只看三件事：腳跟有沒有離地、膝蓋有沒有內夾、手臂能不能停在耳後而不塌腰。把觀察結果拿去決定接下來要單獨測哪個關節（踝、髖、胸椎），不要當場斷言哪條肌肉緊。",
+          "claim_boundary": "從過頭深蹲的偏移直接推論「哪條肌肉緊、哪條肌肉弱」的對應表，其效度與再測信度在研究中都不理想。它適合當成「下一步該測哪個關節」的線索，不適合當成診斷或矯正處方的依據。"
         },
         {
           "name": "高腳杯深蹲底部撐開",
@@ -286,7 +374,10 @@
           "title": "Improve Your Hip and Ankle Mobility with the Prying Goblet Squat | StrongFirst",
           "channel": "StrongFirst",
           "url": "https://www.youtube.com/watch?v=7Sxo7Xtx2Ks",
-          "duration": "1:19"
+          "duration": "1:19",
+          "source_type": ["coach", "demo"],
+          "practical_value": "high",
+          "coach_takeaway": "壺鈴貼胸當配重可以讓你坐得更直，蹲到底之後用手肘由內往外把膝蓋推開、左右輪流撐 3–5 次，全程腳跟壓地、用鼻子呼吸。腳跟撐不住就先墊 1–2 公分的槓片，別為了不墊而讓腰圓起來。"
         },
         {
           "name": "哥薩克深蹲",
@@ -297,7 +388,10 @@
           "title": "How to Cossack Squat Mobility Exercise: Tutorial & Progressions",
           "channel": "FitnessFAQs",
           "url": "https://www.youtube.com/watch?v=tpczTeSkHz0",
-          "duration": "3:01"
+          "duration": "3:01",
+          "source_type": ["coach", "demo"],
+          "practical_value": "very-high",
+          "coach_takeaway": "進階順序照影片走：扶支撐物半蹲 → 腳跟墊高徒手 → 全腳掌貼地徒手 → 加配重。下降 3 秒、底部停 2 秒，伸直側的腳跟不離地；蹲不下去先處理踝背屈，而不是把重心硬往前倒。"
         },
         {
           "name": "膝過腳尖分腿蹲",
@@ -308,7 +402,12 @@
           "title": "Knees over toes Split Squats -  How to strengthen your knees",
           "channel": "BBB Gyms - Body By Brando",
           "url": "https://www.youtube.com/watch?v=4qPJUSczLcM",
-          "duration": "3:21"
+          "duration": "3:21",
+          "source_type": ["coach", "demo"],
+          "practical_value": "high",
+          "coach_takeaway": "步距決定膝蓋往前的量：先用短步距、前腳跟踩穩，後腳膝蓋輕點地不砸地，下降 3 秒。膝前不適的人先墊高前腳或縮小深度，累積四週無痛再往前推，不要一開始就追求最深的那張畫面。",
+          "claim_boundary": "「膝過腳尖能治好膝痛、讓膝蓋刀槍不入」這類說法沒有對照試驗支持。深屈曲下的漸進負荷是合理的訓練原則，本質是慢慢建立耐受度，不是修復結構的療法；既有膝痛應先由專業評估再決定深度。",
+          "safety": ["膝蓋前方疼痛超過 3／10 或隔天沒退，就縮小步距與深度，不要照原樣硬練", "半月板或髕骨軟骨曾受傷者，先在無痛範圍練足四週再增加深度"]
         },
         {
           "name": "羅馬尼亞硬舉（大腿後側負重延展）",
@@ -319,7 +418,10 @@
           "title": "How To Perform PERFECT Romanian Deadlifts | RDLs (Everything You Need To Know)",
           "channel": "E3 Rehab",
           "url": "https://www.youtube.com/watch?v=uhghy9pFIPY",
-          "duration": "12:55"
+          "duration": "12:55",
+          "source_type": ["coach", "science", "demo"],
+          "practical_value": "very-high",
+          "coach_takeaway": "用髖鉸鏈起始：先把臀部往後推，槓貼著大腿走，降到「大腿後側開始牽張、背還能維持中立」的高度就轉向，不必碰地。下放 3 秒；背一圓就是那組的終點，下一組減重量而不是硬撐次數。"
         },
         {
           "name": "傑佛遜彎舉（脊椎分節負重）",
@@ -330,7 +432,11 @@
           "title": "Jefferson Curl | Do It Right!",
           "channel": "Tom Merrick",
           "url": "https://www.youtube.com/watch?v=y_APeWo643w",
-          "duration": "6:19"
+          "duration": "6:19",
+          "source_type": ["coach", "demo"],
+          "practical_value": "high",
+          "coach_takeaway": "從 2–5 公斤起步，站在箱子上，從頸椎開始一節一節往下捲、共 5–8 秒，回程反向一節一節疊回來，膝蓋伸直但不鎖死。全程可控是唯一標準，重量每 2–3 週才加 1–2 公斤，給結締組織適應時間。",
+          "safety": ["有椎間盤突出病史、下背急性疼痛、骨質疏鬆或使用抗凝血劑者不要自行嘗試", "過程中出現腿麻、放射痛或無力立即停止並就醫"]
         }
       ]
     }

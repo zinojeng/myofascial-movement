@@ -9,12 +9,17 @@
       "assessment": "用手機側錄，站在牆邊做兩種跳：先做 3 次反向跳（站直、快速下蹲後立刻往上跳），休息 60 秒，再做 3 次蹲跳（蹲到底靜止停 3 秒，再往上跳，中途不可再往下沉）。各取最好的一次，比較摸高高度。多數人的反向跳會比蹲跳高 5–15%，這個差值就是伸展－收縮循環（SSC）替你多賺到的部分。差值小於 3%，代表你把下蹲的動能浪費掉了，練習重點是縮短「下蹲轉向上」的轉換時間；差值正常但兩種跳都很低，代表缺的是基礎肌力，先回去練蹲與硬舉，不要急著跳。要提醒自己：這個差值反映的是肌腱、肌肉主動剛度與神經預先啟動三者的合作，不是單一組織的功勞。",
       "tight": ["小腿後側緊繃", "跟腱僵硬感", "足底疲勞"],
       "weak": ["踝關節剛度", "落地緩衝控制", "快速轉換的節奏"],
+      "coach_practice": "先讓學員感覺到「彈起來」和「蹲起來」不一樣，再談量。第一堂只做三件事：反向跳與蹲跳各三次錄影、跳繩 30 秒找節奏、原地彈跳十下。回饋用聽的：聲音短而清脆代表觸地時間短，變悶就是這一組該結束。訓練量用觸地次數算，新手一次課 60–100 下，高度降到能連續十下都乾淨。常見錯誤有兩個：為了跳高把下蹲加深，反而拉長轉換時間；用膝蓋主導，把原地彈跳做成小深蹲。太輕鬆時先縮短觸地時間，再進單腳版本，最後才加高度；跟腱或足底隔天晨起出現新痛感，就把跳的部分整週換成提踵與快走。全部排在熱身之後、大重量之前。",
       "lesson": {
         "title": "Stretch Shortening Cycle Explained | Physiology and Training the SSC",
         "channel": "The Movement System",
         "url": "https://www.youtube.com/watch?v=iilyVw5uVXg",
         "duration": "10:16",
-        "why": "選它是因為它把 SSC 拆成離心、轉換（amortization）、向心三段講，而且有帶到訓練上怎麼分階。要保留的是它對「彈性能量」的描述：影片講得比較像單純的橡皮筋回彈，但實際上能不能用到那份能量，取決於轉換時間夠不夠短、以及肌肉在觸地前後有沒有先啟動把肌腱張力撐住——轉換一慢，儲存的能量就以熱耗散掉了。也因此不要把彈性表現整包歸給筋膜：肌腱的被動彈性、肌肉的主動剛度、神經的預先啟動與反射三者都有份，目前沒有證據能把貢獻切乾淨。"
+        "why": "選它是因為它把 SSC 拆成離心、轉換（amortization）、向心三段講，而且有帶到訓練上怎麼分階。要保留的是它對「彈性能量」的描述：影片講得比較像單純的橡皮筋回彈，但實際上能不能用到那份能量，取決於轉換時間夠不夠短、以及肌肉在觸地前後有沒有先啟動把肌腱張力撐住——轉換一慢，儲存的能量就以熱耗散掉了。也因此不要把彈性表現整包歸給筋膜：肌腱的被動彈性、肌肉的主動剛度、神經的預先啟動與反射三者都有份，目前沒有證據能把貢獻切乾淨。",
+        "source_type": ["science", "coach"],
+        "practical_value": "high",
+        "coach_takeaway": "聽的時候把注意力放在中間那段轉換：練 SSC 練的是縮短觸地時間，不是加大下蹲幅度。把它翻成一句場上能用的指令——「腳一碰地就走」，並用落地聲音當回饋，聲音一變重就收工。",
+        "claim_boundary": "影片把彈性能量描述成橡皮筋式的儲存與釋放。實際上能不能用到那份能量，取決於轉換時間夠不夠短、以及肌肉在觸地前有沒有先啟動；肌腱的被動彈性、肌肉的主動剛度與神經反射三者都有貢獻，沒有證據能把筋膜的份額單獨切出來，把彈性表現歸功於筋膜是超出資料的說法。"
       },
       "drills": [
         {
@@ -26,7 +31,10 @@
           "title": "Counter-movement Jump vs. Squat Jump",
           "channel": "Ben Norley",
           "url": "https://www.youtube.com/watch?v=DZV_RlzfSIY",
-          "duration": "1:06"
+          "duration": "1:06",
+          "source_type": ["demo"],
+          "practical_value": "medium",
+          "coach_takeaway": "兩種跳都要從同一個站姿起跳，手的位置固定（叉腰可以消掉擺臂這個變因）。蹲跳一定要在底部真的停滿 3 秒，只要有一點點往下再彈的動作，測出來的落差就沒有意義。"
         },
         {
           "name": "跳繩基礎彈跳節奏",
@@ -37,7 +45,11 @@
           "title": "JUMP ROPE LIKE A PRO IN 2 MINUTES l LEARN HOW TO SKIP",
           "channel": "Dayan Kole",
           "url": "https://www.youtube.com/watch?v=vEJ7XbbAMAg",
-          "duration": "2:22"
+          "duration": "2:22",
+          "source_type": ["coach", "demo"],
+          "practical_value": "medium",
+          "coach_takeaway": "先不拿繩子，用前足做原地小彈跳把節奏找出來，再把繩子加進去。繩長以踩住繩子中央、握把拉到腋下為準；繩子太長會逼你跳高、觸地時間變長，節奏就練不出來。",
+          "safety": ["跟腱或足底近期有痛感時不要用跳繩當入門，先從快走與提踵建立耐受度", "避免在水泥地赤腳跳，選有緩衝的地面並穿有支撐的鞋"]
         },
         {
           "name": "原地彈跳（Pogo）",
@@ -48,7 +60,10 @@
           "title": "Learn to Pogo in 3 Steps",
           "channel": "Brendan Killian",
           "url": "https://www.youtube.com/watch?v=39A-HLkq2cQ",
-          "duration": "0:45"
+          "duration": "0:45",
+          "source_type": ["demo", "coach"],
+          "practical_value": "medium",
+          "coach_takeaway": "用聲音當回饋：目標是短促清脆的兩聲，而不是悶悶的「咚」。膝蓋維持幾乎打直、力量從腳踝出來；一旦感覺變成用大腿在蹬，就代表這一組已經結束了。"
         },
         {
           "name": "三個入門增強式動作",
@@ -59,7 +74,10 @@
           "title": "將肌力轉換爆發力！增強運動表現！｜3個增強式訓練動作｜Jay Wang",
           "channel": "Jay Wang",
           "url": "https://www.youtube.com/watch?v=D53mfGk-x2w",
-          "duration": "6:09"
+          "duration": "6:09",
+          "source_type": ["coach", "demo"],
+          "practical_value": "high",
+          "coach_takeaway": "把這三個動作排在熱身之後、大重量之前，狀態最好的時候做。每一下之間站直重整再做下一下，寧可把組間休息拉長，也不要把增強式練成喘不過氣的體能課——一喘，落地品質就掉了。"
         },
         {
           "name": "跳躍前的 Skipping 準備",
@@ -70,7 +88,10 @@
           "title": "Don't Run Before You Can . . . Skip!",
           "channel": "Muscle Therapies",
           "url": "https://www.youtube.com/watch?v=F0GpyuIrgVQ",
-          "duration": "1:51"
+          "duration": "1:51",
+          "source_type": ["coach", "demo"],
+          "practical_value": "medium",
+          "coach_takeaway": "先原地做，把「彈起—落下」的節拍抓出來，再往前移動。重點是每一步都有短暫騰空與清楚節奏，速度慢沒關係；一旦變成大步跑或身體往後仰，就停下來重新找節奏。"
         }
       ]
     },
@@ -81,12 +102,17 @@
       "assessment": "做單腳跳落地測試：單腳向前跳出去，落地後在原地穩住 3 秒，手不扶東西、腳掌不移位、不出現第二次小跳。左右腳各做 3 次，量跳出的距離並側錄正面畫面。三個判讀點：一、左右腳的最遠距離差距超過 10%，弱的那側先回到雙腳與單腳肌力動作，暫時不要做單腳增強式；二、落地時膝蓋往內倒、腳掌往外翻、或需要往前踏一步才停得下來，代表你的減速能力還跟不上跳出去的能力；三、落地當下或隔天出現膝前、跟腱、脛骨前側痛超過 3/10，就把高度與距離降一階。三個都過關，才進入單腳跳與交替彈跳。",
       "tight": ["膝前側緊繃", "小腿後側緊繃", "髖前側緊繃"],
       "weak": ["單腳負重控制", "落地時的膝髖對位", "減速與煞車能力"],
+      "coach_practice": "這個單元教的是煞車，不是跳。順序永遠是先能落再能跳、先雙腳再單腳、先原地再位移。開場用 20–30 公分低箱往下踏落，落地停住兩秒檢查膝蓋是否對著第二腳趾，正面錄影讓學員自己看，比口頭糾正有效。膝內夾怎麼提示都修不掉時，多半是髖外展與單腳肌力不足，當天就轉去做側棒、單腳橋與分腿蹲，下次再回來。單腳跳測試當每日開關：左右差在 10% 以內才做單腳項目，差距在課中變大就退回雙腳。進階順序是落地→反彈→連續→位移，一次只動一個變因。落地要往前踏一步才停得住，就降高度與距離、把連續改回單次。",
       "lesson": {
         "title": "How To Assess And Teach Landing Mechanics",
         "channel": "[P]rehab",
         "url": "https://www.youtube.com/watch?v=b7UlaJjPiYw",
         "duration": "5:54",
-        "why": "這支同時教「怎麼看落地」與「怎麼教落地」，剛好是本單元的兩件事，而且示範的退階順序（雙腳落地→單腳落地→加高度）可以直接照著排。要修正的地方：影片是從 ACL 傷害預防的篩檢角度切入，但前瞻性研究裡「落地膝內夾」對未來受傷的預測力其實不強，把它當成可以改善的動作品質項目比當成受傷風險指標誠實得多。另外落地的緩衝是踝、膝、髖與整條肌腱－肌肉單元一起吸收，不要把它講成筋膜在吸震。"
+        "why": "這支同時教「怎麼看落地」與「怎麼教落地」，剛好是本單元的兩件事，而且示範的退階順序（雙腳落地→單腳落地→加高度）可以直接照著排。要修正的地方：影片是從 ACL 傷害預防的篩檢角度切入，但前瞻性研究裡「落地膝內夾」對未來受傷的預測力其實不強，把它當成可以改善的動作品質項目比當成受傷風險指標誠實得多。另外落地的緩衝是踝、膝、髖與整條肌腱－肌肉單元一起吸收，不要把它講成筋膜在吸震。",
+        "source_type": ["clinical", "coach", "demo"],
+        "practical_value": "very-high",
+        "coach_takeaway": "教落地時一次只改一件事，並且用外在提示（「像踩在蛋殼上」「膝蓋朝著第二腳趾」）取代解剖名詞。先從低箱往下踏、落地停住兩秒對位，穩了才加入跳與連續反彈。",
+        "claim_boundary": "影片以 ACL 傷害預防的篩檢角度切入，把落地時的膝內夾當成受傷風險指標。前瞻性研究裡這個變項對未來受傷的預測力其實不強，把它當成可以改善的動作品質項目就好，不要拿來預測誰會受傷。"
       },
       "drills": [
         {
@@ -98,7 +124,11 @@
           "title": "Hop for Distance Test",
           "channel": "Sport Rehab Guide",
           "url": "https://www.youtube.com/watch?v=Gxs5nVnE4Yg",
-          "duration": "1:05"
+          "duration": "1:05",
+          "source_type": ["demo", "clinical"],
+          "practical_value": "medium",
+          "coach_takeaway": "起跳腳的腳尖對齊同一條起跳線，落地要能靜止 3 秒才計分，手可以擺但落地後不能扶東西。先測沒問題的那一側建立基準，再測有症狀的那側，才不會被前一次的疲勞污染對照。",
+          "safety": ["下肢術後、或目前光是走路就會痛的人先不要做這個測試，回到雙腳負重動作"]
         },
         {
           "name": "雙腳落地的基本對位",
@@ -109,7 +139,11 @@
           "title": "ACL Injury Prevention: Jumping and Landing Technique",
           "channel": "Hospital for Special Surgery",
           "url": "https://www.youtube.com/watch?v=lCxMeAhj8A0",
-          "duration": "2:56"
+          "duration": "2:56",
+          "source_type": ["clinical", "demo"],
+          "practical_value": "high",
+          "coach_takeaway": "用手機從正面錄影，比口頭提示有效得多——讓學員自己看膝蓋跑到哪裡去。落地提示「屁股往後、胸口不要垮」；膝內夾怎麼提示都修不掉，多半是髖外展肌力不足，先補側棒與髖外展再回來。",
+          "claim_boundary": "影片以「預防 ACL 傷害」為標題。目前證據支持的是整套神經肌肉訓練計畫（肌力、平衡與落地技術並行、持續數月）能降低傷害率，單獨矯正落地姿勢並沒有被證明有同等效果。"
         },
         {
           "name": "增強式五階漸進",
@@ -120,7 +154,10 @@
           "title": "How to Progress Plyometrics | 5 Levels From Beginner to Advanced",
           "channel": "The Movement System",
           "url": "https://www.youtube.com/watch?v=_YudFDcW_Iw",
-          "duration": "5:52"
+          "duration": "5:52",
+          "source_type": ["program", "coach"],
+          "practical_value": "very-high",
+          "coach_takeaway": "把「觸地次數」當成這一章的訓練量單位寫進課表：新手一次 60–80 下、每週兩次就夠。晉階的判準是上一階能維持乾淨無聲的落地、且隔天沒有新的痛感，不是「兩週到了」。"
         },
         {
           "name": "從雙腳到單腳的復健式漸進",
@@ -131,7 +168,10 @@
           "title": "Plyometric Progressions For Rehab!",
           "channel": "[P]rehab",
           "url": "https://www.youtube.com/watch?v=FejJL2lmqsg",
-          "duration": "6:47"
+          "duration": "6:47",
+          "source_type": ["clinical", "program", "demo"],
+          "practical_value": "very-high",
+          "coach_takeaway": "每堂課先做 2–3 次單腳跳當「今日測試」，左右差還在 10% 以內才做單腳項目；差距變大就當天只做雙腳版本。用這個當每日開關，比照著週次表一路往下走安全得多。"
         },
         {
           "name": "單腳交替彈跳（Bounding）",
@@ -142,7 +182,11 @@
           "title": "Learning How to Bound // Easy Bounding Progression for Jumpers and Athletes",
           "channel": "Coach Cale",
           "url": "https://www.youtube.com/watch?v=zegHQw9HWNY",
-          "duration": "4:37"
+          "duration": "4:37",
+          "source_type": ["coach", "demo"],
+          "practical_value": "high",
+          "coach_takeaway": "從行進間的大步走開始，確定每一步都能站穩再加速度。趟數固定、速度一掉就結束，把它當技術動作而不是體能動作練——追到喘的時候，步幅與落地都會走樣。",
+          "safety": ["腿後肌近期拉傷或還有拉扯感時完全不做，這是腿後肌拉傷風險最高的動作之一"]
         }
       ]
     },
@@ -153,12 +197,17 @@
       "assessment": "先量一個基準：單腳站，手指輕扶牆只維持平衡，另一腳離地，全幅度提踵到最高再放下，約 2 秒一下，做到再也達不到全高度為止，記次數；左右各測一次，中間休息 2 分鐘。左右差超過 20%，弱側就是本單元的主要目標。接著建立一條「24 小時規則」：每次加量後，隔天早上下床第一步的痛感不可以超過 5/10，也不可以比加量前更痛；符合就維持一到兩週再加，超過就退回上一階。把兩個數字記在同一張表上，每 4 週回頭看一次——肌力兩三週就會動，肌腱的剛度與膠原重塑要以月計，數字沒動不代表沒進步，但痛感連續三天上升就是明確的減量訊號。",
       "tight": ["跟腱壓痛", "膝下方髕腱壓痛", "小腿後側緊繃"],
       "weak": ["小腿肌耐力", "等長負荷耐受度", "漸進加量的紀律"],
+      "coach_practice": "這一段最難的不是動作，是讓學員接受慢。開場先把單腳提踵次數與「隔天晨起第一步痛感」建成一張表，之後每堂課先問這兩個數字再決定當天做什麼。壓力拿捏用 24 小時規則：練習當下痛感可以到 5/10，但隔天晨起不能比加量前更痛；符合就維持一到兩週再加，超過就退回上一階。無感時的進階順序是等長→慢速重負荷→加速度→彈性，一次只加一個變因。太痛時不是全停，而是退到等長——等長最能忍受，也保住每天執行的習慣。最常見的錯誤是四週沒看到變化就換方案：肌腱以月為單位反應，換來換去等於每次都從頭開始。",
       "lesson": {
         "title": "Why Your Tendons Are Weak: The Science of Building Tendon Strength",
         "channel": "The Movement System",
         "url": "https://www.youtube.com/watch?v=GvxD0zn6-B4",
         "duration": "12:14",
-        "why": "選它是因為它把本單元最重要的一句話講清楚了：肌肉與肌腱的適應速度不一樣。肌力可以用「週」進步，肌腱的剛度與膠原轉換要用「月」算，這個時間差就是很多人練了六週覺得很強、然後跟腱或髕腱開始痛的原因。需要保留的地方：影片對具體處方（幾秒等長、幾組幾下）講得比文獻確定，目前站得住腳的只有幾個大原則——高負荷、每組張力維持得夠久、頻率規律、進度慢；最佳劑量仍未定案。另外肌腱痛不等於組織有破損，影像上的退化性變化在無症狀者身上也很常見。"
+        "why": "選它是因為它把本單元最重要的一句話講清楚了：肌肉與肌腱的適應速度不一樣。肌力可以用「週」進步，肌腱的剛度與膠原轉換要用「月」算，這個時間差就是很多人練了六週覺得很強、然後跟腱或髕腱開始痛的原因。需要保留的地方：影片對具體處方（幾秒等長、幾組幾下）講得比文獻確定，目前站得住腳的只有幾個大原則——高負荷、每組張力維持得夠久、頻率規律、進度慢；最佳劑量仍未定案。另外肌腱痛不等於組織有破損，影像上的退化性變化在無症狀者身上也很常見。",
+        "source_type": ["science", "coach"],
+        "practical_value": "high",
+        "coach_takeaway": "把課表拆成兩條時間軸來排：肌力那條每 2–3 週可以動，肌腱那條讓每個階段至少待滿 4 週。學員說「我覺得可以加了」的時候，看的是他隔天早上的痛感紀錄，不是他的感覺。",
+        "claim_boundary": "影片給的等長秒數、組數與頻率講得比文獻確定。目前站得住腳的只有幾個大原則——負荷要夠高、每組張力維持得夠久、頻率規律、進度慢；最佳劑量仍未定案，把某個秒數講成「肌腱適應的正確答案」是過度延伸。"
       },
       "drills": [
         {
@@ -170,7 +219,10 @@
           "title": "Single Leg Calf Raise Assessment",
           "channel": "Gait Happens",
           "url": "https://www.youtube.com/watch?v=s-NoA27XIdM",
-          "duration": "1:31"
+          "duration": "1:31",
+          "source_type": ["demo", "clinical"],
+          "practical_value": "high",
+          "coach_takeaway": "用節拍器或出聲數把速度固定在 2 秒一下，否則次數會被速度灌水。膝蓋全程打直、身體不可以往前倒借力；判定結束的標準是「高度掉下來」而不是「覺得累」。"
         },
         {
           "name": "西班牙深蹲等長支撐",
@@ -181,7 +233,10 @@
           "title": "How to Set Up and Perform Spanish Squats Correctly (Don't Make This Mistake!)",
           "channel": "E3 Rehab",
           "url": "https://www.youtube.com/watch?v=hgFxm5KIF7M",
-          "duration": "4:04"
+          "duration": "4:04",
+          "source_type": ["clinical", "coach", "demo"],
+          "practical_value": "very-high",
+          "coach_takeaway": "彈力帶要繞在膝蓋正下方的脛骨上緣、固定點與膝同高，身體才會垂直下坐而不是往後仰。找不到夠穩的固定點就退回靠牆蹲；張力抓在「撐得住 45 秒、但最後 10 秒有點抖」。"
         },
         {
           "name": "跟腱離心負荷（Alfredson 方案）",
@@ -192,7 +247,12 @@
           "title": "Alfredson Achilles Tendinopathy Rehab Protocol",
           "channel": "Physiotutors",
           "url": "https://www.youtube.com/watch?v=fHHbn_Odk4E",
-          "duration": "4:58"
+          "duration": "4:58",
+          "source_type": ["clinical", "demo", "science"],
+          "practical_value": "high",
+          "coach_takeaway": "只有下放那一段用患側，回到起點時用健側或雙腳幫忙推上去，不要把向心也做成負荷。12 週是這個方案的最短評估期，第三週沒感覺不算失敗；把每天兩次的執行率記下來，比中途換方案有意義得多。",
+          "claim_boundary": "這個方案常被講成跟腱病變的標準答案。近年的比較研究顯示，重負荷慢速阻力訓練與漸進負荷方案的效果與它相近，離心並沒有被證明優於其他高負荷方式。",
+          "safety": ["跟腱曾經斷裂，或使用氟喹諾酮類抗生素期間出現跟腱痛，不要自行做離心負荷，先就醫", "疼痛位置緊貼跟骨（止點型）時不要做腳跟低於台階的版本，改成平地全幅度"]
         },
         {
           "name": "跟腱漸進負荷四階段",
@@ -203,7 +263,10 @@
           "title": "Progressive Achilles Tendon Loading | Baxter Achilles Tendinopathy Rehabilitation Program",
           "channel": "Physiotutors",
           "url": "https://www.youtube.com/watch?v=nate3mVMGrw",
-          "duration": "8:31"
+          "duration": "8:31",
+          "source_type": ["program", "clinical"],
+          "practical_value": "very-high",
+          "coach_takeaway": "把四個階段抄成一張表，每一階各寫下「進場條件」與「退場條件」，用隔天晨起第一步的 0–10 分當唯一晉階依據。跨階時只加一個變因（負荷、速度、幅度擇一），痛起來才知道是哪一項造成的。"
         },
         {
           "name": "離心收縮的正確用法",
@@ -214,7 +277,10 @@
           "title": "訓練效果差、容易受傷？物理治療師教你離心收縮的正確用法｜啾c物理治療師",
           "channel": "啾c物理治療師",
           "url": "https://www.youtube.com/watch?v=UwsqBlyLu5E",
-          "duration": "10:03"
+          "duration": "10:03",
+          "source_type": ["clinical", "coach"],
+          "practical_value": "high",
+          "coach_takeaway": "第一次導入離心只做計畫量的一半，而且排在該週最後一次訓練，把 48–72 小時的痠痛留給休息日。痠痛期間照常做低強度活動沒問題，但痠痛還沒退就不要再排第二次離心。"
         }
       ]
     }

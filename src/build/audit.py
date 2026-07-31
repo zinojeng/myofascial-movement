@@ -688,17 +688,20 @@ def audit_roles(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
     if bad_value:
         rep.err(sec, f"{len(bad_value)} 個 practical_value 不在 config.values", bad_value)
 
-    # 配比：以「主要角色」（source_type 第一個）計算，這樣各類百分比才會加總為 100%
+    # 配比：以「主要角色」（source_type 第一個）計算，這樣各類百分比才會加總為 100%。
+    # key 可以用 "+" 合併多個角色成一類——「教練／治療師實務」本來就是一個配比目標，
+    # 硬拆成 coach 與 clinical 兩個獨立門檻只會製造假警告。
     targets = opts.get("contentMix") or {}
     if targets and primary:
         n = sum(primary.values())
         tol = opts["contentMixTolerance"]
-        off = []
-        for rid, want in targets.items():
-            got = primary.get(rid, 0) / n
-            if abs(got - want) > tol:
-                off.append(f"{rid} 實際 {got:.0%}，目標 {want:.0%}")
-        shape = "、".join(f"{rid} {primary.get(rid, 0) / n:.0%}" for rid in targets)
+        share = lambda key: sum(primary.get(r, 0) for r in key.split("+")) / n  # noqa: E731
+        off = [
+            f"{key} 實際 {share(key):.0%}，目標 {want:.0%}"
+            for key, want in targets.items()
+            if abs(share(key) - want) > tol
+        ]
+        shape = "、".join(f"{key} {share(key):.0%}" for key in targets)
         if off:
             rep.warn(sec, f"內容配比偏離目標 {len(off)} 項（±{tol:.0%}）：{shape}", off)
         else:

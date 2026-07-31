@@ -408,10 +408,8 @@
     "allowMissingUrls": 4,
     "roleCoverage": 1,
     "contentMix": {
-      "science": 0.1,
-      "expert-view": 0.1,
-      "coach": 0.3,
-      "clinical": 0.1,
+      "science+expert-view": 0.2,
+      "coach+clinical": 0.4,
       "demo": 0.3,
       "contested-view": 0.1
     },

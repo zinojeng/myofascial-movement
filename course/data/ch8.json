@@ -9,12 +9,16 @@
       "assessment": "這一章的重點不是再學新動作，而是判斷這套課表對你有沒有用。固定三個客觀指標，每兩週在同一時間、同樣熱身條件下量一次，並且寫下來：一、牆邊踝背屈——腳尖離牆，膝蓋往前碰牆而腳跟不離地，記錄腳尖到牆的最大距離（公分），左右分開記；二、站姿體前彎，膝蓋伸直，記錄指尖到地面的距離（公分，碰到地就記負值）；三、仰躺屈肩，腰貼地不拱起，手臂舉過頭，記錄手背能不能貼地、貼不到差幾公分。再加兩個主觀欄位：本週訓練後隔天的痠痛 0–10，以及這週實際做滿幾次（不是計畫幾次）。判讀方式：四週後，三個客觀指標中至少一個改善 2 公分以上，或主觀痠痛與執行率明顯變好，就繼續；三個都沒動而且你確實做滿了八成的次數，代表劑量或內容要換，而不是再撐一個月——最常見的原因是只做了低強度輸入，沒有把打開的範圍拿去主動使用或加負荷。",
       "tight": ["胸椎僵硬", "髖前側緊繃", "頸肩緊繃", "小腿後側緊繃"],
       "weak": ["每日執行率", "訓練前的動作準備", "負重活動度"],
+      "coach_practice": "這一章教的是取捨。先讓學員只選一個入口做滿兩週，而不是四種都排——執行率才是這一章真正的變因。排課時把靜態伸展放到訓練後與非訓練時段，訓練前只用動態暖身加專項組。「每週兩次 30 分鐘」那一格要把組法講清楚：影片本身只有 13 分半，前面自己加 5 分鐘滾筒或按摩球，後面再補 10 分鐘負重動作（負重深蹲活動度、單腳硬舉、農夫走路），三段加起來才是 30 分鐘；缺了最後那段就只是把範圍打開，沒有把它用起來。時間不夠時砍中間的伸展段，不要砍負荷段。",
       "lesson": {
         "title": "Static vs Dynamic Stretching: Which is Better? (Evidence-Based)",
         "channel": "E3 Rehab",
         "url": "https://www.youtube.com/watch?v=r-pxOslY-q4",
         "duration": "9:48",
-        "why": "整章課表的核心決策就是「什麼時候做什麼」，這支把靜態與動態伸展的時機問題整理得最清楚：在合理劑量下（單一肌群 60 秒以內、後面接專項暖身），靜態伸展對後續表現的負面影響小到沒有實務意義；訓練前想動得順，動態暖身與逐步升溫仍然是比較合理的選擇。要補一句它沒有強調的：這是表現面的結論，不代表伸展能預防受傷——伸展對受傷率的證據很薄弱，暖身整體（升溫加專項動作）的效果比伸展本身明確得多。這一章的課表也照這個原則排：運動前以動態為主，靜態放到運動後與非訓練時段。"
+        "why": "整章課表的核心決策就是「什麼時候做什麼」，這支把靜態與動態伸展的時機問題整理得最清楚：在合理劑量下（單一肌群 60 秒以內、後面接專項暖身），靜態伸展對後續表現的負面影響小到沒有實務意義；訓練前想動得順，動態暖身與逐步升溫仍然是比較合理的選擇。要補一句它沒有強調的：這是表現面的結論，不代表伸展能預防受傷——伸展對受傷率的證據很薄弱，暖身整體（升溫加專項動作）的效果比伸展本身明確得多。這一章的課表也照這個原則排：運動前以動態為主，靜態放到運動後與非訓練時段。",
+        "source_type": ["science", "clinical"],
+        "practical_value": "high",
+        "coach_takeaway": "把結論直接翻成排課規則：訓練前做動態加逐步升溫，靜態伸展留到訓練後或非訓練時段。真的想在訓練前拉某個部位，單一肌群壓在 60 秒以內，後面接兩組專項暖身組把神經叫回來再上重量。"
       },
       "drills": [
         {
@@ -26,7 +30,10 @@
           "title": "10 Minute Morning Mobility Routine! (FOLLOW ALONG)",
           "channel": "Tom Merrick",
           "url": "https://www.youtube.com/watch?v=0VrLgzwTmTg",
-          "duration": "12:23"
+          "duration": "12:23",
+          "source_type": ["program", "demo", "coach"],
+          "practical_value": "high",
+          "coach_takeaway": "久坐族不要早上做完就當天沒事了——把這套拆成兩半，一半早上做，一半排在下午久坐最久的那個時段當「打斷」。動作幅度取自己能控制的八成就好，追極限反而讓人撐不滿兩週。"
         },
         {
           "name": "運動前 8 分鐘：全身動態暖身",
@@ -37,7 +44,10 @@
           "title": "8 Min. Full Body Warm Up | Dynamic Gym Warm Up & Mobility | Follow Along | No Equipment | No Repeats",
           "channel": "mobility by julia reppel",
           "url": "https://www.youtube.com/watch?v=rKpcpsvclw0",
-          "duration": "8:38"
+          "duration": "8:38",
+          "source_type": ["program", "demo"],
+          "practical_value": "high",
+          "coach_takeaway": "跟練時把最後兩個動作換成當天主課表的專項輕重量組（要深蹲就空槓深蹲、要推就徒手推），暖身才會真的暖到等一下要用的動作；心跳與體溫先上來，後面的活動度動作也才做得開。"
         },
         {
           "name": "運動後 10 分鐘：收操與靜態伸展",
@@ -48,7 +58,11 @@
           "title": "10 Min. Full Body Stretch | Cool Down & Recover | Do this after every Workout",
           "channel": "Mady Morrison",
           "url": "https://www.youtube.com/watch?v=IlHgLYdt3kc",
-          "duration": "11:17"
+          "duration": "11:17",
+          "source_type": ["program", "demo"],
+          "practical_value": "medium",
+          "coach_takeaway": "收操的目的是把喚醒程度降下來，不是再練一次活動度：每個伸展配 3–4 次慢吐氣，強度壓在 3–4/10。剛練過的部位放前面、當天沒練的直接略過，整套壓在 10 分鐘內比較容易長期做下去。",
+          "claim_boundary": "標題把它講成每次訓練後都該做的必要步驟。收操伸展對延遲性痠痛與恢復指標的效果在文獻上很小，把它當成讓自己緩下來的習慣是合理的，當成加速恢復的手段則超出證據。"
         },
         {
           "name": "每週兩次 30 分鐘：完整活動度課表",
@@ -59,7 +73,10 @@
           "title": "10 Minute Mobility & Stretching Routine Follow Along - Morning, Daily, Warm up, or Cool Down",
           "channel": "Citizen Athletics",
           "url": "https://www.youtube.com/watch?v=yDXBRssBpVo",
-          "duration": "13:33"
+          "duration": "13:33",
+          "source_type": ["program", "demo"],
+          "practical_value": "medium",
+          "coach_takeaway": "這支只有 13 分半，30 分鐘要自己組：前面 5 分鐘滾筒或按摩球（每區 30–60 秒）當低強度輸入，中間完整跟練這支約 13 分半，最後 10 分鐘把打開的範圍拿去負重使用（負重深蹲活動度、單腳硬舉、農夫走路各 3 組）。時間被壓縮時砍中間那段，不要砍最後那 10 分鐘。"
         },
         {
           "name": "睡前 10 分鐘：低強度全身放鬆版",
@@ -70,7 +87,11 @@
           "title": "睡前10分鐘全身伸展放鬆，物理治療師推薦睡前拉筋｜啾c物理治療師",
           "channel": "啾c物理治療師",
           "url": "https://www.youtube.com/watch?v=vdIugUHKGWg",
-          "duration": "9:53"
+          "duration": "9:53",
+          "source_type": ["program", "clinical", "demo"],
+          "practical_value": "high",
+          "coach_takeaway": "睡前這一套的目標是降低喚醒程度，所以強度壓在 2–3/10、每個動作配長吐氣，不要在這個時段追活動度進步。做完反而更清醒的人，把整套移到傍晚，睡前只留呼吸那兩個動作。",
+          "safety": ["有夜間痛醒、或休息時疼痛仍持續惡化的情況，先就醫再談伸展"]
         },
         {
           "name": "旅行出差 10 分鐘：站姿、零器材版",
@@ -81,7 +102,11 @@
           "title": "10 Min. Daily Mobility - All Standing | Travel/Airport Mobility Practice",
           "channel": "mobility by julia reppel",
           "url": "https://www.youtube.com/watch?v=q6DeEtkgAH8",
-          "duration": "10:46"
+          "duration": "10:46",
+          "source_type": ["program", "demo"],
+          "practical_value": "medium",
+          "coach_takeaway": "出差時把它綁在既有行為上（進旅館放完行李、開會前十分鐘），比訂一個時間更容易做得到。沒有墊子就全程站著做，扶牆或扶椅背維持平衡都可以；寧可縮短到 5 分鐘，也不要整天完全不動。",
+          "safety": ["長途飛行或久坐後出現單側小腿腫脹、發熱、壓痛，不要按壓或伸展，立即就醫（深層靜脈栓塞的典型表現）"]
         }
       ]
     }

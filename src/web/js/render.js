@@ -61,8 +61,11 @@ function subsTag(v) {
   return `<span class="Label Label--neutral" title="${esc(list.join("、"))}">${esc(prefix)} ${langs.join("·")}</span>`;
 }
 
-/** 內容角色 + 實務價值 + 字幕，主課與跟練共用 */
-function videoBadges(v, compact = false) {
+/** 內容角色 + 實務價值 + 字幕，主課與跟練共用。
+
+   實務教學價值一定要跟著每一支影片走，包含跟練清單裡的——
+   它就是這套雙軸的重點，藏起來等於又退回單一分數。 */
+function videoBadges(v) {
   const roles = (v.source_type || [])
     .map((id) => ROLE[id])
     .filter(Boolean)
@@ -74,7 +77,7 @@ function videoBadges(v, compact = false) {
     ? `<span class="Label ${toneCls(pv)}" title="${esc(UI.practicalLabel || "")}">${esc(UI.practicalLabel || "實務價值")} ${esc(pv.label)}</span>`
     : "";
 
-  const tags = roles + (compact ? "" : value) + subsTag(v);
+  const tags = roles + value + subsTag(v);
   return tags ? `<span class="VideoTags">${tags}</span>` : "";
 }
 
@@ -140,6 +143,16 @@ function videoCard(v) {
 
 const langLabel = (l) => (CFG.languages || {})[l] || l || "其他";
 
+/** 分頁標籤：同一個單元裡有兩支同語言主課時，光寫「English」分不出來，改用頻道名。
+
+   這在本課程是常態而非例外——筋膜這個主題的英文專業內容明顯較好，
+   有 17 個單元的中文版主課本來就選了英文頻道，再加一支英文對照後就撞名了。 */
+function lessonTab(lesson, all) {
+  const lang = langLabel(lesson.lang);
+  const sameLang = all.filter((x) => x.lang === lesson.lang);
+  return sameLang.length > 1 && lesson.channel ? lesson.channel : lang;
+}
+
 /** 主課可能有多個語言版本，用小分頁切換 */
 function lessonBox(u) {
   const lessons = (u.lessons || (u.lesson ? [u.lesson] : [])).filter(Boolean);
@@ -148,13 +161,14 @@ function lessonBox(u) {
 
   return `
     <div class="LessonBox">
-      <div class="LessonBox__langs" role="tablist" aria-label="主課語言">
+      <div class="LessonBox__langs" role="tablist" aria-label="主課版本">
         ${lessons
           .map(
             (l, i) => `
           <button class="LessonBox__lang${i === 0 ? " is-active" : ""}" type="button"
-                  role="tab" aria-selected="${i === 0}" data-lesson="${i}">
-            ${esc(langLabel(l.lang))}
+                  role="tab" aria-selected="${i === 0}" data-lesson="${i}"
+                  title="${esc(langLabel(l.lang))}">
+            ${esc(lessonTab(l, lessons))}
           </button>`,
           )
           .join("")}
@@ -191,7 +205,7 @@ function drill(d) {
         ${d.channel ? `<span>· ${esc(d.channel)}</span>` : ""}
         ${d.duration ? `<span>· ${esc(d.duration)}</span>` : ""}
       </span>
-      ${videoBadges(d, true)}
+      ${videoBadges(d)}
       ${videoNotes(d)}
       ${(d.facets || []).length ? `<span class="Drill__muscles">${muscleTags(d.facets)}</span>` : ""}
     </span>
