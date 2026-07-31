@@ -19,7 +19,41 @@
         "關節明顯腫脹、發熱、發紅，或急性外傷後無法承重、外觀變形，先處理傷病再談活動度。",
         "使用抗凝血劑、有骨質疏鬆、皮膚傷口、感染或近期手術部位，壓力介入前先問過醫療人員。"
       ],
-      "caveats": "多數研究是健康年輕人、單次介入、活動度為主要結果，測量者常未盲化，且滾筒無法做出可信的安慰劑對照——這三件事會系統性地高估效果。壓痛閾值的證據已經示範了這個問題：前後比較有效，加上對照組就沒了。此外「有效」多半指的是幾分鐘到一小時內的活動度與痠痛感受，不是組織結構改變，也不是傷病治療。若你的目標是長期活動度，滾筒沒有比伸展好；若目標是長期適應，真正產生改變的是在新的活動範圍內主動用力並漸進加負荷。最後，本課程刻意不使用「壓開沾黏」「把筋膜拉開」「排出乳酸」這類說法——不是因為滾筒沒用，而是因為這些說法描述的是一個沒被證實的機轉。"
+      "caveats": "多數研究是健康年輕人、單次介入、活動度為主要結果，測量者常未盲化，且滾筒無法做出可信的安慰劑對照——這三件事會系統性地高估效果。壓痛閾值的證據已經示範了這個問題：前後比較有效，加上對照組就沒了。此外「有效」多半指的是幾分鐘到一小時內的活動度與痠痛感受，不是組織結構改變，也不是傷病治療。若你的目標是長期活動度，滾筒沒有比伸展好；若目標是長期適應，真正產生改變的是在新的活動範圍內主動用力並漸進加負荷。最後，本課程刻意不使用「壓開沾黏」「把筋膜拉開」「排出乳酸」這類說法——不是因為滾筒沒用，而是因為這些說法描述的是一個沒被證實的機轉。",
+      "citations": [
+        {
+          "pmid": "31628662",
+          "title": "Acute Effects of Foam Rolling on Range of Motion in Healthy Adults: A Systematic Review with Multilevel Meta-analysis.",
+          "journal": "Sports Med",
+          "year": 2020,
+          "design": "meta-analysis",
+          "takeaway": "26 篇高方法學品質（PEDro）試驗的多層次統合分析：單次滾筒相對於不介入對關節活動度有大效果（SMD 0.74，95% CI 0.42–1.01，p = 0.0002），但相對於伸展沒有優勢（SMD −0.02，95% CI −0.73 至 0.69，p = 0.95）。滾動時間、速度、BMI 等調節變項多數不顯著（p > 0.05），只有男性效果可能較小（p < 0.05）；加震動的滾筒合併後也未達顯著（SMD 0.66，95% CI −1.5 至 2.8，p = 0.32）。這是 acute_rom 那句「有效但不優於伸展」的直接來源。"
+        },
+        {
+          "pmid": "38760635",
+          "title": "Static Stretch Training versus Foam Rolling Training Effects on Range of Motion: A Systematic Review and Meta-Analysis.",
+          "journal": "Sports Med",
+          "year": 2024,
+          "design": "meta-analysis",
+          "takeaway": "85 篇研究（72 篇靜態伸展、13 篇滾筒）、204 個效果量：靜態伸展（ES −1.006，p < 0.001）與滾筒訓練（ES −0.729，p = 0.001）都能中等幅度增加 ROM，兩者整體差異不顯著（p = 0.228）。但介入 ≤ 4 週時只有靜態伸展顯著（ES −1.436，p < 0.001），滾筒未達顯著（ES −0.229，p = 0.248），此時伸展顯著優於滾筒（p < 0.001）。支撐 chronic_rom 中「兩者互相替代、短期伸展較快見效」的論斷。"
+        },
+        {
+          "pmid": "36227232",
+          "title": "Foam Rolling Acute Effects on Myofascial Tissue Stiffness and Muscle Strength: A Systematic Review and Meta-Analysis.",
+          "journal": "J Strength Cond Res",
+          "year": 2023,
+          "design": "meta-analysis",
+          "takeaway": "20 篇研究評估軀幹與大腿筋膜硬度、大腿與小腿肌肉硬度：質性分析中僅 2 篇筋膜、5 篇肌肉出現硬度下降，但統合分析顯示滾筒對肌筋膜組織硬度「無效果」。肌力方面等長肌力、離心力矩與發力率均無變化，只有膝伸肌向心力矩上升。這是 mechanism 中「測不到組織變軟」與 performance 中「只有向心力矩上升」的來源。"
+        },
+        {
+          "pmid": "27525179",
+          "title": "SPECIFIC AND CROSS-OVER EFFECTS OF FOAM ROLLING ON ANKLE DORSIFLEXION RANGE OF MOTION.",
+          "journal": "Int J Sports Phys Ther",
+          "year": 2016,
+          "design": "controlled-trial",
+          "takeaway": "26 人（滾筒組 13、對照組 13），對優勢腿蹠屈肌做 3 組 30 秒滾壓：組間效果未達顯著，但組內同側踝背屈在滾後 0、5、10、15、20 分鐘各時間點皆顯著高於基線（p < 0.05），未接受介入的對側腿也顯著改善並維持到 10 分鐘——交叉效應的存在使「局部組織被壓開」難以成立。注意此研究樣本小且組間比較為陰性，是 summary 中對側效應那句的原始資料。"
+        }
+      ]
     },
     {
       "unit": "ch2-u2",
@@ -39,7 +73,41 @@
         "夜間或休息時仍持續惡化的疼痛、發燒、不明原因體重下降，或有癌症病史者新出現的深部壓痛，需要醫療診斷而不是按摩。",
         "同一個位置反覆按壓超過數週而完全沒有變化，或愈按愈痛且範圍擴大，代表這個模型不適用你的狀況，換方法。"
       ],
-      "caveats": "本課程使用「常見壓痛部位」這種描述，而不是「你的激痛點在這裡」，理由就是上面的可靠度數據：連受過訓練的臨床人員都無法穩定地在同一個人身上找到同一個點。對讀者最實用的框架是：把壓痛當成一個可以拿來追蹤變化的訊號（今天按下去 6/10，兩週後同樣力道 3/10），而不是一個需要被消滅的病灶。另外，壓痛不等於損傷——很多沒有症狀的人身上也摸得到又硬又痛的點；把每一顆結都當成問題，容易讓人愈找愈焦慮，而疼痛的威脅感知本身就會放大疼痛。真正需要診斷的疼痛請交給醫師或物理治療師。"
+      "caveats": "本課程使用「常見壓痛部位」這種描述，而不是「你的激痛點在這裡」，理由就是上面的可靠度數據：連受過訓練的臨床人員都無法穩定地在同一個人身上找到同一個點。對讀者最實用的框架是：把壓痛當成一個可以拿來追蹤變化的訊號（今天按下去 6/10，兩週後同樣力道 3/10），而不是一個需要被消滅的病灶。另外，壓痛不等於損傷——很多沒有症狀的人身上也摸得到又硬又痛的點；把每一顆結都當成問題，容易讓人愈找愈焦慮，而疼痛的威脅感知本身就會放大疼痛。真正需要診斷的疼痛請交給醫師或物理治療師。",
+      "citations": [
+        {
+          "pmid": "28098584",
+          "title": "Interrater Agreement of Manual Palpation for Identification of Myofascial Trigger Points: A Systematic Review and Meta-Analysis.",
+          "journal": "Clin J Pain",
+          "year": 2017,
+          "design": "meta-analysis",
+          "takeaway": "18 篇候選中 6 篇符合納入、共 363 名病人：徒手觸診辨識激痛點的檢查者間一致性只有 κ = 0.452（95% CI 0.364–0.540）；最可靠的兩項是局部壓痛（κ = 0.676）與疼痛重現（κ = 0.575）。作者結論直寫「以徒手觸診辨識激痛點是不可靠的」，這正是本單元改用「常見壓痛部位」而非「你的激痛點」的依據。"
+        },
+        {
+          "pmid": "19158550",
+          "title": "Reliability of physical examination for diagnosis of myofascial trigger points: a systematic review of the literature.",
+          "journal": "Clin J Pain",
+          "year": 2009,
+          "design": "systematic-review",
+          "takeaway": "9 篇符合納入，無一篇滿足全部品質與適用性標準。主觀徵象一致性較高（壓痛 κ 0.22–1.0、疼痛重現 κ 0.57–1.00），理論上最關鍵的客觀徵象則低到接近隨機（緊繃帶 κ −0.08 至 0.75、局部抽搐反應 κ −0.05 至 0.57）。且沒有任何研究報告過「在有症狀者肌肉中定位活性激痛點」的可靠度——支撐 mechanism 中「整合假說預測的客觀徵象測不出一致性」。"
+        },
+        {
+          "pmid": "33066556",
+          "title": "Effectiveness of Dry Needling for Myofascial Trigger Points Associated with Neck Pain Symptoms: An Updated Systematic Review and Meta-Analysis.",
+          "journal": "J Clin Med",
+          "year": 2020,
+          "design": "meta-analysis",
+          "takeaway": "28 篇 RCT：乾針相較假針／不治療／等待名單，疼痛即刻下降 MD −1.53（95% CI −2.29 至 −0.76）、短期 −2.31（95% CI −3.64 至 −0.99）；相較徒手治療短期僅 −0.51（95% CI −0.95 至 −0.06）；與其他物理治療介入相比無差異。壓痛閾值即刻上升 55.48 kPa（95% CI 27.03–83.93），但對頸椎活動度相較任何對照組皆無效果——同時支撐 pain_effect 的「短期有效」與 acute_rom 的「對 ROM 無效」。"
+        },
+        {
+          "pmid": "36872769",
+          "title": "Effectiveness of ischemic compression on myofascial trigger points in relieving neck pain: A systematic review and meta-analysis.",
+          "journal": "J Back Musculoskelet Rehabil",
+          "year": 2023,
+          "design": "meta-analysis",
+          "takeaway": "15 篇 RCT、725 人：缺血性加壓（持續按住壓痛點）相較假介入／不治療，在疼痛強度、壓痛閾值與活動度上於即刻與短期皆有顯著改善。但乾針在即刻療效上優於缺血性加壓——疼痛 SMD 0.62（95% CI 0.08–1.16）、疼痛相關失能 SMD 0.68（95% CI 0.19–1.17）、活動度 MD −2.12（95% CI −2.59 至 −1.65）。這是「自己按得到的版本也有效，但不是最強的那個」的依據。"
+        }
+      ]
     },
     {
       "unit": "concept-2",
@@ -59,7 +127,41 @@
         "夜間或休息時持續惡化的疼痛、發燒、不明原因體重下降等全身症狀，需要就醫而不是調整筋膜線。",
         "被告知「你的問題來自一條特定的筋膜線」而且療程需要長期、高額、無明確再評估指標時，請要求對方說明如何驗證這個假設。"
       ],
-      "caveats": "解剖回顧本身的結論就是「大多數骨骼肌都被結締組織直接連接」——這代表連續性是普遍現象，而不是六條特殊路線的專利；把它反過來當成「所以那六條線是真的」是一個推論上的跳躍。活體力傳遞的研究彼此矛盾、樣本小（常為 12–37 人）、測量方式不一，且多數在被動狀態下進行，與實際運動的相關性未知。最需要對讀者誠實的一點是：即使力真的能傳，被測到的幅度也遠小於工作坊圖片所暗示的「牽一髮動全身」。本課程使用筋膜鏈這個概念的方式僅限於——它是一個方便的記憶與編排工具（把足底、小腿、大腿後側、下背放在同一個練習區塊很合理），而不是一個機轉解釋，更不是「調整筋膜線」這種操作宣稱。"
+      "caveats": "解剖回顧本身的結論就是「大多數骨骼肌都被結締組織直接連接」——這代表連續性是普遍現象，而不是六條特殊路線的專利；把它反過來當成「所以那六條線是真的」是一個推論上的跳躍。活體力傳遞的研究彼此矛盾、樣本小（常為 12–37 人）、測量方式不一，且多數在被動狀態下進行，與實際運動的相關性未知。最需要對讀者誠實的一點是：即使力真的能傳，被測到的幅度也遠小於工作坊圖片所暗示的「牽一髮動全身」。本課程使用筋膜鏈這個概念的方式僅限於——它是一個方便的記憶與編排工具（把足底、小腿、大腿後側、下背放在同一個練習區塊很合理），而不是一個機轉解釋，更不是「調整筋膜線」這種操作宣稱。",
+      "citations": [
+        {
+          "pmid": "26281953",
+          "title": "What Is Evidence-Based About Myofascial Chains: A Systematic Review.",
+          "journal": "Arch Phys Med Rehabil",
+          "year": 2016,
+          "design": "systematic-review",
+          "takeaway": "從 6589 篇中納入 62 篇人體大體解剖研究，逐一檢驗 Myers 六條經線的轉換點：後表線 3/3（14 篇）、後功能線 3/3（8 篇）、前功能線 2/2（6 篇）為強證據；螺旋線 5/9（21 篇）與側線 2/5（10 篇）為中至強；前表線在 7 篇研究中 0 個轉換點被驗證。作者結論是「人體大多數骨骼肌都被結締組織直接連接」，並認為檢驗這些連結的功能意義才是最迫切的工作——這也是 caveats 中「連續性是普遍現象、不是六條線的專利」的原文依據。"
+        },
+        {
+          "pmid": "27001027",
+          "title": "Intermuscular force transmission along myofascial chains: a systematic review.",
+          "journal": "J Anat",
+          "year": 2016,
+          "design": "systematic-review",
+          "takeaway": "1022 篇中納入 9 篇（方法學品質中等到優良，以 QUACS 與 PEDro 評分）：後表線三個轉換點皆有中等證據支持張力傳遞（6 篇），後功能線 2 個轉換點中 1 個有中等證據（3 篇），前功能線只有 1 篇顯示輕微且未達顯著的傳遞。作者明言各研究施力與測量方式差異太大導致結果難以比較，且解剖上連續程度本身存在個體差異。對應 summary 力傳遞層那一段。"
+        },
+        {
+          "pmid": "34886078",
+          "title": "Does Self-Myofascial Release Cause a Remote Hamstring Stretching Effect Based on Myofascial Chains? A Randomized Controlled Trial.",
+          "journal": "Int J Environ Res Public Health",
+          "year": 2021,
+          "design": "rct",
+          "takeaway": "94 人隨機分派至對照組或後表線五節段（足底筋膜、腓腸筋膜後部、小腿筋膜後部、腰筋膜、顱頂腱膜）之一做 10 分鐘自我筋膜放鬆：不論滾哪一段，大腿後側柔軟度與踝背屈都改善。短時間（30 秒至 2 分鐘）以腓腸筋膜後部效果最大，較長時間（5–10 分鐘）以小腿筋膜後部最大，約 50% 的柔軟度增益發生在前 2 分鐘。連顱頂腱膜都有效，正是「效果不像沿特定路線傳遞」的關鍵反證。"
+        },
+        {
+          "pmid": "36180147",
+          "title": "Evidence of in-vivo myofascial force transfer in humans- a systematic scoping review.",
+          "journal": "J Bodyw Mov Ther",
+          "year": 2022,
+          "design": "systematic-review",
+          "takeaway": "以 CEBM 分級檢視 247 篇搜尋結果後納入 20 篇活體人體研究（RCT 至個案報告）、共 405 名受試者：多數研究顯示肌筋膜力傳遞存在的機率較高，2 篇顯示機率較低。作者指出納入試驗異質性高、方法學品質偏低，妨礙量化合成，因此只能「謹慎地」支持活體力傳遞的存在——支撐本條 evidence_grade 評為 limited。"
+        }
+      ]
     },
     {
       "unit": "concept-3",
@@ -80,7 +182,41 @@
         "被告知你的疼痛來自骨盆前傾幾度、頭前傾幾公分，且必須長期矯正才能好——請把它視為一個假設，並要求對方說明如何驗證。",
         "因為擔心姿勢不良而開始迴避彎腰、久坐或特定動作，這種迴避行為本身就是慢性疼痛的風險因子。"
       ],
-      "caveats": "本主題絕大多數證據來自橫斷研究，無法區分「姿勢造成疼痛」與「疼痛改變姿勢」，而少數前瞻性資料的方向對「姿勢致痛論」不利。所有效果量都小（角度差 2–5 度、相關係數 0.3–0.5），意味著即使關聯為真，也遠不足以用來解釋或預測任何一個人的疼痛。另外要留意測量本身的混亂：不同研究用 CVA、矢狀頭部角、FHP 等指標得到不同結論，甚至相關係數的正負方向也取決於用哪個角度定義「前傾」——這種不一致本身就是證據薄弱的徵兆。這不代表姿勢完全不重要：長時間維持任何一個姿勢都會不舒服，所以本課程處理的是「多久換一次姿勢、有沒有主動活動」而不是「哪個角度才正確」。最後，把疼痛歸因於身體結構有缺陷，會強化「我的身體很脆弱」的信念，而這種信念在文獻中與較差的疼痛結果一致相關——所以講清楚這件事，本身就是一種介入。"
+      "caveats": "本主題絕大多數證據來自橫斷研究，無法區分「姿勢造成疼痛」與「疼痛改變姿勢」，而少數前瞻性資料的方向對「姿勢致痛論」不利。所有效果量都小（角度差 2–5 度、相關係數 0.3–0.5），意味著即使關聯為真，也遠不足以用來解釋或預測任何一個人的疼痛。另外要留意測量本身的混亂：不同研究用 CVA、矢狀頭部角、FHP 等指標得到不同結論，甚至相關係數的正負方向也取決於用哪個角度定義「前傾」——這種不一致本身就是證據薄弱的徵兆。這不代表姿勢完全不重要：長時間維持任何一個姿勢都會不舒服，所以本課程處理的是「多久換一次姿勢、有沒有主動活動」而不是「哪個角度才正確」。最後，把疼痛歸因於身體結構有缺陷，會強化「我的身體很脆弱」的信念，而這種信念在文獻中與較差的疼痛結果一致相關——所以講清楚這件事，本身就是一種介入。",
+      "citations": [
+        {
+          "pmid": "19028253",
+          "title": "Spinal curves and health: a systematic critical review of the epidemiological literature dealing with associations between sagittal spinal curves and health.",
+          "journal": "J Manipulative Physiol Ther",
+          "year": 2008,
+          "design": "systematic-review",
+          "takeaway": "54 篇流行病學研究（橫斷、病例對照、世代）的批判性回顧：找不到矢狀面脊椎曲線與任何健康結果（含脊椎疼痛）之間的強證據，納入研究方法學品質普遍偏低。僅 4 個結果有中等證據關聯——顳顎障礙、骨盆器官脫垂（OR 3.18，95% CI 1.46–96.93）、日常功能（OR 1.8–3.7）與死亡（OR 1.40，95% CI 1.08–1.91）——但作者認為這些關聯不太可能是因果。"
+        },
+        {
+          "pmid": "28476690",
+          "title": "The relationships between low back pain and lumbar lordosis: a systematic review and meta-analysis.",
+          "journal": "Spine J",
+          "year": 2017,
+          "design": "meta-analysis",
+          "takeaway": "13 篇觀察性研究、796 名下背痛患者對 927 名健康對照（腰椎前凸角以放射影像測量）：整體而言下背痛患者的腰椎前凸角傾向於比較小，方向與「前凸過大導致下背痛」的傳統臨床說法相反。作者同時評估年齡、性別、脊椎疾病類型與疼痛嚴重度／病程等混淆因子。這是 pain_effect 中腰椎前凸那句的來源。"
+        },
+        {
+          "pmid": "20097618",
+          "title": "Causal assessment of occupational sitting and low back pain: results of a systematic review.",
+          "journal": "Spine J",
+          "year": 2010,
+          "design": "systematic-review",
+          "takeaway": "2766 篇中 24 篇符合納入、其中 5 篇為高品質（2 篇病例對照、3 篇前瞻世代），以 Bradford-Hill 因果準則逐項檢視：得到「職業性久坐與下背痛之間沒有關聯」的強而一致證據，並有中等程度證據支持不存在劑量反應趨勢；評估時序性的風險估計未達統計顯著，納入研究也未討論生物合理性。這是 mechanism 中「連關聯都建立不起來」的直接依據。"
+        },
+        {
+          "pmid": "31773477",
+          "title": "The Relationship Between Forward Head Posture and Neck Pain: a Systematic Review and Meta-Analysis.",
+          "journal": "Curr Rev Musculoskelet Med",
+          "year": 2019,
+          "design": "meta-analysis",
+          "takeaway": "15 篇橫斷研究：10 篇比較有無頸痛者的頭部前傾，成人組整體 MD 4.84（95% CI 0.14–9.54，下界貼近 0）達顯著，青少年組則無差異（MD −1.05，95% CI −4.23 至 2.12）。8 篇顯示成人 FHP 與頸痛強度（r = −0.55）及失能（r = −0.42）呈負相關——也就是頭愈前傾者疼痛分數愈低，方向與直覺相反。作者結論是年齡為重要混淆因子。"
+        }
+      ]
     }
   ]
 }

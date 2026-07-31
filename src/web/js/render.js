@@ -141,7 +141,8 @@ function drill(d) {
 
 function drillGroup(kind, list) {
   if (!list.length) return "";
-  const k = KIND[kind];
+  // 未在 config.kinds 定義的 kind 會被稽核擋下，但畫面仍要撐得住
+  const k = KIND[kind] || { label: kind, tone: "neutral" };
   return `
     <div class="DrillGroup" data-group="${kind}">
       <h4 class="DrillGroup__title">
@@ -291,10 +292,6 @@ function muscles(tight, weak) {
 /* --- 單元 ---------------------------------------------------------------- */
 
 export function renderUnit(u, done) {
-  const counts = { release: 0, stretch: 0, train: 0 };
-  (u.drills || []).forEach((d) => {
-    if (counts[d.kind] != null) counts[d.kind]++;
-  });
   const total = (u.drills || []).length;
 
   const typeLabel = (UI.unitTypes || {})[u.type];
@@ -310,7 +307,15 @@ export function renderUnit(u, done) {
       : "",
   ].join("");
 
-  const groups = ["release", "stretch", "train"]
+  // 分組順序跟著 config.kinds 走。這裡曾經寫死 ["release","stretch","train"]，
+  // 結果任何沒用這三個 id 的課程都會靜靜掉光大部分動作——不要再寫死一次。
+  const kinds = Object.keys(KIND);
+  const known = new Set(kinds);
+  const groups = [
+    ...kinds,
+    // config 沒定義的 kind 仍要顯示，否則資料進得去、畫面看不到
+    ...new Set((u.drills || []).map((d) => d.kind).filter((k) => k && !known.has(k))),
+  ]
     .map((k) => drillGroup(k, (u.drills || []).filter((d) => d.kind === k)))
     .join("");
 
