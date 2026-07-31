@@ -453,5 +453,60 @@
     "background": "英語系活動度與疼痛自我處理取向的個人頻道，論述帶有明確立場與批判性；屬教練經驗與個人觀點，非臨床或研究來源。",
     "tier": "coach",
     "credential": "活動度與疼痛自我處理取向的訓練者"
+  },
+  "Medicosis Perfectionalis": {
+    "background": "以醫學院課程與執照考試為對象的醫學教育頻道，逐項講解解剖與生理術語，會標明引用的教科書與術語標準版本（如 Gray's Anatomy 第 41 版、Terminologia Anatomica），並把構造接到相關的臨床急症；內容為教科書定義的整理，不涉及訓練或治療處方。",
+    "tier": "research",
+    "credential": "醫學教育頻道（教科書導向的解剖與生理教學）"
+  },
+  "International Association for the Study of Pain": {
+    "background": "國際疼痛研究學會的官方頻道，收錄學會 webinar 與研討會講段，講者多為疼痛研究領域的研究者與臨床學者；本課收錄的是帕多瓦大學人體解剖學教授 Carla Stecco 談肌筋膜單位的講段。",
+    "tier": "research",
+    "credential": "國際疼痛研究學會（IASP）"
+  },
+  "DocJenFit": {
+    "background": "美國物理治療師夫婦經營，主要產出為 The Optimal Body podcast 的影音版，內容以逐條檢視常見說法的研究證據為主，會主動指出所引研究的偏差風險與樣本限制，並區分「短期感受改變」與「機轉被證實」。",
+    "tier": "clinical",
+    "credential": "物理治療博士（DPT）"
+  },
+  "Clinical Physio": {
+    "background": "英語系物理治療教育頻道，影片由物理治療師講解，內容多為針對常見處置回顧研究證據並說明效果大小與限制，用語保守，會明講「觀察到的效果」與「機轉」不是同一件事。",
+    "tier": "clinical",
+    "credential": "物理治療師"
+  },
+  "Bob & Brad": {
+    "background": "美國兩位執業物理治療師（Bob Schrupp 與 Brad Heineck）經營的衛教頻道，內容以自我處理示範與常見疾患說明為主，動作交代停留時間與注意事項，缺點是標題常下得比內容誇張。",
+    "tier": "clinical",
+    "credential": "美國執業物理治療師"
+  },
+  "Adam Loiacono, PT, DPT, SCS, CSCS": {
+    "background": "美國運動物理治療師的個人頻道，頻道名即載明 PT／DPT 學位與運動專科（SCS）、肌力體能（CSCS）資格；內容多為力板等客觀量測在跳躍測試與運動表現判讀上的應用，屬臨床測試取向的短片。",
+    "tier": "clinical",
+    "credential": "運動物理治療師（頻道名載明 PT, DPT, SCS, CSCS）"
+  },
+  "Treat My Achilles": {
+    "background": "英語系以跟腱問題為單一主題的物理治療衛教頻道，內容逐題說明跟腱疼痛的成因、負荷選擇與器材使用界線，會明講哪些做法該避免、什麼時候該停；附人工英文字幕，用語保守。",
+    "tier": "clinical",
+    "credential": "物理治療師（頻道定位自述，主題為跟腱傷害）"
+  },
+  "Chari Hawkins": {
+    "background": "美國田徑七項全能選手經營的個人頻道，內容以跑步與跳躍技術動作的分解教學為主（如 A-skip），示範細緻、口令具體，但不談文獻與適應症。",
+    "tier": "coach",
+    "credential": "田徑七項全能選手"
+  },
+  "Physio REHAB": {
+    "background": "澳洲物理治療師 Tim Keeley 經營的頻道（Physio Fitness／Physio REHAB），內容為滾筒、伸展與復健動作的逐步操作教學，會交代位置、承重調整與常見錯誤，屬臨床衛教取向。",
+    "tier": "clinical",
+    "credential": "澳洲物理治療師"
+  },
+  "Rehab Science": {
+    "background": "美國物理治療師 Tom Walters（DPT）經營的頻道，內容以特定部位疼痛的自我處理流程為主，每支影片固定給出放鬆、活動度與肌力三段安排，用語相對保守。",
+    "tier": "clinical",
+    "credential": "美國物理治療師（DPT）"
+  },
+  "Michigan Medicine": {
+    "background": "美國密西根大學醫學中心（Michigan Medicine）的官方頻道，影片為醫療團隊製作的病人衛教與動作示範素材，不做療效承諾。",
+    "tier": "research",
+    "credential": "大學醫學中心"
   }
 }

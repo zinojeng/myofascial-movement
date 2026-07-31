@@ -39,3 +39,6 @@ Thumbs.db
 # macOS 自訂資料夾圖示（Finder 產生，檔名結尾是 CR）
 Icon\r
 Icon?
+
+# 第三方影片的字幕快取，只是查核用的衍生資料，不進版控
+.transcripts/

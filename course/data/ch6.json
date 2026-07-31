@@ -209,23 +209,25 @@
           ]
         },
         {
-          "name": "腿後肌滾筒放鬆",
-          "en": "Hamstring Foam Rolling",
+          "name": "腿後肌滾筒放鬆：什麼時候該做、什麼時候別做",
+          "en": "Hamstring Foam Rolling: Dos and Don'ts",
           "kind": "release",
           "target": "腿後肌群、半腱肌、股二頭肌",
-          "dose": "每側 60–90 秒，分內側與外側兩條路徑；壓力用手撐地調整承重，痛感控制在 4–6/10，慢速來回每趟 3–4 秒；壓到痛點可停留 20–30 秒並配合主動屈伸膝 5 下；停止條件：膝窩正後方（膕窩，有神經血管通過）不要直接加壓，出現麻刺或放射痛立即停；單側小腿或大腿腫脹發熱、抗凝血劑使用者不做",
-          "title": "How to Foam Roll your Hamstrings",
-          "channel": "Meglio TV",
-          "url": "https://www.youtube.com/watch?v=78ZE9Dznsfg",
-          "duration": "1:44",
+          "dose": "每側 60–90 秒，分內側與外側兩條路徑；壓力用手撐地調整承重，痛感控制在 4–6/10，慢速來回每趟 3–4 秒；壓到痛點可停留 20–30 秒並配合主動屈伸膝 5 下；停止條件：膝窩正後方（膕窩，有神經血管通過）與坐骨結節骨突不要直接加壓，出現麻刺或放射痛立即停；腿後肌拉傷急性期（72 小時內）與近端肌腱病痛點正在痛時跳過這一格；單側小腿或大腿腫脹發熱、抗凝血劑使用者不做",
+          "title": "Foam Rolling Hamstrings: Dos, Don'ts & How To",
+          "channel": "Sports Injury Physio",
+          "url": "https://www.youtube.com/watch?v=jV9SSJ3OkcA",
+          "duration": "7:57",
           "source_type": [
-            "demo",
-            "coach"
+            "clinical",
+            "coach",
+            "demo"
           ],
-          "practical_value": "medium",
-          "coach_takeaway": "用手撐地控制承重是這支片唯一要學會的事：把體重從雙手一點一點轉到滾筒上，找到痛點就停住並配合主動屈伸膝 5 下，比整條來回滾更容易換到活動度改變。",
+          "practical_value": "very-high",
+          "coach_takeaway": "先判斷今天該不該滾，再談怎麼滾：急性拉傷與坐骨結節附近的肌腱痛點屬於「不要滾」的情況，硬滾只會延長敏感期。要滾的時候用手撐地把體重一點一點轉上去，找到壓痛點停住並配合主動屈伸膝 5 下，比整條快速來回更容易換到活動度改變。",
           "safety": [
-            "膝窩正後方有神經與血管通過，不要直接加壓。"
+            "膝窩正後方有神經與血管通過，不要直接加壓。",
+            "腿後肌急性拉傷 72 小時內、或坐骨結節附近有定點尖銳痛（近端肌腱病）時不要滾壓，改做主動段。"
           ]
         },
         {
@@ -362,21 +364,22 @@
           "coach_takeaway": "重點是骨盆與大腿不能跟著轉：坐正、用手壓住同側大腿外側固定，只讓小腿往外擺。比起絕對角度，左右差才是值得追蹤的數字——很多人兩側都「不夠」，但只有不對稱的那一側需要處理。"
         },
         {
-          "name": "臀大肌滾筒放鬆",
-          "en": "Glute Foam Rolling",
+          "name": "臀大肌滾筒放鬆：找對位置與承重",
+          "en": "Glute Foam Rolling Technique",
           "kind": "release",
           "target": "臀大肌、臀中肌後緣、髂脛束近端",
           "dose": "每側 60–90 秒，坐在滾筒上把同側腳踝翹到對側膝上以增加接觸；壓力用手與對側腳調整承重，痛感 4–6/10 且能正常呼吸；壓到痛點停留 20–30 秒並主動開合髖 5 下；停止條件：坐骨結節骨突處不要久壓，出現往腿後方放射的麻刺立即停；髖部置換術後、薦髂關節急性痛、抗凝血劑使用者不做",
-          "title": "滾筒紓壓，改善臀部肌肉僵硬，避免久坐傷害 | 康健陪你練",
-          "channel": "康健雜誌",
-          "url": "https://www.youtube.com/watch?v=C2oJy8wg0KY",
-          "duration": "1:51",
+          "title": "How to PROPERLY Release your Glutes on the Foam Roller",
+          "channel": "Physio REHAB",
+          "url": "https://www.youtube.com/watch?v=4sJtt9c55MI",
+          "duration": "7:04",
           "source_type": [
-            "coach",
+            "clinical",
             "demo"
           ],
-          "practical_value": "medium",
-          "coach_takeaway": "把同側腳踝翹到對側膝上是加壓開關，不是動作本身：先不翹腳找到還能正常呼吸的壓力，再決定要不要翹。找到點就停住並主動開合髖 5 下，不要在坐骨骨突上來回輾。"
+          "practical_value": "high",
+          "coach_takeaway": "把同側腳踝翹到對側膝上是加壓開關，不是動作本身：先不翹腳找到還能正常呼吸的壓力，再決定要不要翹。位置抓在髖骨後緣到坐骨之間那片肌肉，找到點就停住並主動開合髖 5 下，不要在坐骨骨突上來回輾。",
+          "claim_boundary": "影片沿用「把緊繃的臀部組織鬆開」這類敘述；滾壓後的鬆感目前最合理的解釋是壓痛耐受度與神經調節的短期變化，不是組織被鬆開或拉長。"
         },
         {
           "name": "臀部深層按摩球加壓",

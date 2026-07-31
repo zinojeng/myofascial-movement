@@ -57,6 +57,9 @@ YT = re.compile(
 )
 SECTIONS = ("設定檔", "結構與配額", "影片", "內容角色", "內容深度")
 
+# 這些分級的來源，低觀看數不構成品質疑慮
+TRUSTED_TIERS = {"research", "clinical"}
+
 
 # ── 小工具 ────────────────────────────────────────────────────────────────
 
@@ -515,6 +518,14 @@ def audit_videos(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
             if isinstance(les, dict):
                 nodes.append((les.get("unit", "?"), "lesson", f"{les.get('lang', '')} 版", les))
 
+    # tier 掛在頻道上，稽核讀的是原始資料，得自己補上才能做分級相關的判斷
+    reg = load_json(DATA / "channels.json")
+    reg = reg if isinstance(reg, dict) else {}
+    for _u, _r, _l, v in nodes:
+        entry = reg.get(v.get("channel") or "")
+        if isinstance(entry, dict) and entry.get("tier"):
+            v.setdefault("tier", entry["tier"])
+
     explained, unexplained, malformed = [], [], []
     seen: Counter = Counter()
     within: Counter = Counter()
@@ -563,7 +574,13 @@ def audit_videos(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
         if claimed >= 0 and abs(claimed - secs) > opts["driftSeconds"]:
             drift.append(f"{uid} / {label} 寫 {v.get('duration')}，實際 {clock(secs)}")
 
-        if (views := info.get("views")) is not None and views < opts["minViews"]:
+        # 觀看數只是「沒有更好訊號時」的品質代理。有了來源分級之後，
+        # 拿它去質疑 IASP 或大學解剖單位的影片只會製造雜訊——高分級來源豁免。
+        if (
+            (views := info.get("views")) is not None
+            and views < opts["minViews"]
+            and v.get("tier") not in TRUSTED_TIERS
+        ):
             unpopular.append(f"{uid} / {label} {views:,} 次觀看")
 
     slots = len(nodes)
@@ -755,7 +772,8 @@ def audit_roles(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
                     if per_tier[t["id"]]
                 ),
             )
-        # 每個單元的第一支主課應該是該單元權威度最高的——否則讀者第一眼看到的不是最好的
+        # build.py 會在建置時依分級重排主課，所以原始檔的順序本來就可能不是最終順序。
+        # 這裡報的是「會被重排的單元數」，屬於資訊而非問題——當成警告會是假警報。
         demoted = []
         for r in units:
             u = r["unit"]
@@ -775,7 +793,7 @@ def audit_roles(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
                 best = ls[ranks.index(min(ranks))]
                 demoted.append(f"{u.get('id')}：第一支是 {ls[0].get('channel')}，更高分級的是 {best.get('channel')}")
         if demoted:
-            rep.warn(sec, f"{len(demoted)} 個單元的主課排序沒有把最高分級放第一", demoted)
+            rep.ok(sec, f"{len(demoted)} 個單元的主課會在建置時依分級重排（原始檔順序不是最終順序）")
 
     # 字幕：聽不懂原語言的人靠它才用得上這支片，屬於可及性而非加分項
     vmeta = load_json(DATA / "video-meta.json")
