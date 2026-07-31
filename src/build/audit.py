@@ -47,6 +47,7 @@ DEFAULTS = {
     "minCitations": 1,
     "allowMissingUrls": 0,
     "roleCoverage": 0,
+    "tierCoverage": 0,
     "contentMix": {},
     "contentMixTolerance": 0.1,
 }
@@ -300,7 +301,7 @@ def audit_config(cfg: dict, rep: Report) -> None:
     tones = css_tones()
     bad_tone = [
         f"{group}[{o['id']}].tone={o['tone']}"
-        for group in ("kinds", "grades", "values", "roles")
+        for group in ("kinds", "grades", "values", "roles", "tiers")
         for o in cfg.get(group, [])
         if o.get("tone") and o["tone"] not in tones
     ]
@@ -312,7 +313,7 @@ def audit_config(cfg: dict, rep: Report) -> None:
         )
 
     # id 唯一
-    for group in ("kinds", "grades", "values", "roles"):
+    for group in ("kinds", "grades", "values", "roles", "tiers"):
         ids = [o.get("id") for o in cfg.get(group, []) if isinstance(o, dict)]
         if d := [i for i, n in Counter(ids).items() if n > 1]:
             rep.err(sec, f"{group} id 重複：{'、'.join(d)}")
@@ -717,6 +718,64 @@ def audit_roles(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
                 if role_count[r["id"]]
             ),
         )
+
+    # 來源分級：讀者判斷「這支片有幾分份量」的第一個線索，掛在頻道上
+    tier_ids = [t.get("id") for t in cfg.get("tiers", []) if isinstance(t, dict)]
+    if tier_ids:
+        channels = load_json(DATA / "channels.json")
+        reg = channels if isinstance(channels, dict) else {}
+        used = {v.get("channel") for _u, _l, v in filled if v.get("channel")}
+        rank = {t: i for i, t in enumerate(tier_ids)}
+        untiered, bad_tier = [], []
+        per_tier: Counter = Counter()
+        for name in sorted(used):
+            entry = reg.get(name)
+            tier = entry.get("tier") if isinstance(entry, dict) else None
+            if not tier:
+                untiered.append(name)
+            elif tier not in rank:
+                bad_tier.append(f"{name} tier={tier!r}")
+            else:
+                per_tier[tier] += 1
+        cov = (len(used) - len(untiered)) / max(len(used), 1)
+        line = f"{len(used)} 個使用中的頻道 · 已分級 {len(used) - len(untiered)}（{cov:.0%}）"
+        if cov < opts["tierCoverage"]:
+            rep.err(sec, f"{line}，低於門檻 {opts['tierCoverage']:.0%}", untiered)
+        else:
+            rep.ok(sec, line)
+        if bad_tier:
+            rep.err(sec, f"{len(bad_tier)} 個 tier 不在 config.tiers", bad_tier)
+        if per_tier:
+            rep.ok(
+                sec,
+                "頻道分級："
+                + "、".join(
+                    f"{t['label']} {per_tier[t['id']]}"
+                    for t in cfg.get("tiers", [])
+                    if per_tier[t["id"]]
+                ),
+            )
+        # 每個單元的第一支主課應該是該單元權威度最高的——否則讀者第一眼看到的不是最好的
+        demoted = []
+        for r in units:
+            u = r["unit"]
+            ls = [u.get("lesson")] if u.get("lesson") else []
+            ls += [
+                x
+                for path in sorted(DATA.glob("alt-lessons-*.json"))
+                for x in (load_json(path) or {}).get("lessons", [])
+                if isinstance(x, dict) and x.get("unit") == u.get("id") and x.get("url")
+            ]
+            ranks = []
+            for x in ls:
+                e = reg.get(x.get("channel") or "")
+                t = e.get("tier") if isinstance(e, dict) else None
+                ranks.append(rank.get(t, len(rank)))
+            if len(ranks) > 1 and ranks[0] > min(ranks):
+                best = ls[ranks.index(min(ranks))]
+                demoted.append(f"{u.get('id')}：第一支是 {ls[0].get('channel')}，更高分級的是 {best.get('channel')}")
+        if demoted:
+            rep.warn(sec, f"{len(demoted)} 個單元的主課排序沒有把最高分級放第一", demoted)
 
     # 字幕：聽不懂原語言的人靠它才用得上這支片，屬於可及性而非加分項
     vmeta = load_json(DATA / "video-meta.json")

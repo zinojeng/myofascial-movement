@@ -460,3 +460,14 @@
 .Unit__summary {
   max-width: 88ch;
 }
+
+/* 來源分級排在徽章列最前面：讀者判斷「這支片有幾分份量」的第一個線索 */
+.Label--tier {
+  font-weight: 600;
+}
+
+/* 課程補充是我們替影片加的脈絡（適用範圍、前置知識），
+   跟「課程保留」不同——後者是影片自己講過頭。顏色要分得開。 */
+.VideoNote--scope {
+  border-left-color: var(--fgColor-accent);
+}

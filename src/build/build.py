@@ -26,6 +26,14 @@ CHAPTERS = [(c["code"], c["title"], c["icon"], c["source"]) for c in CFG["chapte
 QUOTA = {c["code"]: (c["units"], c.get("drills", 0)) for c in CFG["chapters"]}
 EVIDENCE_ALIAS = CFG.get("evidenceAlias", {})
 
+# tiers 的陣列順序即權威度順序，前面 = 高
+TIER_RANK = {t["id"]: i for i, t in enumerate(CFG.get("tiers", []))}
+
+
+def tier_of(channels: dict, node: dict | None) -> str | None:
+    entry = channels.get((node or {}).get("channel") or "")
+    return entry.get("tier") if isinstance(entry, dict) else None
+
 # 課程可以自帶詞彙模組（肌群、動作類別之類）；沒有就退化成無分面、無分類
 sys.path.insert(0, str(COURSE))
 
@@ -159,7 +167,7 @@ def main() -> int:
 
     vmeta = load_json(DATA / "video-meta.json") or {}
     channels = load_json(DATA / "channels.json") or {}
-    roles, values = Counter(), Counter()
+    roles, values, tiers = Counter(), Counter(), Counter()
     tagged = [0]
     drill_ev = collect_drill_evidence()
     alt_lessons = collect_alt_lessons()
@@ -221,6 +229,14 @@ def main() -> int:
                     les.setdefault("lang", detect_lang(les.get("title")))
                 if len(u["lessons"]) > 1:
                     multilang[0] += 1
+                    # 讀者第一眼看到的應該是這個單元權威度最高的版本，而不是
+                    # 剛好先被策展出來的那支。sort 是穩定的，同級維持原順序；
+                    # 沒有分級資料時 rank 相同，等於完全不動。
+                    u["lessons"].sort(
+                        key=lambda les: TIER_RANK.get(tier_of(channels, les), len(TIER_RANK))
+                    )
+                    # 課程總時長跟著實際排第一的那支走，否則統計與畫面會對不上
+                    u["lesson"] = u["lessons"][0]
 
             # 替代語言版本要驗證與補 metadata，但不計入總時長（同一堂課不重複算）
             primary = {id(x) for x in [u.get("lesson"), *(u.get("drills") or [])] if x}
@@ -257,9 +273,20 @@ def main() -> int:
                     secs = parse_duration(v.get("duration"))
                     meta_miss.append(url)
 
-                # 作者背景掛在頻道上而不是逐支影片重寫，同一個頻道講法才會一致
-                if (who := channels.get(v.get("channel") or "")) :
-                    v["creator"] = who
+                # 作者背景掛在頻道上而不是逐支影片重寫，同一個頻道講法才會一致。
+                # 值可以是字串（只有背景）或物件（含 tier / credential）。
+                if (who := channels.get(v.get("channel") or "")):
+                    if isinstance(who, str):
+                        v["creator"] = who
+                    else:
+                        if who.get("background"):
+                            v["creator"] = who["background"]
+                        # 頻道分級是預設值。個別影片可以自己寫 tier 覆寫它——
+                        # 媒體頻道可以刊登研究者的演講，權威度其實跟著內容走。
+                        if who.get("tier"):
+                            v.setdefault("tier", who["tier"])
+                if v.get("tier"):
+                    tiers[v["tier"]] += 1
                 for r in v.get("source_type") or []:
                     roles[r] += 1
                 if v.get("practical_value"):
@@ -325,7 +352,7 @@ def main() -> int:
     muscle_index.sort(key=lambda x: (group_order.index(x["group"]), -x["count"]))
 
     ui_keys = (
-        "site", "hero", "ui", "kinds", "grades", "values", "roles", "languages",
+        "site", "hero", "ui", "kinds", "grades", "values", "roles", "tiers", "languages",
         "nav", "stance", "landing", "footer",
         "discussions", "counter",
     )
@@ -391,6 +418,11 @@ def main() -> int:
     )
     if roles:
         print("   " + " / ".join(f"{r['label']} {roles[r['id']]}" for r in CFG.get("roles", [])))
+    if tiers:
+        print(
+            "   來源分級 "
+            + " / ".join(f"{t['label']} {tiers[t['id']]}" for t in CFG.get("tiers", []) if tiers[t["id"]])
+        )
     if uncategorised:
         print(
             f"   ⚠ 未分類動作 {len(uncategorised)}：{'、'.join(x for x in uncategorised[:5] if x)}"

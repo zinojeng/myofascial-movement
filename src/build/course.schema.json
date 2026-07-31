@@ -87,6 +87,11 @@
       "description": "軸二：實務教學價值。一支影片可以「研究支持有限」但「教得非常好」——只有一個分數評不出這件事",
       "items": { "$ref": "#/$defs/labelled" }
     },
+    "tiers": {
+      "type": "array",
+      "description": "來源權威度分級。**陣列順序即權威度順序**（前面 = 高），決定同一單元哪支主課排第一",
+      "items": { "$ref": "#/$defs/labelled" }
+    },
     "roles": {
       "type": "array",
       "description": "內容角色徽章（科學基礎／教練經驗／動作示範…）。一支影片可同時有多個",
@@ -227,6 +232,11 @@
         "minAssessmentChars": { "type": "integer", "minimum": 0 },
         "minCitations": { "type": "integer", "minimum": 0, "description": "每個文獻類別至少幾篇引用" },
         "allowMissingUrls": { "type": "integer", "minimum": 0, "description": "容許幾個誠實留空的格子" },
+        "tierCoverage": {
+          "type": "number",
+          "minimum": 0,
+          "description": "頻道必須標註 tier 的比例（0–1），未達即錯誤"
+        },
         "roleCoverage": {
           "type": "number",
           "minimum": 0,

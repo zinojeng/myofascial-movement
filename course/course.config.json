@@ -152,7 +152,9 @@
     "discussNote": "留言會同步到 GitHub Discussions，需要 GitHub 帳號才能發言。每支影片各有一串討論。",
     "filterAll": "全部",
     "lessonNoun": "堂主課",
-    "drillNoun": "支示範影片"
+    "drillNoun": "支示範影片",
+    "tierLabel": "來源分級",
+    "scopeNoteLabel": "課程補充"
   },
   "kinds": [
     {
@@ -413,7 +415,8 @@
       "demo": 0.3,
       "contested-view": 0.1
     },
-    "contentMixTolerance": 0.1
+    "contentMixTolerance": 0.1,
+    "tierCoverage": 1
   },
   "evidenceAlias": {
     "ch2-u1": "concept-1",
@@ -469,5 +472,37 @@
   "counter": {
     "label": "次瀏覽",
     "title": "累計頁面瀏覽次數，不是不重複訪客；已排除常見爬蟲。"
-  }
+  },
+  "tiers": [
+    {
+      "id": "research",
+      "label": "研究與教育機構",
+      "tone": "done"
+    },
+    {
+      "id": "clinical",
+      "label": "臨床專業",
+      "tone": "success"
+    },
+    {
+      "id": "coach",
+      "label": "專業教練",
+      "tone": "accent"
+    },
+    {
+      "id": "media",
+      "label": "媒體健康節目",
+      "tone": "attention"
+    },
+    {
+      "id": "brand",
+      "label": "器材品牌與通路",
+      "tone": "danger"
+    },
+    {
+      "id": "unverified",
+      "label": "背景不明",
+      "tone": "neutral"
+    }
+  ]
 }

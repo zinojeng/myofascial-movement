@@ -15,17 +15,19 @@ export const KIND = {};
 export const GRADE = {};
 export const VALUE = {};
 export const ROLE = {};
+export const TIER = {};
 export const UI = {};
 let CFG = {};
 
 export function setConfig(cfg) {
   CFG = cfg || {};
-  for (const o of [KIND, GRADE, VALUE, ROLE, UI]) for (const k of Object.keys(o)) delete o[k];
+  for (const o of [KIND, GRADE, VALUE, ROLE, TIER, UI]) for (const k of Object.keys(o)) delete o[k];
 
   for (const k of CFG.kinds || []) KIND[k.id] = { label: k.label, tone: k.tone || "accent" };
   for (const g of CFG.grades || []) GRADE[g.id] = { label: g.label, tone: g.tone || "accent" };
   for (const v of CFG.values || []) VALUE[v.id] = { label: v.label, tone: v.tone || "neutral" };
   for (const r of CFG.roles || []) ROLE[r.id] = { label: r.label, tone: r.tone || "neutral" };
+  for (const t of CFG.tiers || []) TIER[t.id] = { label: t.label, tone: t.tone || "neutral" };
   Object.assign(UI, CFG.ui || {});
 }
 
@@ -77,7 +79,12 @@ function videoBadges(v) {
     ? `<span class="Label ${toneCls(pv)}" title="${esc(UI.practicalLabel || "")}">${esc(UI.practicalLabel || "實務價值")} ${esc(pv.label)}</span>`
     : "";
 
-  const tags = roles + value + subsTag(v);
+  const tr = TIER[v.tier];
+  const tier = tr
+    ? `<span class="Label ${toneCls(tr)} Label--tier" title="${esc(UI.tierLabel || "來源分級")}">${esc(tr.label)}</span>`
+    : "";
+
+  const tags = tier + roles + value + subsTag(v);
   return tags ? `<span class="VideoTags">${tags}</span>` : "";
 }
 
@@ -100,6 +107,7 @@ function videoNotes(v) {
     row(UI.creatorLabel || "作者背景", v.creator),
     row(UI.coachTakeawayLabel || "教練實務重點", v.coach_takeaway, " VideoNote--coach"),
     row(UI.claimBoundaryLabel || "課程保留", v.claim_boundary, " VideoNote--boundary"),
+    row(UI.scopeNoteLabel || "課程補充", v.scope_note, " VideoNote--scope"),
     safety,
   ].join("");
 }
