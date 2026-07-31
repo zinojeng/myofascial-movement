@@ -161,6 +161,30 @@ Workers & Pages → Create application → Pages → Import an existing Git repo
 第一次部署完成後，把 `course/course.config.json` 的 `site.url` 更新成實際網址
 （名稱被占用時 Cloudflare 會加後綴），再重新建置一次讓 SEO 標籤跟著更新。
 
+> **不要用 Workers 的「Import a repository」。** 新版 dashboard 會把匯入引導到 Workers，
+> 但那會建出一個 **Worker** 而不是 Pages 專案：Workers Builds 預設跑 `npx wrangler deploy`，
+> 這個 repo 沒有 wrangler 設定檔，會直接失敗（`error occurred while running deploy command`）；
+> 而且 `functions/` 只有 Pages 會載入，Worker 吃不到瀏覽計數器。
+> Workers 與 Pages 共用同一個名稱空間，所以要先把同名的 Worker 服務刪掉，
+> Pages 專案才能叫 `myofascial-movement`。
+
+#### 選用：開啟瀏覽計數器
+
+`functions/api/hits.js` 需要一個綁成 **`HITS`** 的 D1 資料庫。走 Git 整合時
+**Pages 不會讀 `wrangler.jsonc`**（`make counter` 產生的那份只對本機 `wrangler pages deploy` 有效），
+綁定要在 dashboard 設：
+
+```bash
+npx wrangler d1 create myofascial-movement-hits
+npx wrangler d1 execute myofascial-movement-hits --file functions/schema.sql --remote
+```
+
+然後到 Pages 專案 → Settings → Functions → D1 database bindings，
+新增 Variable name `HITS` → 選剛才那個資料庫 → 重新部署一次。
+
+不做這一步也沒關係：API 回 503，前端會安靜地不顯示徽章，課程本身不受影響。
+想連這個 fetch 都省掉，就把 `course.config.json` 的 `counter` 區塊整個刪除。
+
 ### 方法 B：本機 Wrangler 直接上傳
 
 ```bash
