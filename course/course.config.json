@@ -1,0 +1,377 @@
+{
+  "$schema": "../src/build/course.schema.json",
+  "site": {
+    "project": "myofascial-movement",
+    "name": "筋膜與動作整合",
+    "url": "https://myofascial-movement.pages.dev",
+    "locale": "zh-Hant",
+    "ogLocale": "zh_TW",
+    "brandIcon": "waves",
+    "title": "筋膜與動作整合：從組織科學到活動度、負荷與恢復",
+    "description": "不把筋膜神化，也不把筋膜忽略。九個章節、27 個單元，從筋膜解剖與疼痛科學，到自我放鬆、活動度、主動控制與漸進負荷。每個主張都拆成「觀察到的效果」與「已證實的機轉」兩層，附 PubMed 查證——包含那些和滾筒行銷話術相衝突的結果。",
+    "ogDescription": "滾筒滾完覺得鬆，不等於沾黏被壓開。這門課把筋膜的每個常見說法拆成效果證據與機轉證據兩層，九章 27 個單元、上百支示範影片，每一條都附得起原始文獻。",
+    "keywords": [
+      "筋膜",
+      "自我筋膜放鬆",
+      "滾筒",
+      "活動度",
+      "動作控制",
+      "伸展",
+      "疼痛科學",
+      "運動恢復"
+    ],
+    "audience": "會滾筒但不確定滾對沒有的運動者、想理解活動度訓練原理的教練、對筋膜說法半信半疑的人",
+    "about": [
+      "筋膜與結締組織",
+      "自我筋膜放鬆",
+      "活動度訓練",
+      "動作控制",
+      "疼痛科學"
+    ],
+    "learningResourceType": [
+      "影片課程",
+      "動作示範",
+      "自我評估"
+    ]
+  },
+  "hero": {
+    "eyebrow": "實證自學課程",
+    "heading": "不把筋膜神化，也不把筋膜忽略",
+    "lede": "九個章節、27 個單元、{units} 支影片，從筋膜解剖、疼痛與活動度，到自我放鬆、主動控制與負荷整合，涵蓋 {problems} 個實作主題。每個主題都分成三層講：<strong>做了之後可能有什麼效果</strong>、<strong>效果是不是筋膜本身造成的</strong>，以及<strong>它有沒有比其他方法更好</strong>。"
+  },
+  "ui": {
+    "searchPlaceholder": "搜尋單元、動作或部位…",
+    "tabs": {
+      "course": "課程內容",
+      "player": "上課模式",
+      "stance": "這門課的立場"
+    },
+    "progressLabel": "學習進度",
+    "facetLabel": "依身體區域篩選",
+    "assessmentLabel": "怎麼判斷自己做對了",
+    "tightLabel": "常見主訴部位",
+    "weakLabel": "需要一起練的動作能力",
+    "lessonLabel": "主課",
+    "drillEvidenceLabel": "這類介入的實證",
+    "unitEvidenceLabel": "實證強度",
+    "stats": [
+      {
+        "icon": "layers",
+        "field": "lesson_units",
+        "label": "個單元"
+      },
+      {
+        "icon": "clock",
+        "field": "duration",
+        "label": "課程時長"
+      },
+      {
+        "icon": "waves",
+        "field": "drill_units",
+        "label": "支示範影片"
+      },
+      {
+        "icon": "activity",
+        "field": "problem_units",
+        "label": "個實作主題"
+      },
+      {
+        "icon": "microscope",
+        "field": "evidence_checked",
+        "label": "題實證查核"
+      }
+    ],
+    "unitTypes": {
+      "practice": "實作主題",
+      "concept": "觀念",
+      "myth": "迷思查核",
+      "program": "課表",
+      "guide": "說明"
+    },
+    "evidenceRows": [
+      {
+        "field": "mechanism",
+        "label": "可能機轉"
+      },
+      {
+        "field": "certainty",
+        "label": "機轉確定程度"
+      },
+      {
+        "field": "acute_rom",
+        "label": "對短期活動度"
+      },
+      {
+        "field": "chronic_rom",
+        "label": "對長期活動度"
+      },
+      {
+        "field": "pain_effect",
+        "label": "對疼痛或痠痛"
+      },
+      {
+        "field": "performance",
+        "label": "對肌力與運動表現"
+      },
+      {
+        "field": "summary",
+        "label": "摘要"
+      },
+      {
+        "field": "red_flags",
+        "label": "不適合自行練習的情況",
+        "type": "flags"
+      },
+      {
+        "field": "caveats",
+        "label": "必須誠實告知的限制"
+      }
+    ],
+    "problemType": "practice",
+    "facetClear": "清除區域篩選",
+    "facetPrefix": "區域",
+    "emptyTitle": "找不到符合的內容",
+    "emptyHint": "換個關鍵字或清除區域篩選再試一次。",
+    "playlistSearch": "搜尋播放清單…",
+    "prevLabel": "上一部影片",
+    "nextLabel": "下一部影片",
+    "doneLabel": "完成",
+    "openExternal": "在 YouTube 開啟",
+    "moreLabel": "選片理由與自我檢核",
+    "discussLabel": "討論",
+    "discussNote": "留言會同步到 GitHub Discussions，需要 GitHub 帳號才能發言。每支影片各有一串討論。",
+    "filterAll": "全部",
+    "lessonNoun": "堂主課",
+    "drillNoun": "支示範影片"
+  },
+  "kinds": [
+    {
+      "id": "assess",
+      "label": "自我評估",
+      "tone": "attention"
+    },
+    {
+      "id": "release",
+      "label": "放鬆／自我按摩",
+      "tone": "accent"
+    },
+    {
+      "id": "move",
+      "label": "主動活動",
+      "tone": "success"
+    },
+    {
+      "id": "load",
+      "label": "負荷整合",
+      "tone": "danger"
+    }
+  ],
+  "grades": [
+    {
+      "id": "strong",
+      "label": "證據充分",
+      "tone": "success"
+    },
+    {
+      "id": "moderate",
+      "label": "證據中等",
+      "tone": "accent"
+    },
+    {
+      "id": "limited",
+      "label": "證據有限",
+      "tone": "attention"
+    },
+    {
+      "id": "contested",
+      "label": "證據互斥",
+      "tone": "danger"
+    }
+  ],
+  "taxonomy": {
+    "facets": "taxonomy.regions",
+    "categories": "taxonomy.methods"
+  },
+  "nav": [
+    {
+      "title": "基礎與立場",
+      "chapters": [
+        "CH0",
+        "CH1",
+        "CH2"
+      ]
+    },
+    {
+      "title": "方法與練習",
+      "chapters": [
+        "CH3",
+        "CH4",
+        "CH5"
+      ]
+    },
+    {
+      "title": "部位與整合",
+      "chapters": [
+        "CH6",
+        "CH7",
+        "CH8"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "code": "CH0",
+      "title": "課程使用方式與安全界線",
+      "icon": "book-open",
+      "source": "ch0",
+      "units": 1,
+      "drills": 0
+    },
+    {
+      "code": "CH1",
+      "title": "什麼是筋膜與筋膜系統",
+      "icon": "layers",
+      "source": "ch1-2",
+      "units": 4,
+      "drills": 0
+    },
+    {
+      "code": "CH2",
+      "title": "筋膜常見說法與科學爭議",
+      "icon": "microscope",
+      "source": "ch1-2",
+      "units": 4,
+      "drills": 0
+    },
+    {
+      "code": "CH3",
+      "title": "自我筋膜放鬆與工具使用",
+      "icon": "waves",
+      "source": "ch3",
+      "units": 4,
+      "drills": 24
+    },
+    {
+      "code": "CH4",
+      "title": "活動度、伸展與主動控制",
+      "icon": "accessibility",
+      "source": "ch4",
+      "units": 4,
+      "drills": 24
+    },
+    {
+      "code": "CH5",
+      "title": "彈性回彈與負荷適應",
+      "icon": "zap",
+      "source": "ch5",
+      "units": 3,
+      "drills": 15
+    },
+    {
+      "code": "CH6",
+      "title": "足部、下肢與後側鏈",
+      "icon": "footprints",
+      "source": "ch6",
+      "units": 3,
+      "drills": 18
+    },
+    {
+      "code": "CH7",
+      "title": "骨盆、軀幹、胸廓與肩頸",
+      "icon": "wind",
+      "source": "ch7",
+      "units": 3,
+      "drills": 18
+    },
+    {
+      "code": "CH8",
+      "title": "日常與運動課表整合",
+      "icon": "clipboard-list",
+      "source": "ch8",
+      "units": 1,
+      "drills": 6
+    }
+  ],
+  "audit": {
+    "duration": {
+      "lesson": {
+        "min": "3:00",
+        "max": "26:00"
+      },
+      "drill": {
+        "min": "0:30",
+        "max": "14:00"
+      }
+    },
+    "driftSeconds": 30,
+    "minViews": 3000,
+    "metaCoverage": 1,
+    "drillsPerUnit": {
+      "min": 5,
+      "max": 8
+    },
+    "maxSharedVideos": 20,
+    "requireAssessment": [
+      "practice",
+      "myth"
+    ],
+    "minAssessmentChars": 80,
+    "minCitations": 2,
+    "allowMissingUrls": 4
+  },
+  "evidenceAlias": {
+    "ch2-u1": "concept-1",
+    "ch2-u3": "concept-2",
+    "ch2-u4": "concept-3"
+  },
+  "stance": {
+    "title": "這門課的立場",
+    "intro": "筋膜是這幾年最好賣的兩個字。開始練之前，我們先把三個最根本的問題丟給文獻查證：滾筒真的能把沾黏「壓開」嗎？解剖學上真的存在一條一條的筋膜鏈嗎？姿勢不良真的會導致疼痛嗎？答案沒有工作坊裡講得那麼篤定——但把它講清楚，比賣一個承諾誠實得多。以下每一條結論都附原始文獻連結，你可以自己去查。",
+    "verdicts": {
+      "concept-1": "滾筒確實能在當下增加關節活動度，但把效果歸因於「壓開沾黏」缺乏證據——影響範圍常常跨到沒滾到的對側肢體，這比較像是神經系統的疼痛耐受度改變。",
+      "concept-2": "筋膜鏈的解剖連續性只有部分被大體研究支持，而「拉這裡會影響那裡」的力量傳遞在活體上的實際幅度遠小於工作坊的圖片所暗示。",
+      "concept-3": "姿勢與疼痛的關聯在大型族群研究中一再落空——把疼痛歸咎於某個角度，往往是把相關當成因果。"
+    },
+    "outroTitle": "所以這門課的定位是什麼？",
+    "outro": "自我筋膜放鬆與伸展是<strong>低成本、低風險、效果短暫</strong>的介入：它能讓你當下動得開一點、痛得少一點，然後你要拿這個窗口去做真正產生長期適應的事——<strong>在可控範圍內主動使用那個活動度，並漸進地增加負荷</strong>。滾筒不是治療，是暖身與自我照顧；把它當成療程會失望，把它當成訓練前後的工具則相當划算。真正需要診斷的疼痛、麻木、無力或外傷，請去看醫師或物理治療師，不要用滾筒處理。"
+  },
+  "landing": {
+    "howTitle": "怎麼用這門課",
+    "steps": [
+      {
+        "icon": "clipboard-check",
+        "title": "先自我評估",
+        "body": "每個實作章節都從自我評估開始——一支手機、一面牆就能做。先量到基準值，練完再量一次，你才知道剛才那十分鐘有沒有用。"
+      },
+      {
+        "icon": "waves",
+        "title": "低強度輸入，再主動使用",
+        "body": "放鬆只是打開窗口。每個區域都走同一套流程：自我評估 → 低強度輸入 → 主動活動 → 負荷整合 → 再評估。只滾不動，效果四十分鐘內就退回去。"
+      },
+      {
+        "icon": "microscope",
+        "title": "分清楚效果與機轉",
+        "body": "每個主題都標了實證強度，並且把「觀察到的效果」和「已證實的機轉」分開寫。結果不好看的照寫——這是這門課跟一般筋膜影片清單最大的差別。"
+      }
+    ],
+    "stanceTitle": "開始之前，先知道這件事",
+    "stanceLede": "我們把三個最根本的筋膜主張丟給文獻查證，答案沒有工作坊裡講得那麼篤定。與其讓你練完才發現，不如一開始就講清楚。",
+    "chaptersTitle": "九個章節，從組織科學到課表",
+    "ctaTitle": "準備好就開始",
+    "ctaLede": "27 個單元、{videos} 支影片，全部免費。進度存在你自己的瀏覽器裡，沒有帳號、沒有後端。"
+  },
+  "footer": {
+    "disclaimer": "<strong>免責聲明。</strong>本課程為運動指引與衛教內容，<strong>不構成醫療診斷或治療建議</strong>。緊繃不等於組織縮短，壓痛不等於損傷；若你出現新發生或進行性的肌力下降、麻木或感覺異常、急性外傷、夜間或靜止時持續惡化的疼痛、關節明顯腫脹發熱、發燒等全身症狀、深層靜脈栓塞風險或不明原因體重下降，請立即停止自行練習並就醫。課程中的「實證強度」註記附上原始文獻連結，反映的是查詢當下的文獻狀態，不等於臨床指引或個人化處方。",
+    "credits": "影片為 YouTube 上第三方創作者的作品，版權歸原頻道所有，本站僅提供連結。"
+  },
+  "llms": {
+    "summary": "這是一門免費的線上自學課程，主題是筋膜與動作整合：從筋膜的解剖與功能定義、常見說法的科學爭議，到自我筋膜放鬆、活動度與主動控制、彈性負荷適應、分區域實作與課表整合，涵蓋 {problems} 個實作主題。所有影片皆為 YouTube 上第三方專業頻道的作品，本站僅提供策展與連結。",
+    "stanceIntro": "課程中 {evidence} 個主題全部經文獻查證，結果照實呈現，包含對筋膜訓練本身不利的部分：",
+    "stanceConclusion": "簡言之：自我筋膜放鬆與伸展能短期增加活動度、降低痠痛感受，但機轉多半不是「把沾黏壓開」，長期效果也不優於其他方法；真正產生適應的是主動使用活動度並漸進增加負荷。",
+    "disclaimer": "本課程為運動指引與衛教內容，不構成醫療診斷或治療建議。出現進行性無力、麻木、急性外傷、休息時仍惡化的疼痛、關節腫脹發熱或全身症狀，應停止自行練習並就醫。"
+  },
+  "counter": {
+    "label": "次瀏覽",
+    "title": "累計頁面瀏覽次數，不是不重複訪客；已排除常見爬蟲。"
+  }
+}
