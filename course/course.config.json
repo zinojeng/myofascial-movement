@@ -306,6 +306,12 @@
         "CH7",
         "CH8"
       ]
+    },
+    {
+      "title": "筋膜線專題",
+      "chapters": [
+        "CH9"
+      ]
     }
   ],
   "chapters": [
@@ -380,6 +386,14 @@
       "source": "ch8",
       "units": 1,
       "drills": 6
+    },
+    {
+      "code": "CH9",
+      "title": "筋膜線：臨床觀察與訓練應用",
+      "icon": "link",
+      "source": "ch9",
+      "units": 4,
+      "drills": 24
     }
   ],
   "audit": {

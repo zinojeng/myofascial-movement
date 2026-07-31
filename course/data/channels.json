@@ -508,5 +508,45 @@
     "background": "美國密西根大學醫學中心（Michigan Medicine）的官方頻道，影片為醫療團隊製作的病人衛教與動作示範素材，不做療效承諾。",
     "tier": "research",
     "credential": "大學醫學中心"
+  },
+  "React Physical Therapy": {
+    "background": "美國物理治療診所經營的頻道，內容多為單一檢查或運動的短片示範，鏡位固定、旁白簡短，設定讀者是同業或已在療程中的個案；不解釋機轉也不引用文獻。",
+    "tier": "clinical",
+    "credential": "美國物理治療診所"
+  },
+  "National Academy of Sports Medicine (NASM)": {
+    "background": "美國健身教練認證與教育機構，影片由旗下講師示範動作與教學要點，取向是教練養成而非研究回顧；示範清楚但通常不給完整劑量與禁忌。",
+    "tier": "coach",
+    "credential": "健身教練認證與教育機構"
+  },
+  "CrossFit Invictus": {
+    "background": "美國 CrossFit 加盟訓練場的教練團隊頻道，內容以動作技術拆解與課表執行要點為主，來自長期團體教學經驗；負荷建議偏向已有訓練基礎的族群。",
+    "tier": "coach",
+    "credential": "肌力體能與 CrossFit 教練團隊"
+  },
+  "Coach PJ Nestler": {
+    "background": "美國肌力與體能教練，長期服務格鬥與團隊運動選手，內容以動作技術糾錯為主：先示範常見錯誤版本，再拆解正確做法與判準，不談機轉也不談療效。",
+    "tier": "coach",
+    "credential": "肌力與體能教練"
+  },
+  "Conor Harris": {
+    "background": "美國動作教練，內容集中在呼吸、肋廓與骨盆位置的訓練策略，受 PRI（Postural Restoration Institute）體系影響，會用「正確的呼吸／位置」這類規範性語氣，機轉說法多為推論而非實測。",
+    "tier": "coach",
+    "credential": "動作教練（生物力學取向）"
+  },
+  "Dr. Carl Baird": {
+    "background": "美國脊骨神經醫學醫師（DC），內容以復健與訓練動作的設定、進退階與常見錯誤為主，示範清楚，但對下背痛的因果語氣偏強。",
+    "tier": "clinical",
+    "credential": "脊骨神經醫學醫師"
+  },
+  "Core Exercise Solutions": {
+    "background": "美國物理治療師 Sarah Duvall（DPT）經營，專長為產後與骨盆底復健，內容常用解剖與壓力方向解釋動作原理，用語保守且會標示何時該轉介評估。",
+    "tier": "clinical",
+    "credential": "物理治療師（骨盆健康）"
+  },
+  "Talks at Google": {
+    "background": "Google 內部的作者演講系列，主題橫跨各領域。內容權威度取決於受邀講者本人，平台本身不做同儕審查或事實查核。",
+    "tier": "media",
+    "credential": "企業主辦的作者演講系列"
   }
 }

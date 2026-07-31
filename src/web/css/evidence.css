@@ -471,3 +471,9 @@
 .VideoNote--scope {
   border-left-color: var(--fgColor-accent);
 }
+
+/* 沒有連結的來源（書籍、指引）仍要看得出是一筆引用，只是不可點 */
+.Evidence__ref {
+  font-size: 12px;
+  color: var(--fgColor-muted);
+}

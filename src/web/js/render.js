@@ -253,12 +253,33 @@ function evidence(ev, unitId) {
       ? `<div class="Evidence__row"><span class="Evidence__key">${key}</span><span>${esc(val)}</span></div>`
       : "";
 
-  const cites = (ev.citations || []).length
+  // 引用通常只帶 pmid——那本身就是一個 URL。這裡曾經直接讀 c.url，
+  // 結果每一條單元層級文獻都渲染成 href=""，點了什麼也不會發生。
+  const citeUrl = (c) =>
+    c.url || (c.pmid ? `https://pubmed.ncbi.nlm.nih.gov/${c.pmid}/` : "");
+
+  // sources 放沒有 PMID 的來源：書籍、臨床指引、學會聲明。
+  // 一門課如果整章在檢驗某本書的框架，卻無法正式引用那本書，是說不過去的。
+  const refs = [
+    ...(ev.citations || []).map((c) => ({
+      href: citeUrl(c),
+      label: `${c.journal || c.title}${c.year ? ` ${c.year}` : ""}`,
+      title: c.title,
+    })),
+    ...(ev.sources || []).map((s) => ({
+      href: s.url || "",
+      label: `${s.author ? `${s.author}. ` : ""}${s.title}${s.year ? ` ${s.year}` : ""}`,
+      title: s.note || s.title,
+    })),
+  ].filter((r) => r.label);
+
+  const cites = refs.length
     ? `<div class="Evidence__cite">
-         ${ev.citations
-           .map(
-             (c) =>
-               `<a href="${esc(c.url)}" target="_blank" rel="noopener" title="${esc(c.title)}">${esc(c.journal || c.title)}${c.year ? ` ${esc(c.year)}` : ""}</a>`,
+         ${refs
+           .map((r) =>
+             r.href
+               ? `<a href="${esc(r.href)}" target="_blank" rel="noopener" title="${esc(r.title)}">${esc(r.label)}</a>`
+               : `<span class="Evidence__ref" title="${esc(r.title)}">${esc(r.label)}</span>`,
            )
            .join("")}
        </div>`
