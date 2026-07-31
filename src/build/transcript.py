@@ -17,8 +17,14 @@
     python3 src/build/transcript.py scan [--lang en]            # 全課掃描誇大宣稱
     python3 src/build/transcript.py scan --missing              # 只列「說了卻沒標」的
 
-`scan` 會比對兩件事：影片**實際說了**哪些被課程列為不可接受的宣稱，
-以及我們**有沒有**在 `claim_boundary` 標出來。兩者不一致就是策展缺口。
+`scan` 把「影片逐字稿裡出現過禁用說法」的片子挑出來，**附上前後文**，
+讓人判讀那句話是在**主張**還是在**反駁**。
+
+**它不會告訴你哪裡有缺口，只會把要看的東西從一百多支縮到幾支。**
+實測過：第一版直接把命中當成缺口，結果六個命中全是假陽性——
+Physiotutors 那支片名就叫 *The (Non)Sense of Foam Rolling and Breaking Up
+Adhesions*，講的正是這說法不成立。純字串比對永遠分不出引述與背書，
+所以最後那一步必須是人。
 
 字幕快取在 .transcripts/（已 gitignore）——那是第三方影片的內容，不進版控。
 """
@@ -48,8 +54,11 @@ CLAIMS: dict[str, list[str]] = {
         "壓開沾黏", "打散沾黏", "把沾黏", "鬆開沾黏", "解除沾黏",
     ],
     "把筋膜拉長": [
-        r"lengthen(?:ing)? (?:the )?(?:fascia|muscle)",
+        # 只比對筋膜。「lengthen the muscle」是離心收縮的正確描述，
+        # 把它列為誇大宣稱會把講對的人一起抓進來。
+        r"lengthen(?:ing)? (?:the )?fascia",
         r"stretch(?:ing)? out (?:the )?fascia",
+        r"make (?:the |your )?fascia longer",
         "把筋膜拉長", "筋膜變長", "延展筋膜", "拉長筋膜",
     ],
     "排乳酸／排毒": [
@@ -157,32 +166,43 @@ def scan(lang: str, only_missing: bool) -> int:
             no_subs += 1
             continue
 
-        found = [
-            label
-            for label, pats in CLAIMS.items()
-            if any(re.search(p, text, re.I) for p in pats)
-        ]
+        lines = text.splitlines()
+        found: list[tuple[str, str]] = []
+        for label, pats in CLAIMS.items():
+            for pat in pats:
+                for i, ln in enumerate(lines):
+                    if re.search(pat, ln, re.I):
+                        ctx = " ".join(lines[max(0, i - 1) : i + 3])
+                        found.append((label, ctx[:200]))
+                        break
+                else:
+                    continue
+                break
         if not found:
             continue
         hits += 1
-        if v.get("claim_boundary"):
-            flagged_ok += 1
-            if only_missing:
-                continue
-            mark = "✓ 已標註"
-        else:
-            gaps.append((v["unit"], v.get("channel"), found))
-            mark = "✗ 未標註"
-        print(f"{mark}  {v['unit']:9} {str(v.get('channel'))[:22]:24} {'、'.join(found)}")
-        print(f"          {(v.get('name') or v.get('title') or '')[:70]}")
+        has_note = bool(v.get("claim_boundary"))
+        flagged_ok += has_note
+        if only_missing and has_note:
+            continue
+        mark = "已標 claim_boundary" if has_note else "未標 claim_boundary"
+        print(f"● {v['unit']:9} {str(v.get('channel'))[:22]:24} [{mark}]")
+        print(f"  {(v.get('name') or v.get('title') or '')[:74]}")
+        for label, ctx in found:
+            print(f"    ⟨{label}⟩ …{ctx}…")
+        print()
+        if not has_note:
+            gaps.append((v["unit"], v.get("channel"), [f for f, _ in found]))
 
-    print(f"\n{'=' * 60}")
-    print(f"有字幕可查      {len(seen) - sum(1 for t in seen.values() if not t)}/{len(seen)} 支")
-    print(f"沒有字幕        {sum(1 for t in seen.values() if not t)} 支（無從查核）")
-    print(f"說了誇大宣稱    {hits} 個欄位")
-    print(f"  已標 claim_boundary  {flagged_ok}")
-    print(f"  ✗ 未標（策展缺口）    {len(gaps)}")
-    return 1 if gaps else 0
+    print("=" * 66)
+    print(f"有 {lang} 字幕可查   {len(seen) - sum(1 for t in seen.values() if not t)}/{len(seen)} 支")
+    print(f"沒有字幕         {sum(1 for t in seen.values() if not t)} 支（這個語言無從查核）")
+    print(f"逐字稿出現禁用說法  {hits} 支（已標 {flagged_ok} / 未標 {len(gaps)}）")
+    print()
+    print("↑ 這是**待人工判讀**的清單，不是缺口清單。")
+    print("  純字串比對分不出「主張」與「反駁」——反駁這些說法的影片同樣會命中，")
+    print("  而那正是這門課最想收的內容。請看上面的前後文自行判斷。")
+    return 0
 
 
 def main() -> int:
