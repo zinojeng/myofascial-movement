@@ -25,8 +25,8 @@ og: ## 用 headless Chrome 重新產生社群預覽圖（存進 course/assets，
 		--window-size=1200,630 --screenshot="$(PWD)/$(COURSE)/assets/og.png" "$(PWD)/src/web/og.html"
 	@echo "→ $(COURSE)/assets/og.png（下次 make build 會複製進 $(DIST)）"
 
-meta: ## 用 yt-dlp 補齊 video-meta.json（長度、觀看數、頻道）
-	$(PY) src/build/fetch_meta.py
+meta: ## 用 yt-dlp 補齊 video-meta.json（長度、觀看數、頻道、字幕）；ARGS=--refresh 可全部重抓
+	$(PY) src/build/fetch_meta.py $(ARGS)
 
 counter: ## 建立瀏覽次數用的 D1 資料庫並寫出 wrangler 綁定（冪等，可重跑）
 	$(PY) src/build/setup_counter.py

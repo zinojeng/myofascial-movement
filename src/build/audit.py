@@ -46,12 +46,15 @@ DEFAULTS = {
     "minAssessmentChars": 40,
     "minCitations": 1,
     "allowMissingUrls": 0,
+    "roleCoverage": 0,
+    "contentMix": {},
+    "contentMixTolerance": 0.1,
 }
 
 YT = re.compile(
     r"^https://(?:www\.)?youtube\.com/watch\?v=[\w-]{11}(?:&\S*)?$|^https://youtu\.be/[\w-]{11}"
 )
-SECTIONS = ("設定檔", "結構與配額", "影片", "內容深度")
+SECTIONS = ("設定檔", "結構與配額", "影片", "內容角色", "內容深度")
 
 
 # ── 小工具 ────────────────────────────────────────────────────────────────
@@ -297,7 +300,7 @@ def audit_config(cfg: dict, rep: Report) -> None:
     tones = css_tones()
     bad_tone = [
         f"{group}[{o['id']}].tone={o['tone']}"
-        for group in ("kinds", "grades")
+        for group in ("kinds", "grades", "values", "roles")
         for o in cfg.get(group, [])
         if o.get("tone") and o["tone"] not in tones
     ]
@@ -309,7 +312,7 @@ def audit_config(cfg: dict, rep: Report) -> None:
         )
 
     # id 唯一
-    for group in ("kinds", "grades"):
+    for group in ("kinds", "grades", "values", "roles"):
         ids = [o.get("id") for o in cfg.get(group, []) if isinstance(o, dict)]
         if d := [i for i, n in Counter(ids).items() if n > 1]:
             rep.err(sec, f"{group} id 重複：{'、'.join(d)}")
@@ -626,6 +629,110 @@ def audit_videos(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
     )
 
 
+# ── 內容角色與雙軸評價 ────────────────────────────────────────────────────
+
+
+def audit_roles(cfg: dict, units: list[dict], opts: dict, rep: Report) -> None:
+    """一支影片可以「研究支持有限」而「教得非常好」。
+
+    只用證據強弱一個分數會把好教練跟壞證據綁在一起罰，所以這一節查的是
+    第二個維度有沒有被認真填：內容角色標了沒、實務價值標了沒、配比有沒有失衡。
+    """
+    sec = "內容角色"
+    role_ids = {r.get("id") for r in cfg.get("roles", []) if isinstance(r, dict)}
+    value_ids = {v.get("id") for v in cfg.get("values", []) if isinstance(v, dict)}
+    if not role_ids:
+        return
+
+    nodes = videos_of(units)
+    for path in sorted(DATA.glob("alt-lessons-*.json")):
+        blob = load_json(path)
+        for les in (blob or {}).get("lessons", []) if isinstance(blob, dict) else []:
+            if isinstance(les, dict):
+                nodes.append((les.get("unit", "?"), "lesson", f"{les.get('lang', '')} 版", les))
+
+    filled = [(uid, label, v) for uid, _role, label, v in nodes if v.get("url")]
+    untagged, unvalued, bad_role, bad_value = [], [], [], []
+    primary: Counter = Counter()
+    role_count: Counter = Counter()
+
+    for uid, label, v in filled:
+        types = v.get("source_type") or []
+        if not types:
+            untagged.append(f"{uid} / {label}")
+        else:
+            primary[types[0]] += 1
+            for t in types:
+                role_count[t] += 1
+                if t not in role_ids:
+                    bad_role.append(f"{uid} / {label} source_type={t!r}")
+        pv = v.get("practical_value")
+        if not pv:
+            unvalued.append(f"{uid} / {label}")
+        elif value_ids and pv not in value_ids:
+            bad_value.append(f"{uid} / {label} practical_value={pv!r}")
+
+    total = len(filled)
+    coverage = (total - len(untagged)) / total if total else 0
+    line = f"{total} 個有連結的影片欄位 · 已標內容角色 {total - len(untagged)}（{coverage:.1%}）"
+    if coverage < opts["roleCoverage"]:
+        rep.err(sec, f"{line}，低於門檻 {opts['roleCoverage']:.0%}", untagged)
+    else:
+        rep.ok(sec, line)
+
+    if unvalued:
+        level = rep.err if opts["roleCoverage"] >= 1 else rep.warn
+        level(sec, f"{len(unvalued)} 個影片沒有標 practical_value（實務教學價值）", unvalued)
+    if bad_role:
+        rep.err(sec, f"{len(bad_role)} 個 source_type 不在 config.roles", bad_role)
+    if bad_value:
+        rep.err(sec, f"{len(bad_value)} 個 practical_value 不在 config.values", bad_value)
+
+    # 配比：以「主要角色」（source_type 第一個）計算，這樣各類百分比才會加總為 100%
+    targets = opts.get("contentMix") or {}
+    if targets and primary:
+        n = sum(primary.values())
+        tol = opts["contentMixTolerance"]
+        off = []
+        for rid, want in targets.items():
+            got = primary.get(rid, 0) / n
+            if abs(got - want) > tol:
+                off.append(f"{rid} 實際 {got:.0%}，目標 {want:.0%}")
+        shape = "、".join(f"{rid} {primary.get(rid, 0) / n:.0%}" for rid in targets)
+        if off:
+            rep.warn(sec, f"內容配比偏離目標 {len(off)} 項（±{tol:.0%}）：{shape}", off)
+        else:
+            rep.ok(sec, f"內容配比符合目標（±{tol:.0%}）：{shape}")
+
+    if role_count:
+        rep.ok(
+            sec,
+            "角色分布："
+            + "、".join(
+                f"{r['label']} {role_count[r['id']]}"
+                for r in cfg.get("roles", [])
+                if role_count[r["id"]]
+            ),
+        )
+
+    # 字幕：聽不懂原語言的人靠它才用得上這支片，屬於可及性而非加分項
+    vmeta = load_json(DATA / "video-meta.json")
+    if isinstance(vmeta, dict):
+        ids = {video_id(v.get("url")) for _u, _l, v in filled}
+        ids.discard(None)
+        manual = {i for i in ids if (vmeta.get(i) or {}).get("subs")}
+        auto = {i for i in ids if (vmeta.get(i) or {}).get("auto_subs")}
+        none_ = ids - manual - auto
+        rep.ok(
+            sec,
+            f"字幕 {len(ids)} 支不重複影片：人工 {len(manual)} · 僅自動 {len(auto - manual)}"
+            f" · 完全沒有 {len(none_)}（{len(none_) / max(len(ids), 1):.0%}）",
+        )
+        rep.stats.update(subs_manual=len(manual), subs_none=len(none_))
+
+    rep.stats.update(roles_tagged=total - len(untagged), role_coverage=round(coverage, 4))
+
+
 # ── 內容深度 ──────────────────────────────────────────────────────────────
 
 
@@ -739,6 +846,7 @@ def main() -> int:
     units = walk(cfg, rep)
     audit_structure(cfg, units, opts, rep)
     audit_videos(cfg, units, opts, rep)
+    audit_roles(cfg, units, opts, rep)
     audit_depth(cfg, units, opts, rep)
 
     errors, warnings = rep.count("error"), rep.count("warn")

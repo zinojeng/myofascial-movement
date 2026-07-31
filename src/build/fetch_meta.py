@@ -24,7 +24,24 @@ DATA = ROOT / os.environ.get("COURSE", "course") / "data"
 META = DATA / "video-meta.json"
 
 VID = re.compile(r"(?:v=|youtu\.be/)([\w-]{11})")
-FIELDS = "%(id)s\t%(duration)s\t%(view_count)s\t%(channel)s\t%(title)s"
+FIELDS = (
+    "%(id)s\t%(duration)s\t%(view_count)s\t%(channel)s\t%(title)s"
+    "\t%(subtitles)j\t%(automatic_captions)j"
+)
+
+# 只在意學習者實際用得到的軌道：英文與中文。自動字幕動輒 150 種語言，全存沒有意義。
+WANTED = ("en", "zh")
+
+
+def subtitle_langs(blob: str) -> list[str]:
+    """把 yt-dlp 的字幕 JSON 縮成排序後的 en/zh 語言碼清單。"""
+    if not blob or blob in ("NA", "null"):
+        return []
+    try:
+        tracks = json.loads(blob)
+    except json.JSONDecodeError:
+        return []
+    return sorted(k for k in tracks if k.split("-")[0] in WANTED)
 
 
 def collect_ids() -> list[str]:
@@ -78,12 +95,17 @@ def fetch(vid: str) -> tuple[str, dict]:
         err = (proc.stderr or "").strip().split("\n")[-1][:120]
         return vid, {"status": "ERROR", "note": err or "no output"}
     _, dur, views, channel, title = parts[:5]
+    manual = subtitle_langs(parts[5] if len(parts) > 5 else "")
+    auto = subtitle_langs(parts[6] if len(parts) > 6 else "")
     return vid, {
         "status": "OK",
         "seconds": int(float(dur)) if dur not in ("NA", "None", "") else 0,
         "views": int(views) if views.isdigit() else None,
         "channel": channel,
         "title": title,
+        # 人工上字幕代表製作用心，自動字幕代表至少聽得懂——兩者價值不同，分開記
+        "subs": manual,
+        "auto_subs": auto,
     }
 
 

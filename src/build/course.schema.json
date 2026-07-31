@@ -79,7 +79,17 @@
     },
     "grades": {
       "type": "array",
-      "description": "證據分級；沒有實證維度就整個拿掉",
+      "description": "軸一：科學證據可信度。沒有實證維度就整個拿掉",
+      "items": { "$ref": "#/$defs/labelled" }
+    },
+    "values": {
+      "type": "array",
+      "description": "軸二：實務教學價值。一支影片可以「研究支持有限」但「教得非常好」——只有一個分數評不出這件事",
+      "items": { "$ref": "#/$defs/labelled" }
+    },
+    "roles": {
+      "type": "array",
+      "description": "內容角色徽章（科學基礎／教練經驗／動作示範…）。一支影片可同時有多個",
       "items": { "$ref": "#/$defs/labelled" }
     },
     "languages": { "type": "object", "additionalProperties": { "type": "string" } },
@@ -216,7 +226,22 @@
         },
         "minAssessmentChars": { "type": "integer", "minimum": 0 },
         "minCitations": { "type": "integer", "minimum": 0, "description": "每個文獻類別至少幾篇引用" },
-        "allowMissingUrls": { "type": "integer", "minimum": 0, "description": "容許幾個誠實留空的格子" }
+        "allowMissingUrls": { "type": "integer", "minimum": 0, "description": "容許幾個誠實留空的格子" },
+        "roleCoverage": {
+          "type": "number",
+          "minimum": 0,
+          "description": "必須標註 source_type 與 practical_value 的影片比例（0–1），未達即錯誤"
+        },
+        "contentMix": {
+          "type": "object",
+          "description": "各內容角色的目標佔比（0–1）。差距超過 tolerance 只警告——配比是策展判斷，不是硬性規則",
+          "additionalProperties": { "type": "number", "minimum": 0 }
+        },
+        "contentMixTolerance": {
+          "type": "number",
+          "minimum": 0,
+          "description": "與 contentMix 目標的容許誤差（0–1）"
+        }
       }
     }
   },

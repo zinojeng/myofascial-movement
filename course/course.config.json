@@ -48,12 +48,22 @@
     },
     "progressLabel": "學習進度",
     "facetLabel": "依身體區域篩選",
-    "assessmentLabel": "怎麼判斷自己做對了",
+    "assessmentLabel": "你要觀察什麼",
+    "coachPracticeLabel": "教練怎麼做",
     "tightLabel": "常見主訴部位",
     "weakLabel": "需要一起練的動作能力",
     "lessonLabel": "主課",
     "drillEvidenceLabel": "這類介入的實證",
-    "unitEvidenceLabel": "實證強度",
+    "unitEvidenceLabel": "科學證據",
+    "practicalLabel": "實務教學價值",
+    "roleLabel": "內容角色",
+    "creatorLabel": "作者背景",
+    "coachTakeawayLabel": "教練實務重點",
+    "claimBoundaryLabel": "課程保留",
+    "safetyLabel": "安全界線",
+    "subsLabel": "字幕",
+    "subsManualLabel": "人工字幕",
+    "subsAutoLabel": "自動字幕",
     "stats": [
       {
         "icon": "layers",
@@ -169,7 +179,7 @@
   "grades": [
     {
       "id": "strong",
-      "label": "證據充分",
+      "label": "證據較充分",
       "tone": "success"
     },
     {
@@ -183,11 +193,89 @@
       "tone": "attention"
     },
     {
+      "id": "expert-consensus",
+      "label": "專家共識",
+      "tone": "done"
+    },
+    {
+      "id": "experience",
+      "label": "經驗性主張",
+      "tone": "neutral"
+    },
+    {
       "id": "contested",
-      "label": "證據互斥",
+      "label": "存在爭議",
       "tone": "danger"
     }
   ],
+  "values": [
+    {
+      "id": "very-high",
+      "label": "非常高",
+      "tone": "success"
+    },
+    {
+      "id": "high",
+      "label": "高",
+      "tone": "accent"
+    },
+    {
+      "id": "medium",
+      "label": "中等",
+      "tone": "neutral"
+    },
+    {
+      "id": "limited",
+      "label": "有限",
+      "tone": "attention"
+    }
+  ],
+  "roles": [
+    {
+      "id": "science",
+      "label": "科學基礎",
+      "tone": "accent"
+    },
+    {
+      "id": "expert-view",
+      "label": "專家觀點",
+      "tone": "accent"
+    },
+    {
+      "id": "coach",
+      "label": "教練經驗",
+      "tone": "success"
+    },
+    {
+      "id": "clinical",
+      "label": "臨床經驗",
+      "tone": "success"
+    },
+    {
+      "id": "demo",
+      "label": "動作示範",
+      "tone": "neutral"
+    },
+    {
+      "id": "program",
+      "label": "課表設計",
+      "tone": "neutral"
+    },
+    {
+      "id": "contested-view",
+      "label": "爭議觀點",
+      "tone": "danger"
+    },
+    {
+      "id": "safety",
+      "label": "安全提醒",
+      "tone": "attention"
+    }
+  ],
+  "languages": {
+    "zh": "繁中",
+    "en": "English"
+  },
   "taxonomy": {
     "facets": "taxonomy.regions",
     "categories": "taxonomy.methods"
@@ -317,7 +405,17 @@
     ],
     "minAssessmentChars": 80,
     "minCitations": 2,
-    "allowMissingUrls": 4
+    "allowMissingUrls": 4,
+    "roleCoverage": 1,
+    "contentMix": {
+      "science": 0.1,
+      "expert-view": 0.1,
+      "coach": 0.3,
+      "clinical": 0.1,
+      "demo": 0.3,
+      "contested-view": 0.1
+    },
+    "contentMixTolerance": 0.1
   },
   "evidenceAlias": {
     "ch2-u1": "concept-1",

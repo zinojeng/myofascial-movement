@@ -24,6 +24,57 @@
   margin-right: var(--base-size-4);
 }
 
+/* 「教練怎麼做」與「你要觀察什麼」是兩件事，用顏色分開：
+   前者是實務策略（中性藍），後者是要你動手量的（attention 黃）。 */
+.Assessment--coach {
+  background-color: var(--bgColor-accent-muted);
+  border-color: color-mix(in srgb, var(--fgColor-accent) 30%, transparent);
+}
+
+.Assessment--coach .Assessment__icon {
+  color: var(--fgColor-accent);
+}
+
+/* --- 影片標籤與註記 ------------------------------------------------------ */
+
+/* 內容角色、實務價值、字幕。徽章沿用 .Label 的色票，這裡只管排版。 */
+.VideoTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--base-size-4);
+  margin-top: var(--base-size-8);
+}
+
+.VideoNote {
+  display: block;
+  margin-top: var(--base-size-4);
+  padding-left: var(--base-size-8);
+  border-left: 2px solid var(--borderColor-muted);
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--fgColor-muted);
+}
+
+.VideoNote b {
+  font-weight: 600;
+  margin-right: var(--base-size-4);
+  color: var(--fgColor-default);
+}
+
+/* 教練實務重點是「值得學的部分」，課程保留是「要打折扣的部分」——
+   這兩條在同一張卡片上並存，顏色必須讓人一眼分得出來。 */
+.VideoNote--coach {
+  border-left-color: var(--fgColor-success);
+}
+
+.VideoNote--boundary {
+  border-left-color: var(--fgColor-danger);
+}
+
+.VideoNote--safety {
+  border-left-color: var(--fgColor-attention);
+}
+
 /* --- MuscleGrid --------------------------------------------------------- */
 
 .MuscleGrid {

@@ -13,15 +13,19 @@ export const esc = (s) =>
    用可變物件而非重新指派，import 過的模組才拿得到更新後的內容。 */
 export const KIND = {};
 export const GRADE = {};
+export const VALUE = {};
+export const ROLE = {};
 export const UI = {};
 let CFG = {};
 
 export function setConfig(cfg) {
   CFG = cfg || {};
-  for (const o of [KIND, GRADE, UI]) for (const k of Object.keys(o)) delete o[k];
+  for (const o of [KIND, GRADE, VALUE, ROLE, UI]) for (const k of Object.keys(o)) delete o[k];
 
   for (const k of CFG.kinds || []) KIND[k.id] = { label: k.label, tone: k.tone || "accent" };
   for (const g of CFG.grades || []) GRADE[g.id] = { label: g.label, tone: g.tone || "accent" };
+  for (const v of CFG.values || []) VALUE[v.id] = { label: v.label, tone: v.tone || "neutral" };
+  for (const r of CFG.roles || []) ROLE[r.id] = { label: r.label, tone: r.tone || "neutral" };
   Object.assign(UI, CFG.ui || {});
 }
 
@@ -37,6 +41,64 @@ function views(n) {
   if (n >= 1e8) return `${(n / 1e8).toFixed(1)} 億次`;
   if (n >= 1e4) return `${Math.round(n / 1e4)} 萬次`;
   return `${n.toLocaleString("en-US")} 次`;
+}
+
+/* --- 雙軸標示 ------------------------------------------------------------
+   一支影片可以「研究支持有限」而「教得非常好」。只用證據強弱一個分數，
+   等於把好教練跟壞證據綁在一起罰——所以科學可信度與實務教學價值分開標。 */
+
+/** 字幕摘要：'字幕 EN·中'。人工字幕與自動字幕價值不同，前綴會區分。 */
+function subsTag(v) {
+  const manual = v.subs || [];
+  const auto = v.autoSubs || [];
+  const list = manual.length ? manual : auto;
+  if (!list.length) return "";
+  const langs = [];
+  if (list.some((l) => l.startsWith("en"))) langs.push("EN");
+  if (list.some((l) => l.startsWith("zh"))) langs.push("中");
+  if (!langs.length) return "";
+  const prefix = manual.length ? UI.subsManualLabel || "人工字幕" : UI.subsAutoLabel || "自動字幕";
+  return `<span class="Label Label--neutral" title="${esc(list.join("、"))}">${esc(prefix)} ${langs.join("·")}</span>`;
+}
+
+/** 內容角色 + 實務價值 + 字幕，主課與跟練共用 */
+function videoBadges(v, compact = false) {
+  const roles = (v.source_type || [])
+    .map((id) => ROLE[id])
+    .filter(Boolean)
+    .map((r) => `<span class="Label ${toneCls(r)}">${esc(r.label)}</span>`)
+    .join("");
+
+  const pv = VALUE[v.practical_value];
+  const value = pv
+    ? `<span class="Label ${toneCls(pv)}" title="${esc(UI.practicalLabel || "")}">${esc(UI.practicalLabel || "實務價值")} ${esc(pv.label)}</span>`
+    : "";
+
+  const tags = roles + (compact ? "" : value) + subsTag(v);
+  return tags ? `<span class="VideoTags">${tags}</span>` : "";
+}
+
+/** 教練實務、課程保留、安全界線——研究答不出來但學習者最需要的那三塊 */
+function videoNotes(v) {
+  const row = (label, body, mod = "") =>
+    body
+      ? `<span class="VideoNote${mod}"><b>${esc(label)}</b>${esc(body)}</span>`
+      : "";
+
+  const safety = (v.safety || []).length
+    ? `<span class="VideoNote VideoNote--safety"><b>${esc(UI.safetyLabel || "安全界線")}</b>${(
+        v.safety || []
+      )
+        .map(esc)
+        .join("；")}</span>`
+    : "";
+
+  return [
+    row(UI.creatorLabel || "作者背景", v.creator),
+    row(UI.coachTakeawayLabel || "教練實務重點", v.coach_takeaway, " VideoNote--coach"),
+    row(UI.claimBoundaryLabel || "課程保留", v.claim_boundary, " VideoNote--boundary"),
+    safety,
+  ].join("");
 }
 
 /** 播放鈕：主課與跟練共用同一個元件，只差尺寸 */
@@ -68,7 +130,9 @@ function videoCard(v) {
           ${v.duration ? `<span>· ${esc(v.duration)}</span>` : ""}
           ${v.views ? `<span>· ${views(v.views)}</span>` : ""}
         </span>
+        ${videoBadges(v)}
         ${v.why ? `<span class="VideoCard__why">${esc(v.why)}</span>` : ""}
+        ${videoNotes(v)}
       </span>
       ${playBtn()}
     </a>`;
@@ -127,6 +191,8 @@ function drill(d) {
         ${d.channel ? `<span>· ${esc(d.channel)}</span>` : ""}
         ${d.duration ? `<span>· ${esc(d.duration)}</span>` : ""}
       </span>
+      ${videoBadges(d, true)}
+      ${videoNotes(d)}
       ${(d.facets || []).length ? `<span class="Drill__muscles">${muscleTags(d.facets)}</span>` : ""}
     </span>
     ${playBtn(true, !d.url)}`;
@@ -339,6 +405,14 @@ export function renderUnit(u, done) {
 
       <div class="Unit__body">
         ${lessonBox(u)}
+        ${
+          u.coach_practice
+            ? `<div class="Assessment Assessment--coach">
+                 <span class="Assessment__icon">${icon("user-round", 16)}</span>
+                 <span><span class="Assessment__label">${esc(UI.coachPracticeLabel || "")}</span>${esc(u.coach_practice)}</span>
+               </div>`
+            : ""
+        }
         ${
           u.assessment
             ? `<div class="Assessment">

@@ -158,6 +158,9 @@ def main() -> int:
     within_unit = Counter()  # (unit_id, url) -> 次數，同單元重複才是真問題
 
     vmeta = load_json(DATA / "video-meta.json") or {}
+    channels = load_json(DATA / "channels.json") or {}
+    roles, values = Counter(), Counter()
+    tagged = [0]
     drill_ev = collect_drill_evidence()
     alt_lessons = collect_alt_lessons()
     multilang = [0]
@@ -243,11 +246,26 @@ def main() -> int:
                     v["duration"] = fmt_clock(info["seconds"])
                     v["channel"] = info["channel"]
                     v["views"] = info["views"]
+                    # 字幕決定這支片對聽不懂原語言的人有沒有用，屬於可及性資訊
+                    if info.get("subs"):
+                        v["subs"] = info["subs"]
+                    if info.get("auto_subs"):
+                        v["autoSubs"] = info["auto_subs"]
                     secs = info["seconds"]
                     meta_hits[0] += 1
                 else:
                     secs = parse_duration(v.get("duration"))
                     meta_miss.append(url)
+
+                # 作者背景掛在頻道上而不是逐支影片重寫，同一個頻道講法才會一致
+                if (who := channels.get(v.get("channel") or "")) :
+                    v["creator"] = who
+                for r in v.get("source_type") or []:
+                    roles[r] += 1
+                if v.get("practical_value"):
+                    values[v["practical_value"]] += 1
+                if v.get("source_type"):
+                    tagged[0] += 1
                 seconds_all[0] += secs
                 if counts_toward_total:
                     seconds += secs
@@ -279,6 +297,16 @@ def main() -> int:
 
     dupes = {u: n for u, n in seen_urls.items() if n > 1}
 
+    # 字幕統計以「不重複影片」為單位——同一支片被兩個單元共用不該算兩次
+    uniq_subs = {"manual": set(), "auto": set()}
+    for url in seen_urls:
+        vid = video_id(url)
+        info = vmeta.get(vid or "") or {}
+        if info.get("subs"):
+            uniq_subs["manual"].add(vid)
+        if info.get("auto_subs"):
+            uniq_subs["auto"].add(vid)
+
     # concept-* 不屬於任何章節，抽出來當首頁的立場聲明
     stance = [evidence[k] for k in ("concept-1", "concept-2", "concept-3") if k in evidence]
 
@@ -297,7 +325,7 @@ def main() -> int:
     muscle_index.sort(key=lambda x: (group_order.index(x["group"]), -x["count"]))
 
     ui_keys = (
-        "site", "hero", "ui", "kinds", "grades", "languages",
+        "site", "hero", "ui", "kinds", "grades", "values", "roles", "languages",
         "nav", "stance", "landing", "footer",
         "discussions", "counter",
     )
@@ -327,6 +355,10 @@ def main() -> int:
                 if u.get("type") == (CFG.get("ui", {}).get("problemType") or "posture")
             ),
             "evidence_checked": len(evidence),
+            # 可及性：聽不懂原語言的人靠字幕才用得上這支片
+            "subs_manual": len(uniq_subs["manual"]),
+            "subs_any": len(uniq_subs["manual"] | uniq_subs["auto"]),
+            "roles_tagged": tagged[0],
         },
         "chapters": chapters,
     }
@@ -348,9 +380,17 @@ def main() -> int:
     )
     print(
         f"   YouTube metadata {meta_hits[0]}/{meta_hits[0] + len(meta_miss)} 命中"
-        f" · 肌群索引 {len(muscle_index)} 項"
-        f" · 動作類別 {len(cat_counts)} 類（文獻 {len(drill_ev)} 類）"
+        f" · 區域索引 {len(muscle_index)} 項"
+        f" · 介入類別 {len(cat_counts)} 類（文獻 {len(drill_ev)} 類）"
     )
+    print(
+        f"   字幕 人工 {len(uniq_subs['manual'])} / 任一 "
+        f"{len(uniq_subs['manual'] | uniq_subs['auto'])} / 共 {len(seen_urls)} 支"
+        f" · 內容角色已標註 {tagged[0]}/{unit_total + drill_total + alt_count[0]} 個欄位"
+        f" · 頻道背景 {len(channels)} 個"
+    )
+    if roles:
+        print("   " + " / ".join(f"{r['label']} {roles[r['id']]}" for r in CFG.get("roles", [])))
     if uncategorised:
         print(
             f"   ⚠ 未分類動作 {len(uncategorised)}：{'、'.join(x for x in uncategorised[:5] if x)}"

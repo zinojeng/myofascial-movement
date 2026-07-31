@@ -8,6 +8,7 @@
 用法：
   python3 src/build/ytsearch.py "<query>" [n] [--min 0:30] [--max 14:00]
   python3 src/build/ytsearch.py "<query>" 10 --json
+  python3 src/build/ytsearch.py subs <id> [<id> ...]    # 查字幕（人工／自動）
 
 需要 yt-dlp（`uv tool install yt-dlp`）。
 """
@@ -72,11 +73,54 @@ def search(query: str, n: int) -> list[dict]:
     return out
 
 
+def subs_of(vid: str) -> tuple[list[str], list[str]]:
+    """回傳 (人工字幕語言, 自動字幕語言)，只留 en/zh。"""
+    proc = subprocess.run(
+        [
+            "yt-dlp",
+            "--no-update",
+            "--no-warnings",
+            "--skip-download",
+            "--print",
+            "%(subtitles)j\t%(automatic_captions)j",
+            f"https://www.youtube.com/watch?v={vid}",
+        ],
+        capture_output=True,
+        text=True,
+        timeout=120,
+    )
+    line = proc.stdout.strip().split("\n")[-1] if proc.stdout.strip() else ""
+    parts = line.split("\t")
+
+    def langs(blob: str) -> list[str]:
+        if not blob or blob in ("NA", "null"):
+            return []
+        try:
+            return sorted(k for k in json.loads(blob) if k.split("-")[0] in ("en", "zh"))
+        except json.JSONDecodeError:
+            return []
+
+    return langs(parts[0] if parts else ""), langs(parts[1] if len(parts) > 1 else "")
+
+
+def report_subs(ids: list[str]) -> int:
+    """策展英文影片時的守門員：沒有 en 字幕的片對聽力吃力的學習者幾乎沒用。"""
+    for vid in ids:
+        manual, auto = subs_of(vid)
+        mark = "✓" if any(x.startswith("en") for x in manual) else ("~" if manual or auto else "✗")
+        print(f"{mark} {vid}  人工={manual or '無'}  自動={auto or '無'}")
+    print("\n✓ 有人工英文字幕　~ 只有自動字幕　✗ 完全沒有字幕")
+    return 0
+
+
 def main() -> int:
     args = sys.argv[1:]
     if not args:
         print(__doc__)
         return 2
+
+    if args[0] == "subs":
+        return report_subs(args[1:])
 
     as_json = "--json" in args
     args = [a for a in args if a != "--json"]
